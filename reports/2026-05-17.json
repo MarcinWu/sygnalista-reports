@@ -1,0 +1,704 @@
+{
+  "schema_version": 1,
+  "scan": {
+    "time_iso": "2026-05-17T09:20",
+    "time_pl": "17.05.2026 09:20",
+    "date": "2026-05-17",
+    "interval": "1D",
+    "rsi_period": 14,
+    "data_source": "Twelve Data + stooq + Finnhub + Yahoo Finance",
+    "total_signals": 6
+  },
+  "market": {
+    "vix": 18.43,
+    "breadth_sp500_above_ma50_pct": 43.9
+  },
+  "btc_onchain": {
+    "fear_greed": 27,
+    "fear_greed_label": "Fear",
+    "hash_rate_eh": 1025,
+    "hash_rate_30d_chg": 5.9,
+    "tx_count": 679928,
+    "tx_30d_chg": 23.0
+  },
+  "signals": [
+    {
+      "ticker": "XOM",
+      "group": "USA S&P500",
+      "tier_report": "DO_OBSERWACJI",
+      "tier_journal": "T2",
+      "divergence": {
+        "date_prev": "2026-04-17",
+        "price_prev": 146.44,
+        "rsi_prev": 35.96,
+        "date_last": "2026-05-08",
+        "price_last": 144.57,
+        "rsi_last": 36.86,
+        "current_price": 157.92,
+        "current_rsi": 59.32,
+        "macd_divergence": true,
+        "vol_ratio": 0.6754,
+        "vol_vs_avg20": 1.673,
+        "candle_pattern": "Bearish close (zamkniecie blisko dolka sesji — slaby sygnał)",
+        "trough_low": 143.92,
+        "confirmed": true
+      },
+      "estimate": {
+        "target_price": 154.88,
+        "pct_upside": -1.9,
+        "confidence": 58,
+        "conf_label": "Umiarkowany",
+        "conf_color": "#d68910",
+        "rr_ratio": -0.28,
+        "stop_loss": 146.8656,
+        "position_sizes": {
+          "0.5%": 7.1,
+          "1%": 14.3,
+          "2%": 28.6,
+          "stop_pct": 7.0
+        },
+        "ma50": 154.96,
+        "ma100": 146.18,
+        "weekly_rsi": 62.0,
+        "weekly_rsi_down": false,
+        "earnings_warning": false,
+        "analyst_conflict": false
+      },
+      "fundamentals": {
+        "rating_label": "Trzymaj",
+        "rating_color": "#d68910",
+        "analyst_count": 31,
+        "next_earnings": "30 Jul 2026",
+        "headlines": [
+          "Up 231%, Is RTX Proving Why It Was a Mistake for Honeywell to Replace RTX in the...",
+          "Wall Street Saturday: Shorting Consumer Stocks With George Noble"
+        ],
+        "insider": "Insiderzy mieszanie (13 buy, 7 sell)"
+      }
+    },
+    {
+      "ticker": "CVX",
+      "group": "USA S&P500",
+      "tier_report": "HIDDEN",
+      "tier_journal": "T3",
+      "divergence": {
+        "date_prev": "2026-04-20",
+        "price_prev": 183.25,
+        "rsi_prev": 36.47,
+        "date_last": "2026-05-08",
+        "price_last": 181.62,
+        "rsi_last": 37.96,
+        "current_price": 191.1,
+        "current_rsi": 53.94,
+        "macd_divergence": false,
+        "vol_ratio": 1.3511,
+        "vol_vs_avg20": 1.131,
+        "candle_pattern": "Neutral (zamkniecie w srodku zakresu)",
+        "trough_low": 180.74001,
+        "confirmed": true
+      },
+      "estimate": {
+        "target_price": 193.31,
+        "pct_upside": 1.2,
+        "confidence": 34,
+        "conf_label": "Slaby",
+        "conf_color": "#c0392b",
+        "rr_ratio": 0.19,
+        "stop_loss": 179.6007,
+        "position_sizes": {
+          "0.5%": 8.3,
+          "1%": 16.6,
+          "2%": 33.2,
+          "stop_pct": 6.0
+        },
+        "ma50": 193.05,
+        "ma100": 182.31,
+        "weekly_rsi": 59.3,
+        "weekly_rsi_down": false,
+        "earnings_warning": false,
+        "analyst_conflict": false
+      },
+      "fundamentals": {
+        "rating_label": "Kupuj",
+        "rating_color": "#27ae60",
+        "analyst_count": 31,
+        "next_earnings": "30 Jul 2026",
+        "headlines": [
+          "Devon Energy vs. Chevron: Here's the Better Oil Stock to Own Right Now",
+          "Wall Street Saturday: Shorting Consumer Stocks With George Noble"
+        ],
+        "insider": "Insiderzy SPRZEDAJA (15 sell vs 5 buy)"
+      }
+    },
+    {
+      "ticker": "KO",
+      "group": "USA S&P500",
+      "tier_report": "DO_GRANIA",
+      "tier_journal": "T1",
+      "divergence": {
+        "date_prev": "2026-03-24",
+        "price_prev": 74.67,
+        "rsi_prev": 31.31,
+        "date_last": "2026-04-22",
+        "price_last": 74.63,
+        "rsi_last": 39.71,
+        "current_price": 80.82,
+        "current_rsi": 67.39,
+        "macd_divergence": true,
+        "vol_ratio": 0.5974,
+        "vol_vs_avg20": 1.2298,
+        "candle_pattern": "Bearish close (zamkniecie blisko dolka sesji — slaby sygnał)",
+        "trough_low": 74.55,
+        "confirmed": true
+      },
+      "estimate": {
+        "target_price": 78.18,
+        "pct_upside": -3.3,
+        "confidence": 73,
+        "conf_label": "Silny",
+        "conf_color": "#1a7a3e",
+        "rr_ratio": -0.47,
+        "stop_loss": 75.1626,
+        "position_sizes": {
+          "0.5%": 7.1,
+          "1%": 14.3,
+          "2%": 28.6,
+          "stop_pct": 7.0
+        },
+        "ma50": 77.06,
+        "ma100": 75.8,
+        "weekly_rsi": 66.4,
+        "weekly_rsi_down": false,
+        "earnings_warning": false,
+        "analyst_conflict": false
+      },
+      "fundamentals": {
+        "rating_label": "Kupuj",
+        "rating_color": "#27ae60",
+        "analyst_count": 35,
+        "next_earnings": "20 Jul 2026",
+        "headlines": [
+          "Coca-Cola (KO) Valuation Check After Recent Share Price Momentum And Mixed Fair ...",
+          "Coca-Cola Taps Into A Rapidly Expanding Market With Its Fuze Tea Offering"
+        ],
+        "insider": "Insiderzy mieszanie (12 buy, 8 sell)"
+      }
+    },
+    {
+      "ticker": "ACN",
+      "group": "USA S&P500",
+      "tier_report": "HIDDEN",
+      "tier_journal": "T3",
+      "divergence": {
+        "date_prev": "2026-04-10",
+        "price_prev": 179.53,
+        "rsi_prev": 29.64,
+        "date_last": "2026-04-27",
+        "price_last": 176.97,
+        "rsi_last": 33.28,
+        "current_price": 168.82,
+        "current_rsi": 38.6,
+        "macd_divergence": false,
+        "vol_ratio": 0.6076,
+        "vol_vs_avg20": 0.8602,
+        "candle_pattern": "Bearish close (zamkniecie blisko dolka sesji — slaby sygnał)",
+        "trough_low": 176.63,
+        "confirmed": true
+      },
+      "estimate": {
+        "target_price": 178.4125,
+        "pct_upside": 5.7,
+        "confidence": 35,
+        "conf_label": "Slaby",
+        "conf_color": "#c0392b",
+        "rr_ratio": null,
+        "stop_loss": 174.659,
+        "position_sizes": null,
+        "ma50": 189.36,
+        "ma100": 219.86,
+        "weekly_rsi": 30.8,
+        "weekly_rsi_down": true,
+        "earnings_warning": false,
+        "analyst_conflict": false
+      },
+      "fundamentals": {
+        "rating_label": "Kupuj",
+        "rating_color": "#27ae60",
+        "analyst_count": 34,
+        "next_earnings": "18 Jun 2026",
+        "headlines": [
+          "Globant: Too Early To Buy, AI Disruption Not Over (Downgrade)",
+          "3 Leading Dividend Stocks Yielding Over 3%"
+        ],
+        "insider": "Insiderzy KUPUJA (16 buy vs 4 sell)"
+      }
+    },
+    {
+      "ticker": "PM",
+      "group": "USA S&P500",
+      "tier_report": "DO_GRANIA",
+      "tier_journal": "T1",
+      "divergence": {
+        "date_prev": "2026-04-01",
+        "price_prev": 157.33,
+        "rsi_prev": 30.23,
+        "date_last": "2026-04-21",
+        "price_last": 153.25,
+        "rsi_last": 33.17,
+        "current_price": 189.61,
+        "current_rsi": 71.94,
+        "macd_divergence": true,
+        "vol_ratio": 0.5084,
+        "vol_vs_avg20": 1.0425,
+        "candle_pattern": "Bearish close (zamkniecie blisko dolka sesji — slaby sygnał)",
+        "trough_low": 153.17999,
+        "confirmed": true
+      },
+      "estimate": {
+        "target_price": 162.75,
+        "pct_upside": -14.2,
+        "confidence": 75,
+        "conf_label": "Silny",
+        "conf_color": "#1a7a3e",
+        "rr_ratio": -2.02,
+        "stop_loss": 176.3373,
+        "position_sizes": {
+          "0.5%": 7.1,
+          "1%": 14.3,
+          "2%": 28.6,
+          "stop_pct": 7.0
+        },
+        "ma50": 166.94,
+        "ma100": 170.58,
+        "weekly_rsi": 65.7,
+        "weekly_rsi_down": false,
+        "earnings_warning": false,
+        "analyst_conflict": false
+      },
+      "fundamentals": {
+        "rating_label": "Kupuj",
+        "rating_color": "#27ae60",
+        "analyst_count": 27,
+        "next_earnings": "22 Jul 2026",
+        "headlines": [
+          "2 Consumer Stocks to Target This Week and 1 That Underwhelm",
+          "NANC Traders Beat the Crowd by 33 Points and the Difference Keeps Growing"
+        ],
+        "insider": "Insiderzy mieszanie (9 buy, 11 sell)"
+      }
+    },
+    {
+      "ticker": "ISRG",
+      "group": "USA S&P500",
+      "tier_report": "HIDDEN",
+      "tier_journal": "T3",
+      "divergence": {
+        "date_prev": "2026-03-13",
+        "price_prev": 472.16,
+        "rsi_prev": 35.74,
+        "date_last": "2026-04-21",
+        "price_last": 451.29,
+        "rsi_last": 40.97,
+        "current_price": 421.12,
+        "current_rsi": 33.55,
+        "macd_divergence": true,
+        "vol_ratio": 1.3574,
+        "vol_vs_avg20": 0.9652,
+        "candle_pattern": "Bearish close (zamkniecie blisko dolka sesji — slaby sygnał)",
+        "trough_low": 451.29001,
+        "confirmed": true
+      },
+      "estimate": {
+        "target_price": 439.5732,
+        "pct_upside": 4.4,
+        "confidence": 8,
+        "conf_label": "Slaby",
+        "conf_color": "#c0392b",
+        "rr_ratio": null,
+        "stop_loss": 447.9975,
+        "position_sizes": null,
+        "ma50": 462.86,
+        "ma100": 494.6,
+        "weekly_rsi": 34.4,
+        "weekly_rsi_down": true,
+        "earnings_warning": false,
+        "analyst_conflict": false
+      },
+      "fundamentals": {
+        "rating_label": "Kupuj",
+        "rating_color": "#27ae60",
+        "analyst_count": 41,
+        "next_earnings": "20 Jul 2026",
+        "headlines": [
+          "Lightning Round: 'No to Rocket Companies', says Jim Cramer",
+          "Surgical Robotics Meets AI: Intuitive Surgical, Medtronic, and Stryker Are the S..."
+        ],
+        "insider": "Insiderzy mieszanie (12 buy, 8 sell)"
+      }
+    }
+  ],
+  "claude_analysis": {
+    "markdown": "# Analiza Swing Trade — 17.05.2026\n\n---\n\n## CZĘŚĆ 1: Weryfikacja top 3 sygnałów\n\n### 1.1 Kontekst rynkowy\n\nVIX na 18.43 (niski, rynek spokojny), ale SPY RSI 71.2 i QQQ RSI 74.2 — indeksy są **mocno wykupione** (RSI powyżej 70 oznacza, że wzrost był szybki i korekta jest prawdopodobna). Market Breadth 44% — strefa neutralna, tylko 44% spółek z S&P500 jest powyżej swojej średniej 50-dniowej, co oznacza, że rajd jest wąski, napędzany głównie przez tech. Makro niepokojące: zamknięty Cieśnina Hormuz grozi rekordowo niskimi zapasami ropy, co winduje WTI do 101 USD — inflacyjnie niekorzystne, utrudnia cięcia stóp przez Fed. **Wniosek: nie jest to dobry moment na agresywne długie pozycje na szerokim rynku. Selektywność kluczowa — energia i obrona mają uzasadnienie makro, reszta wymaga ostrożności.**\n\n---\n\n### 1.2 Ocena każdego sygnału\n\n**[1] ACN — NIEGRYWALNY**\n\nZa: Wolumen 2. dołka niższy o 39% (vol_ratio ~0.61) — to silne potwierdzenie wyczerpania sprzedaży. Insiderzy kupują (16 buy vs 4 sell) — smart money widzi wartość. Potwierdzenie byczej świecy dzień po dołku: TAK.\n\nPrzeciw: Aktualna cena 168.82 jest **poniżej ceny 2. dołka (176.97)** — to oznacza, że cena kontynuowała spadek po sygnale, co unieważnia setup. Stop (174.66) jest powyżej aktualnej ceny, więc wejście w long nie ma sensu geometrycznie — stop jest bliżej niż entry od strony ceny. Weekly RSI 30.8 — downtrend tygodniowy aktywny. MA50 na 189.36, aż 12% wyżej — ogromny opór.\n\n**Decyzja: NIEGRYWALNY.** Cena przebita poniżej 2. dołka — sygnał dyskwalifikuje się automatycznie.\n\n---\n\n**[2] CVX — NIEGRYWALNY**\n\nZa: Potwierdzenie (bar po dołku zamknął wyżej: TAK). Weekly RSI 59.3 — uptrend tygodniowy wspiera. Wyniki dopiero 30 Jul — brak ryzyka binarnego w horyzoncie 1-2 tygodni. Makro bardzo mocne: WTI 101 USD, zamknięta Cieśnina Hormuz, globalne zapasy ropy mogą bić rekordy niskie.\n\nPrzeciw: Wolumen 2. dołka WYŻSZY (1.35x) — brak wyczerpania podaży, to paniczny dumping, nie kapitulacja. Insiderzy SPRZEDAJĄ (15 sell vs 5 buy) — czerwona flaga. R:R 0.19 — katastrofalny stosunek zysku do ryzyka (ryzykujesz 6%, żeby zarobić 1.2%). Cel zaledwie 193.31 przy aktualnej cenie 191.10 — prawie już tam jesteśmy.\n\n**Decyzja: NIEGRYWALNY.** R:R poniżej 0.5 to nie setup, to loteria. Mimo mocnego makro — pass.\n\n---\n\n**[3] ISRG — NIEGRYWALNY**\n\nZa: MACD potwierdza sygnał (TAK). Potwierdzenie byczej świecy po dołku: TAK. Analitycy masowo na \"Kupuj\" (41 rekomendacji). RSI 33.55 — głęboka wyprzedaż.\n\nPrzeciw: Sila sygnału 8/100 — najsłabszy możliwy. Aktualna cena 421.12 jest **poniżej ceny 2. dołka (451.29)** — analogicznie jak ACN, cena kontynuowała spadek, sygnał spalony. Stop (447.99) jest powyżej aktualnej ceny — geometria nie działa. Wolumen 2. dołka wyższy (1.36x). Weekly RSI 34.4 — silny downtrend tygodniowy. MA50 aż 9% wyżej, MA100 prawie 15% wyżej — ciężkie poziomy oporu.\n\n**Decyzja: NIEGRYWALNY.** Cena poniżej 2. dołka, stop powyżej ceny, siła sygnału 8/100. Trzech sygnałów — trzy niegraywalne.\n\n---\n\n**Podsumowanie sekcji 1.2:** Z 3 sygnałów RSI dywergencji **żaden nie nadaje się do gry** — dwa mają cenę poniżej 2. dołka (sygnał spalony), jeden ma R:R 0.19 z insiderami sprzedającymi. Tym razem skaner dostarczył materiału wyłącznie poglądowego, nie transakcyjnego.\n\n---\n\n## CZĘŚĆ 2: Niezależne rekomendacje swing trade (1-2 tygodnie)\n\nSkoro sygnały dywergencji odpadły, szukam w danych ETF i makro. Rynek wykupiony (SPY RSI 71, QQQ RSI 74), breadth 44% — środowisko selektywne. Makro wskazuje jasno: **energia (ropa 101 USD, Hormuz), złoto (strach geopolityczny), obligacje (RSI 30.9 — potencjalne odbicie)**. Tech już za drogi na nowe longi.\n\n---\n\n### Setup 1: XLE — Energia, makro turbo\n\n```\nTICKER: XLE\nKIERUNEK: Long\nTEZA: WTI 101 USD + zamknięta Cieśnina Hormuz = strukturalny wzrost\n      cen energii. XLE RSI 59 (nie wykupiony), powyżej MA50, momentum\n      +7.9% w 20 dni — pullback do MA50 lub utrzymanie to szansa.\nENTRY: 59.44 (aktualna cena, rynek zamknięty — entry przy otwarciu\n       lub na pullback do 58.50)\nSTOP LOSS: 57.50 — poniżej MA50 (58.08) z buforem | odległość: ~3.3%\nTARGET 1: 63.50 (opór techniczny, R:R ~2.0x)\nTARGET 2: 65.00 (R:R ~2.9x — jeśli Hormuz dalej zamknięty)\nPOZYCJA: ~30% portfela przy ryzyku 1% (stop 3.3% = 1%/0.033 ≈ 30%)\nHORYZONT: 7-14 dni\nRYZYKA: Nagłe otwarcie Cieśniny Hormuz → gwałtowna korekta ropy.\n        SPY w korekcie może pociągnąć wszystko w dół. Vol poniżej\n        normy (0.9x) — płynność nieco słabsza.\nPEWNOSC: Wysoka (makro + techniczne + breadth neutralny)\n```\n\n---\n\n### Setup 2: GLD — Złoto, odbicie od wyprzedania\n\n```\nTICKER: GLD\nKIERUNEK: Long\nTEZA: Złoto 4562 USD/oz, ale GLD RSI tylko 39.9 — paradoks: cena złota\n      wysoko, ETF wyprzedany (rotacja z ETF do kontraktów?). Makro\n      idealne: konflikt Iran/Izrael, strach geopolityczny, 10Y Treasury\n      4.59% (wysokie, ale złoto odporne). Korekta -5.6% w 20d to szansa\n      na swing przed kolejną falą popytu na bezpieczne aktywa.\nENTRY: 417.29 (aktualna) lub na potwierdzenie odbicia powyżej 419.00\nSTOP LOSS: 410.00 — poniżej psychologicznego wsparcia | odległość: ~1.7%\nTARGET 1: 430.00 (~3.0% od entry, R:R ~1.8x)\nTARGET 2: 435.00 (MA50 na 434.38 — klasyczne odbicie do MA50, R:R ~2.9x)\nPOZYCJA: ~59% portfela przy ryzyku 1% (stop 1.7% = 1%/0.017 ≈ 59%)\n          UWAGA: Zalecam ograniczyć do max 15-20% ze względu na\n          koncentrację ryzyka geopolitycznego\nHORYZONT: 5-10 dni\nRYZYKA: Jeśli Hormuz otwarty i napięcia opadną → złoto może tąpnąć.\n        Vol wysoki (1.5x) — duże wahania w obie strony. RSI weekly\n        nie sprawdzony w danych — ostrożność.\nPEWNOSC: Srednia (makro za, techniczne mieszane — poniżej MA50)\n```\n\n---\n\n### Setup 3: TLT — Obligacje długoterminowe, kontrariański swing\n\n```\nTICKER: TLT\nKIERUNEK: Long\nTEZA: RSI 30.9 — obligacje długoterminowe (ETF na 20+ letnie Treasuries\n      USA) są na granicy wyprzedania technicznego. Vol 2.3x — paniczna\n      wyprzedaż. Przy VIX 18 i ewentualnej ucieczce od ryzyka (wykupiony\n      SPY + Hormuz), rotacja w bezpieczne aktywa może pompować TLT.\n      Setup kontrariański — nie dla każdego.\nENTRY: 83.66 (aktualna) lub poczekaj na RSI < 30 i bullish rejection\nSTOP LOSS: 81.50 — nowe minimum z buforem | odległość: ~2.6%\nTARGET 1: 86.44 (MA50 — klasyczny cel odbicia, +3.3%, R:R ~1.3x)\nTARGET 2: 88.00 (R:R ~2.1x)\nPOZYCJA: ~38% portfela przy ryzyku 1% (stop 2.6%), zalecam max 10%\n          — środowisko wysokich stóp strukturalnie negatywne dla TLT\nHORYZONT: 7-14 dni (swing tylko, nie pozycja długoterminowa)\nRYZYKI: 10Y Treasury 4.59% — Fed jastrzębi (Warsh vs. gołębie),\n        jeśli inflacja z ropy uderzy → TLT może spaść dalej.\n        To SPEKULACYJNY setup przeciw trendowi.\nPEWNOSC: Spekulacyjna (techniczne za, fundamenty i makro przeciw)\n```\n\n---\n\n**Priorytet setupów: XLE > GLD > TLT**\n\nXLE to najsilniejszy setup — makro, techniczne i momentum wszystko gra. GLD to solidny swing ze wsparciem geopolitycznym. TLT tylko dla doświadczonych — środowisko fundamentalnie trudne.\n\n---\n\n## CZĘŚĆ 3: Tabela danych strukturyzowanych\n\n```\nTABELA_REKOMENDACJI:\nTICKER | KIERUNEK | ENTRY | STOP | TARGET1 | RR | PEWNOSC | TEZA\nXLE | Long | 59.44 | 57.50 | 63.50 | 2.1 | Wysoka | Energia: ropa 101 USD, Hormuz zamkniety, RSI nie wykupiony\nGLD | Long | 417.29 | 410.00 | 430.00 | 1.8 | Srednia | Zloto: strach geopolityczny, RSI 39.9 wyprzedany, odbicie do MA50\nTLT | Long | 83.66 | 81.50 | 86.44 | 1.3 | Spekulacyjna | Obligacje: RSI 30.9, vol 2.3x paniczna wyprzedaz, swing kontrarianski\n---KONIEC_TABELI---\n```\n\n---\n\n## CZĘŚĆ 4: Fundamentalne okazje — komentarz long-term\n\n**MSFT — OKAZJA:**\nMicrosoft ma jeden z najtrwalszych moatów w technologii: Azure (chmura obliczeniowa) rośnie +29% r/r, LinkedIn i GitHub dominują swoje nisze, a integracja AI przez Copilot tworzy nowe strumienie przychodów. Główne ryzyko na 1-2 lata to spowolnienie wydatków korporacyjnych na chmurę jeśli recesja uderzy, plus rosnąca konkurencja AWS/Google Cloud. Przecena 24% przy P/E 25, PEG 0.8 i FCF margin 25% to atrakcyjny punkt wejścia dla inwestora 7+ lat — to nie problem strukturalny, to korekta rynkowa.\n\n**INTU — OKAZJA (z zastrzeżeniem):**\nIntuit (TurboTax, QuickBooks, Mailchimp) ma silny moat oparty na efekcie sieciowym i kosztach przejścia — mała firma rzadko zmienia oprogramowanie księgowe. Ryzyko: AI może zdewastować segment tax preparation (CPA-as-AI grozi TurboTax), co już widać w wycenie — stąd przecena 52% od szczytu. Mimo to PEG 0.6, FCF 32%, wzrost EPS regularny — przy horyzoncie 7+ lat Intuit ma czas na adaptację, warto akumulować transzami zamiast jednorazowo.\n\n**ADBE — OSTROŻNIE:**\nAdobe ma fenomenalne fundamenty — marża brutto 89%, FCF 41%, ROE 62% — to maszynka do zarabiania pieniędzy. Jednak ryzyko jest realne i strukturalne: Canva, Figma (blokada przejęcia przez regulatorów była złym sygnałem) i narzędzia AI generatywnego (Midjourney, Stable Diffusion) atakują core business w design. Analitycy na \"Trzymaj\" (nie \"Kupuj\"), insiderzy sprzedają masowo (15 sell vs 5 buy) — to czerwone flagi. Przecena 42% może być uzasadniona, nie pośpieszaj się — poczekaj na stabilizację modelu biznesowego.\n\n**V — OKAZJA:**\nVisa to klasyczny moat w formie duopolu płatności kartowych — sieć akceptantów i wydawców kart jest praktycznie nie do replikacji. ROE 59%, FCF 54%, wzrost przychodów +14% — fundamenty wzorcowe. Przecena zaledwie 13% od szczytu to nie panika, ale P/E 27.5 i PEG 1.8 nie są \"tanio\" — to \"rozsądnie\" dla tej jakości. Ryzyko: regulacje płatności (UE już uderzyła w interchange fee) i ekspansja płatności natychmiastowych (FedNow). Na 7+ lat — kupować spokojnie.\n\n**MA — OKAZJA:**\nMastercard i Visa to praktycznie bliźniacy biznesowi — identyczny model, podobny moat, wzrost +17% przychodów. D/E 2.82 wygląda strasznie, ale to zadłużenie jest strukturalnie bezpieczne przy generowanym FCF 50% — firma mogłaby je spłacić w kilka lat. EPS rośnie od 8.76 do 16.52 w 5 latach — konsekwentnie. Insiderzy bardziej kupują niż sprzedają (13 vs 7). Przy horyzoncie 7+ lat to solidna pozycja, choć identyczne ryzyka regulacyjne jak Visa.\n\n---\n\n> ⚠️ **ZASTRZEŻENIE:** Powyższa analiza ma charakter wyłącznie techniczny i edukacyjny. Nie stanowi rekomendacji inwestycyjnej w rozumieniu przepisów prawa. Każda decyzja inwestycyjna powinna być poprzedzona własną analizą i oceną ryzyka. Inwestowanie wiąże się z ryzykiem utraty kapitału.",
+    "recommendations": [
+      {
+        "ticker": "XLE",
+        "direction": "Long",
+        "entry": "59.44",
+        "stop": "57.50",
+        "target": "63.50",
+        "rr": "2.1",
+        "confidence": "Wysoka",
+        "teza": "Energia: ropa 101 USD, Hormuz zamkniety, RSI nie wykupiony"
+      },
+      {
+        "ticker": "GLD",
+        "direction": "Long",
+        "entry": "417.29",
+        "stop": "410.00",
+        "target": "430.00",
+        "rr": "1.8",
+        "confidence": "Srednia",
+        "teza": "Zloto: strach geopolityczny, RSI 39.9 wyprzedany, odbicie do MA50"
+      },
+      {
+        "ticker": "TLT",
+        "direction": "Long",
+        "entry": "83.66",
+        "stop": "81.50",
+        "target": "86.44",
+        "rr": "1.3",
+        "confidence": "Spekulacyjna",
+        "teza": "Obligacje: RSI 30.9, vol 2.3x paniczna wyprzedaz, swing kontrarianski"
+      }
+    ]
+  },
+  "fundamental_picks": [
+    {
+      "score": 88,
+      "details": [
+        "Przecena 24% od szczytu (+16)",
+        "EPS 4/4 lat wzrost, CAGR +14% (+15)",
+        "ROE 33% (+15)",
+        "FCF margin 25% (sr. 30%) (+15)",
+        "Rev growth 18% (+7)",
+        "Gross margin 68% (+10)",
+        "D/E 0.25 (+5)",
+        "PEG 0.8 (+5)"
+      ],
+      "discount_pct": 24.0,
+      "metrics": {
+        "pe": 25.0304,
+        "roe": 33.129999999999995,
+        "rev_growth": 17.87,
+        "eps_growth": 29.75,
+        "gross_margin": 68.31,
+        "net_margin": null,
+        "de_ratio": 0.249,
+        "current_ratio": 1.2829,
+        "high_52w": 555.45,
+        "low_52w": 356.28,
+        "high_52w_date": "2025-07-31",
+        "market_cap": 3134205,
+        "dividend_yield": 0.8890408616857584,
+        "beta": 1.0917171,
+        "eps_series": [
+          13.6413,
+          11.8002,
+          9.6843,
+          9.6469,
+          8.0535
+        ],
+        "fcf_margin_series": [
+          0.2542,
+          0.3022,
+          0.2807,
+          0.3286,
+          0.3339
+        ]
+      },
+      "ticker": "MSFT",
+      "current_price": 421.92001,
+      "fund": {
+        "rating_label": "Kupuj",
+        "rating_color": "#27ae60",
+        "analyst_count": 66,
+        "next_earnings": "28 Jul 2026",
+        "headlines": [
+          "2 Nasdaq 100 Stocks with Exciting Potential and 1 We Avoid",
+          "A quarter of recent layoffs has been attributed to AI"
+        ],
+        "insider": "Insiderzy mieszanie (8 buy, 11 sell)"
+      }
+    },
+    {
+      "score": 81,
+      "details": [
+        "Przecena 52% od szczytu (+20)",
+        "EPS 3/4 lat wzrost, CAGR +16% (+10)",
+        "ROE 22% (+10)",
+        "FCF margin 32% (sr. 31%) (+15)",
+        "Rev growth 17% (+7)",
+        "Gross margin 80% (+10)",
+        "D/E 0.32 (+4)",
+        "PEG 0.6 (+5)"
+      ],
+      "discount_pct": 51.7,
+      "metrics": {
+        "pe": 25.0424,
+        "roe": 22.2,
+        "rev_growth": 17.21,
+        "eps_growth": 43.99,
+        "gross_margin": 80.05,
+        "net_margin": null,
+        "de_ratio": 0.3233,
+        "current_ratio": 1.3233,
+        "high_52w": 813.7,
+        "low_52w": 342.105,
+        "high_52w_date": "2025-07-30",
+        "market_cap": 108684.15,
+        "dividend_yield": 1.2688677998361044,
+        "beta": 1.0199968,
+        "eps_series": [
+          13.6714,
+          10.4331,
+          8.424,
+          7.2746,
+          7.5531
+        ],
+        "fcf_margin_series": [
+          0.323,
+          0.2846,
+          0.3331,
+          0.2876,
+          0.3244
+        ]
+      },
+      "ticker": "INTU",
+      "current_price": 393.0,
+      "fund": {
+        "rating_label": "Kupuj",
+        "rating_color": "#27ae60",
+        "analyst_count": 41,
+        "next_earnings": "20 May 2026",
+        "headlines": [
+          "Investors Brace For Blockbuster Nvidia Earnings Next Week",
+          "What's going on in today's session: S&P500 movers"
+        ],
+        "insider": "Insiderzy mieszanie (12 buy, 8 sell)"
+      }
+    },
+    {
+      "score": 80,
+      "details": [
+        "Przecena 42% od szczytu (+20)",
+        "EPS 4/4 lat wzrost, CAGR +14% (+15)",
+        "ROE 62% (+15)",
+        "FCF margin 41% (sr. 40%) (+15)",
+        "Rev growth 11% (+7)",
+        "Gross margin 89% (+10)",
+        "D/E 0.54 (+3)",
+        "PEG 1.1 (+3)",
+        "Insiderzy sprzedaja (-8)"
+      ],
+      "discount_pct": 41.5,
+      "metrics": {
+        "pe": 13.8846,
+        "roe": 62.31,
+        "rev_growth": 10.96,
+        "eps_growth": 13.16,
+        "gross_margin": 89.4,
+        "net_margin": null,
+        "de_ratio": 0.5447,
+        "current_ratio": 0.9119,
+        "high_52w": 422.95,
+        "low_52w": 224.13,
+        "high_52w_date": "2025-05-21",
+        "market_cap": 100079.92,
+        "dividend_yield": null,
+        "beta": 1.4121362,
+        "eps_series": [
+          16.6979,
+          12.3556,
+          11.8257,
+          10.0977,
+          10.0249
+        ],
+        "fcf_margin_series": [
+          0.4145,
+          0.3661,
+          0.3577,
+          0.4201,
+          0.436
+        ]
+      },
+      "ticker": "ADBE",
+      "current_price": 247.60001,
+      "fund": {
+        "rating_label": "Trzymaj",
+        "rating_color": "#d68910",
+        "analyst_count": 46,
+        "next_earnings": "11 Jun 2026",
+        "headlines": [
+          "Adobe’s AI Agent And PDF Spaces Reframe Document Workflows And Investor Focus",
+          "A Major Catalyst Is Emerging For BDCs That The Market Is Completely Missing"
+        ],
+        "insider": "Insiderzy SPRZEDAJA (15 sell vs 5 buy)"
+      }
+    },
+    {
+      "score": 79,
+      "details": [
+        "Przecena 13% od szczytu (+8)",
+        "EPS 4/4 lat wzrost, CAGR +16% (+20)",
+        "ROE 59% (+15)",
+        "FCF margin 54% (sr. 58%) (+15)",
+        "Rev growth 14% (+7)",
+        "Gross margin 81% (+10)",
+        "D/E 0.67 (+3)",
+        "PEG 1.8 (+1)"
+      ],
+      "discount_pct": 13.3,
+      "metrics": {
+        "pe": 27.5025,
+        "roe": 58.9,
+        "rev_growth": 14.37,
+        "eps_growth": 15.31,
+        "gross_margin": 81.29,
+        "net_margin": null,
+        "de_ratio": 0.6723,
+        "current_ratio": 1.0877,
+        "high_52w": 375.51,
+        "low_52w": 293.89,
+        "high_52w_date": "2025-06-11",
+        "market_cap": 611546.25,
+        "dividend_yield": 0.8366894570884456,
+        "beta": 0.7847687,
+        "eps_series": [
+          10.2024,
+          9.7304,
+          8.2844,
+          7.0023,
+          5.6266
+        ],
+        "fcf_margin_series": [
+          0.5394,
+          0.5203,
+          0.6032,
+          0.61,
+          0.6024
+        ]
+      },
+      "ticker": "V",
+      "current_price": 325.75,
+      "fund": {
+        "rating_label": "Kupuj",
+        "rating_color": "#27ae60",
+        "analyst_count": 48,
+        "next_earnings": "27 Jul 2026",
+        "headlines": [
+          "2 Financial Stocks to Buy and 1 to Approach With Caution",
+          "Visa’s Capital Restructure Raises Fresh Questions On Future Shareholder Outcomes"
+        ],
+        "insider": "Insiderzy mieszanie (9 buy, 11 sell)"
+      }
+    },
+    {
+      "score": 72,
+      "details": [
+        "Przecena 18% od szczytu (+12)",
+        "EPS 4/4 lat wzrost, CAGR +17% (+20)",
+        "ROE 206% (+15)",
+        "FCF margin 50% (sr. 47%) (+15)",
+        "Rev growth 17% (+7)",
+        "PEG 1.3 (+3)"
+      ],
+      "discount_pct": 17.9,
+      "metrics": {
+        "pe": 28.0454,
+        "roe": 206.14,
+        "rev_growth": 16.75,
+        "eps_growth": 21.21,
+        "gross_margin": null,
+        "net_margin": null,
+        "de_ratio": 2.8218,
+        "current_ratio": 0.981,
+        "high_52w": 601.77,
+        "low_52w": 480.5,
+        "high_52w_date": "2025-08-22",
+        "market_cap": 436667.16,
+        "dividend_yield": 0.7102910560476793,
+        "beta": 0.7576118,
+        "eps_series": [
+          16.521,
+          13.8878,
+          11.834,
+          10.2266,
+          8.7571
+        ],
+        "fcf_margin_series": [
+          0.5011,
+          0.4823,
+          0.434,
+          0.4541,
+          0.458
+        ]
+      },
+      "ticker": "MA",
+      "current_price": 494.20001,
+      "fund": {
+        "rating_label": "Kupuj",
+        "rating_color": "#27ae60",
+        "analyst_count": 50,
+        "next_earnings": "29 Jul 2026",
+        "headlines": [
+          "JD Mastercard Alliance Adds New Dimension To JDcom Valuation Story",
+          "Is Mastercard Incorporated (MA) the Stock with Best Earnings Growth for the Next..."
+        ],
+        "insider": "Insiderzy mieszanie (13 buy, 7 sell)"
+      }
+    }
+  ],
+  "performance": {
+    "live_summary": "T2: 1 sygnalow | WR 100% | avg +5.5%",
+    "full_stats": {
+      "overall_resolved": 6,
+      "t1": null,
+      "t2": {
+        "count": 1,
+        "wr": 100.0,
+        "avg_pnl": 5.53,
+        "pf": null,
+        "targets": 1,
+        "stops": 0,
+        "timeouts": 0,
+        "best": [
+          "ADBE",
+          5.53
+        ],
+        "worst": [
+          "ADBE",
+          5.53
+        ]
+      },
+      "t3": {
+        "count": 5,
+        "wr": 60.0,
+        "avg_pnl": 1.56,
+        "pf": 391.5,
+        "targets": 3,
+        "stops": 0,
+        "timeouts": 2,
+        "best": [
+          "FSLR",
+          4.17
+        ],
+        "worst": [
+          "ETN",
+          -0.02
+        ]
+      },
+      "claude": null
+    }
+  },
+  "disclaimer": "Materiał ma charakter wyłącznie edukacyjny i analityczny. Nie stanowi rekomendacji inwestycyjnej w rozumieniu Rozporządzenia MAR ani usługi doradztwa inwestycyjnego. Każda decyzja inwestycyjna wiąże się z ryzykiem utraty kapitału."
+}
