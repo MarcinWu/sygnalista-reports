@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DipRadar - Privacy Policy</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 700px; margin: 40px auto; padding: 0 20px; line-height: 1.6; color: #333; }
+        h1 { color: #1a5c3a; }
+        h2 { color: #1a5c3a; margin-top: 2em; }
+        .updated { color: #666; font-size: 0.9em; }
+    </style>
+</head>
+<body>
+    <h1>DipRadar - Privacy Policy</h1>
+    <p class="updated">Last updated: May 18, 2026</p>
+
+    <h2>Overview</h2>
+    <p>DipRadar is a free analytical and educational tool that displays stock market signals and fundamental data. We are committed to protecting your privacy and collecting as little data as possible.</p>
+
+    <h2>Data We Collect</h2>
+
+    <h3>Anonymous Device Identifier</h3>
+    <p>When you first open the app, a random 32-character identifier is generated locally on your device. This ID contains no personal information and cannot be used to identify you. It is used solely to prevent duplicate "like" votes on signals. Reinstalling the app generates a new identifier.</p>
+
+    <h3>Local Preferences</h3>
+    <p>The app stores the following on your device only (never sent to any server):</p>
+    <ul>
+        <li>Whether you accepted the disclaimer</li>
+        <li>Your language preference (Polish or English)</li>
+        <li>Which signals you have liked</li>
+    </ul>
+
+    <h2>Data We Send</h2>
+
+    <h3>Likes API</h3>
+    <p>When you tap the "Like" button on a signal, the app sends your anonymous device ID and the ticker symbol to our private server (hosted on Cloudflare Workers) to record the vote. This data is used only for like counting and daily deduplication. No other data is transmitted.</p>
+
+    <h3>Company Logos</h3>
+    <p>On Android, company logos are fetched from Google's public favicon service using company domain names (e.g., "apple.com" for AAPL). No user data is included in these requests.</p>
+
+    <h2>Data We Do NOT Collect</h2>
+    <ul>
+        <li>No personal information (name, email, phone, location)</li>
+        <li>No analytics or usage tracking</li>
+        <li>No crash reports</li>
+        <li>No advertising identifiers</li>
+        <li>No third-party tracking SDKs</li>
+    </ul>
+
+    <h2>Third-Party Services</h2>
+    <ul>
+        <li><strong>GitHub</strong> - Market reports are fetched from a public GitHub repository. No user data is sent.</li>
+        <li><strong>Cloudflare Workers</strong> - Hosts our likes counter API. Receives only anonymous device ID and ticker symbols.</li>
+        <li><strong>Google Favicon Service</strong> (Android only) - Provides company logos. Receives only company domain names.</li>
+    </ul>
+
+    <h2>Data Retention</h2>
+    <p>Like votes and device IDs on our server reset daily. Local data persists until you uninstall the app or clear app data.</p>
+
+    <h2>Children's Privacy</h2>
+    <p>DipRadar is not directed at children under 13. We do not knowingly collect data from children.</p>
+
+    <h2>Changes</h2>
+    <p>We may update this policy from time to time. Changes will be posted on this page with an updated date.</p>
+
+    <h2>Contact</h2>
+    <p>Questions about this policy? Contact us at <a href="mailto:m.woronko@gmail.com">m.woronko@gmail.com</a>.</p>
+</body>
+</html>
