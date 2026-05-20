@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "scan": {
-    "time_iso": "2026-05-20T07:48",
-    "time_pl": "20.05.2026 07:48",
+    "time_iso": "2026-05-20T08:15",
+    "time_pl": "20.05.2026 08:15",
     "date": "2026-05-20",
     "interval": "1D",
     "rsi_period": 14,
@@ -10,7 +10,7 @@
     "total_signals": 5
   },
   "market": {
-    "vix": 18.13,
+    "vix": 18.07,
     "breadth_sp500_above_ma50_pct": 46.7
   },
   "btc_onchain": {
@@ -70,8 +70,8 @@
         "analyst_count": 31,
         "next_earnings": "30 Jul 2026",
         "headlines": [
-          "VALLOUREC WINS MAJOR LINE PIPE ORDERS FROM EXXONMOBIL IN GUYANA AND INVESTS IN P...",
-          "Exxon Mobil’s Guyana Ultra Deepwater Push And What It Means For XOM"
+          "Energy Stocks Are Secretly Better Than Treasuries. Here’s Why Bob Brackett Is Lo...",
+          "VALLOUREC WINS MAJOR LINE PIPE ORDERS FROM EXXONMOBIL IN GUYANA AND INVESTS IN P..."
         ],
         "insider": "Insiderzy mieszanie (13 buy, 7 sell)"
       },
@@ -125,8 +125,8 @@
         "analyst_count": 31,
         "next_earnings": "30 Jul 2026",
         "headlines": [
-          "3 Energy Stocks Worth Holding for 10 Years",
-          "Warren Buffett's Berkshire trims stake in 147-year-old oil stock"
+          "Energy Stocks Are Secretly Better Than Treasuries. Here’s Why Bob Brackett Is Lo...",
+          "Oil Prices Are Rising and So Is Chevron Stock. It Can Keep Going."
         ],
         "insider": "Insiderzy SPRZEDAJA (15 sell vs 5 buy)"
       },
@@ -240,7 +240,10 @@
         ],
         "insider": "Insiderzy KUPUJA (20 buy vs 0 sell)"
       },
-      "ai_analysis": null
+      "ai_analysis": {
+        "verdict": "NIEGRYWALNY",
+        "summary": "Za: - Wolumen 2. dołka niższy o 39% (vol_ratio ~0.61) — silne potwierdzenie wyczerpania sprzedaży ✅ - Insiderzy kupują (20 buy vs 0 sell) — smart money potwierdza ✅ - Potwierdzenie: TAK — bar po dołku zamknął wyżej ✅ - R:R 5.03x — atrakcyjny stosunek zysku do ryzyka ✅ - RSI przy 1. dołku < 30 — głęboka wyprzedaż ✅ Przeciw: - Earnings 18 czerwca 2026 — to tylko ~29 dni, ryzyko binarne (gwałtowny ruch na wynikach) ⚠️ - Swieca 2. dołka: Bearish close — zamknięcie blisko dołka sesji, słaby sygnał popytowy ❌ - Weekly RSI: 35.2 — tygodniowy trend słaby/neutralny, brak wsparcia ze strony wyższego interwału ❌ - Cena (176.80) jest poniżej MA50 (187.96) o ~6% i poniżej MA100 (217.99) o ~19% — brak wsparcia technicznych średnich ❌ - Aktualne RSI: 47.15 — już odbicie nastąpiło, nie kupujesz na dnie ❌ - Wyniki za <30 dni = ryzyko binarne nie do zarządzania w swing trade ❌ Decyzja: Mimo silnych sygnałów od insiderów i wolumenu, nie gram. Bearish close na 2. dołku, słaby weekly trend i zbliżające się wyniki (18 czerwca) tworzą zbyt duże ryzyko binarne dla horyzontu 1-2 tygodnie. Cena już odbiła — entry na 176.80 przy aktualnym kursie 176.80 to wejście w środek pozycji bez konfirmacji."
+      }
     },
     {
       "ticker": "PM",
@@ -299,37 +302,37 @@
     }
   ],
   "claude_analysis": {
-    "markdown": "# Analiza Swing Trade — 20.05.2026\n\n---\n\n## CZĘŚĆ 1: Weryfikacja top 3 sygnałów\n\n### 1.1 Kontekst rynkowy\n\nVIX na poziomie 18.13 (niski, rynek spokojny), ale makro wysyła mieszane sygnały — trwa konflikt USA-Iran, rentowności 10Y Treasury na 4.67% (wysokie, presja na wyceny), złoto spada mimo strachu (co jest ostrzeżeniem). Market Breadth (szerokość rynku — odsetek spółek powyżej MA50) wynosi **47% — strefa neutralna**: połowa rynku pod kreską, połowa nad. SPY RSI 62.8 i QQQ RSI 66.6 sugerują rynek w górnym zakresie neutralnym, ale **nie jest to dobry moment na agresywne długie pozycje** — selektywność kluczowa, unikaj słabych setupów.\n\n---\n\n### 1.2 Ocena sygnału\n\n**[1] ACN — NIEGRYWALNY**\n\n**Argument za:** Wolumen 2. dołka niższy o 39% (vol_ratio ~0.61, mocne potwierdzenie wyczerpania sprzedaży), insiderzy kupują aktywnie (20 buy vs 0 sell — rzadki sygnał), potwierdzenie byczą świecą po dołku (TAK), R:R 5.03x atrakcyjne.\n\n**Argument przeciw:** Swieca 2. dołka to **bearish close** (zamknięcie blisko dna sesji — sygnał słabości popytu), Weekly RSI 35.2 (trend tygodniowy słaby/neutralny — brak wsparcia z wyższego TF), wyniki **18 czerwca 2026** (za mniej niż 30 dni — ryzyko binarne), cena aktualnie 176.80 jest poniżej MA50 (187.96) i MA100 (217.99), czyli opór strukturalny grubszy niż sugeruje cel 187.58. Siła sygnału tylko 45/100.\n\n**Decyzja:** Zbyt wiele czynników przeciw — słaba świeca na dołku, wyniki za rogiem, słaby trend tygodniowy. **Nie gram.**\n\n---\n\n**Podsumowanie sekcji 1.2:** Z 1 dostępnego sygnału — **0 warte zagrania**. Bearish close na 2. dołku + ryzyko earnings eliminuje setup pomimo świetnych insiderów i niskiego wolumenu. Lepiej poczekać na potwierdzenie po wynikach.\n\n---\n\n## CZĘŚĆ 2: Niezależne rekomendacje swing trade\n\nSkanuję raport pod kątem najlepszych setupów spoza sekcji sygnałów dywergencji.\n\n### Analiza możliwości:\n\n**Co widzę w danych ETF:**\n- **XLE** (sektor energii): RSI 65.7, +8.4% w 20 dni, silniejszy od SPY o 5.2pp — **za drogi na entry Long teraz**, RSI za wysoko\n- **XLK** (technologia): RSI 65.9, SMH RSI 60.9 — mocne momentum, ale RSI blisko strefy wykupienia\n- **TLT** (obligacje długoterminowe): RSI **27.6 (wyprzedany!)**, -4.3% w 20 dni, MA50 86.22 vs cena 83.02\n- **GLD** (złoto): RSI 36.5, -5.5% w 20 dni, ale trend nadal słaby — makro nie sprzyja (silny dolar, rosnące yields)\n- **XLB** (materiały): RSI 33.7, -5.4% w 20 dni — głęboka przecena\n- **XLP** (dobra konsumpcyjne podstawowe): RSI 64.7, momentum — ale RSI za wysoko na nowe Long\n- **BTC/USD**: Fear & Greed 27 (Fear, bliski Extreme Fear ≤25), hash rate +10% 30d, tx/dzień +12.9% — sieć zdrowa i rosnąca, cena 77,189\n\n### Wybrane setupy:\n\n---\n\n```\nTICKER: TLT\nKIERUNEK: Long\nTEZA: TLT (ETF na 20-letnie obligacje USA) jest głęboko wyprzedany\n(RSI 27.6 — strefa historycznie poprzedzająca odbicia). Przy napiętej\nsytuacji geopolitycznej (Iran) i rosnących yieldach rynek często\nprzeregulowuje w dół. Każdy sygnał de-eskalacji lub słabsze dane\nmakro mogą wywołać gwałtowny short-squeeze na obligacjach.\nENTRY: 83.02\nSTOP LOSS: 80.50 (poziom techniczny poniżej ostatnich dołków, -3.0%)\nTARGET 1: 86.22 (MA50 — naturalna strefa oporu/odbicia, R:R ~1.3x)\nTARGET 2: 88.50 (kolejna strefa oporu, R:R ~2.2x)\nPOZYCJA: 33% portfela (ryzyko 1% / stop 3.0%)\nHORYZONT: 7-14 dni\nRYZYKA: Dalszy wzrost rentowności 10Y jeśli Fed jastrzębi lub\ninflacja zaskoczy; brak de-eskalacji Iran = dalszy wzrost yields;\nTLT w silnym downtrендzie od tygodni — łapanie spadającego noża\nPEWNOSC: Spekulacyjna\n```\n\n---\n\n```\nTICKER: BTC/USD\nKIERUNEK: Long\nTEZA: Fear & Greed Index 27 (Fear, historycznie blisko strefy\nakumulacji ≤25 = Extreme Fear), hash rate +10% 30d i transakcje\n+12.9% 30d — sieć bitcoina fundamentalnie zdrowa i rosnąca.\nCena 77,189 to potencjalna strefa wsparcia po korekcie. Dane\non-chain (aktywność sieci rośnie mimo spadku ceny) to klasyczny\nsygnał akumulacji przez smart money.\nENTRY: 77 189.97\nSTOP LOSS: 73 000 (wsparcie strukturalne, -5.4%)\nTARGET 1: 84 000 (+8.8% od entry, R:R ~1.6x)\nTARGET 2: 89 000 (kolejna strefa oporu, R:R ~2.2x)\nPOZYCJA: 19% portfela (ryzyko 1% / stop 5.4%)\nHORYZONT: 7-14 dni\nRYZYKA: Dolar umacnia się (negatywne dla BTC), napięcia\ngeopolityczne mogą wywoływać risk-off (ucieczka z krypto);\nFear & Greed nie osiągnął jeszcze 25 (Extreme Fear) — możliwe\ndalsze zejście; korelacja z akcjami USA jeśli SPY zacznie korektę\nPEWNOSC: Spekulacyjna\n```\n\n---\n\n```\nTICKER: XLK\nKIERUNEK: Long (po pullbacku)\nTEZA: Sektor technologiczny (ETF XLK) wykazuje najsilniejsze\nmomentum spośród wszystkich sektorów — +9.6% w 20 dni,\n14.6% powyżej MA50. Makro sprzyja: AI boom (NVDA, AMD w portfelu),\nrotacja z energii do tech możliwa przy de-eskalacji Iran.\nRSI 65.9 — aktualnie za wysoko na wejście, szukam pullbacku.\nENTRY: 165.00 (poziom pullbacku do ~RSI 50-55, ok. -5% od aktualnej\nceny — entry warunkowe, nie rynkowe)\nSTOP LOSS: 159.00 (poniżej MA50 strefy, -3.6% od entry warunkowego)\nTARGET 1: 173.24 (powrót do szczytu, R:R ~2.3x)\nPOZYCJA: 28% portfela (ryzyko 1% / stop 3.6%)\nHORYZONT: 10-14 dni od momentu pullbacku\nRYZYKA: Pullback może nie nastąpić i cena odjedzie bez nas;\nwyniki spółek tech (NVDA szczególnie obserwowane wg makro news);\nwysoki RSI = korekta może być głębsza niż oczekiwana\nPEWNOSC: Średnia (entry warunkowe)\n```\n\n---\n\n> ⚠️ **Uwaga na XLK:** Entry jest **warunkowe** — nie kupuję przy aktualnej cenie 173.24 (RSI 65.9 > 70 zbliżone). Czekam na pullback do ~165. Jeśli pullback nie przyjdzie — trade odpada.\n\n---\n\n**Ogólny komentarz do Części 2:**\nRynek jest w trybie **selektywnym**. Breadth 47% = neutralna, ale makro (Iran, wysokie yieldy, silny dolar) tworzy podwyższone ryzyko. TLT i BTC to zagrania kontrariańskie (RSI/Fear wyprzedane) — spekulacyjne z definicji. XLK to czekanie na okazję. **Nie ma tu \"pewnego\" setupu** — jeśli preferujesz defensywę, gotówka jest równie valid pozycją.\n\n---\n\n## CZĘŚĆ 3: Tabela danych strukturyzowanych\n\n```\nTABELA_REKOMENDACJI:\nTICKER | KIERUNEK | ENTRY | STOP | TARGET1 | RR | PEWNOSC | TEZA\nTLT | Long | 83.02 | 80.50 | 86.22 | 1.3 | Spekulacyjna | RSI 27.6 wyprzedany, odbicie przy de-eskalacji Iran\nBTC/USD | Long | 77189.97 | 73000.00 | 84000.00 | 1.6 | Spekulacyjna | Fear 27 + hash rate rosnacy = akumulacja smart money\nXLK | Long | 165.00 | 159.00 | 173.24 | 2.3 | Srednia | Najsilniejszy sektor, entry po pullbacku RSI<55\n---KONIEC_TABELI---\n```\n\n---\n\n## CZĘŚĆ 4: Fundamentalne okazje — komentarz long-term\n\n**MSFT — OKAZJA:**\nMicrosoft posiada jeden z najtrwalszych moatów (przewag konkurencyjnych) w technologii — Azure rosnący w tempie +18% przychodów, ekosystem produktywności (Office 365), integracja AI przez OpenAI. Główne ryzyko na 1-2 lata to regulacje antymonopolowe w UE/USA oraz presja na marże przy inwestycjach w AI infrastrukturę. Przecena 25% od szczytu przy P/E 25.2 i PEG 0.8 to **atrakcyjna okazja dla inwestora 7+ lat** — insiderzy mieszanie, ale fundamenty twarde.\n\n---\n\n**INTU — OKAZJA:**\nIntuit (QuickBooks, TurboTax, Credit Karma) ma silny moat oparty na efekcie sieciowym i kosztach zmiany dostawcy — firmy i księgowi nie migrują łatwo. Ryzyko: AI-powered accountants (np. od OpenAI, Google) mogą zaburzyć model TurboTax w perspektywie 2-3 lat, co rynek już częściowo dyskontuje. Przy P/E 26.4, PEG 0.6 i -51% od szczytu — to **okazja**, ale z otwartymi oczami na ryzyko dysrupcji AI w segmencie tax.\n\n---\n\n**ADBE — OSTROŻNIE:**\nAdobe ma fenomenalne marże (89% gross margin, FCF 41%) i dominację w kreatywnych narzędziach, ale zagrożenie ze strony generatywnego AI (Midjourney, Sora, Canva AI) jest **strukturalne i realne**. Insiderzy sprzedają (15 sell vs 5 buy) — to niepokojący sygnał od osób znających firmę od środka. Analitycy mówią tylko \"Trzymaj\". Czekaj na wyraźniejsze odbicie lub lepszą cenę, zanim uznasz -40% za okazję.\n\n---\n\n**V — OKAZJA:**\nVisa to klasyczny moat oparty na infrastrukturze płatniczej i efekcie sieciowym — praktycznie niemożliwy do zduplikowania. Ryzyko 1-2 lata: regulacje interchange (presja Kongresu USA na opłaty kartowe) oraz ekspansja stablecoinów/CBDC jako alternatywy. Przy -12% od szczytu i solidnych fundamentach (ROE 59%, FCF margin 54%) — **stopniowe budowanie pozycji ma sens dla inwestora długoterminowego**.\n\n---\n\n**MA — OKAZJA:**\nMastercard, analogicznie do Visy, ma duopol na globalnych płatnościach kartowych — moat nienaruszony. Uwaga na D/E 2.82 (dług wyższy niż u Visay), choć przy FCF margin 50% jest to obsługiwalne. Główne ryzyko identyczne jak V — regulacje i krypto. Przy ROE 206% (kapitał pracuje wyjątkowo efektywnie) i -17% od szczytu — **okazja porównywalna z V**, nieco wyższe ryzyko przez lewar finansowy.\n\n---\n\n> ⚠️ **Zastrzeżenie:** Powyższa analiza ma wyłącznie charakter edukacyjny i informacyjny. Nie stanowi rekomendacji inwestycyjnej w rozumieniu przepisów prawa. Wszystkie decyzje inwestycyjne podejmujesz na własne ryzyko. Wyniki historyczne nie gwarantują przyszłych zysków. Inwestowanie wiąże się z ryzykiem utraty kapitału.",
+    "markdown": "# Analiza Swing Trade — 20.05.2026\n\n---\n\n## CZĘŚĆ 1: Weryfikacja sygnałów RSI Dywergencji\n\n### 1.1 Kontekst rynkowy\n\nVIX na poziomie 18.07 wskazuje na spokój na rynku, ale makro jest skomplikowane — konflikt USA-Iran winduje ropę (WTI 103 USD), rentowności obligacji rosną (10Y: 4.67%), co ciąży akcjom wzrostowym. Market Breadth (miara szerokości rynku — procent spółek powyżej MA50) wynosi **47% — strefa neutralna**, co oznacza selektywne podejście: graj tylko najsilniejsze setupy. SPY i QQQ mają RSI ~63-67 — korekta wciąż możliwa, nie jest to moment na agresywne wchodzenie w długie pozycje.\n\n---\n\n### 1.2 Ocena sygnałów\n\n#### [1] ACN — **NIEGRYWALNY**\n\n**Za:**\n- Wolumen 2. dołka niższy o 39% (vol_ratio ~0.61) — silne potwierdzenie wyczerpania sprzedaży ✅\n- Insiderzy kupują (20 buy vs 0 sell) — smart money potwierdza ✅\n- Potwierdzenie: TAK — bar po dołku zamknął wyżej ✅\n- R:R 5.03x — atrakcyjny stosunek zysku do ryzyka ✅\n- RSI przy 1. dołku < 30 — głęboka wyprzedaż ✅\n\n**Przeciw:**\n- **Earnings 18 czerwca 2026** — to tylko ~29 dni, ryzyko binarne (gwałtowny ruch na wynikach) ⚠️\n- Swieca 2. dołka: **Bearish close** — zamknięcie blisko dołka sesji, słaby sygnał popytowy ❌\n- Weekly RSI: 35.2 — tygodniowy trend słaby/neutralny, brak wsparcia ze strony wyższego interwału ❌\n- Cena (176.80) jest **poniżej MA50 (187.96) o ~6% i poniżej MA100 (217.99) o ~19%** — brak wsparcia technicznych średnich ❌\n- Aktualne RSI: 47.15 — już odbicie nastąpiło, nie kupujesz na dnie ❌\n- Wyniki za <30 dni = ryzyko binarne nie do zarządzania w swing trade ❌\n\n**Decyzja:** Mimo silnych sygnałów od insiderów i wolumenu, **nie gram**. Bearish close na 2. dołku, słaby weekly trend i zbliżające się wyniki (18 czerwca) tworzą zbyt duże ryzyko binarne dla horyzontu 1-2 tygodnie. Cena już odbiła — entry na 176.80 przy aktualnym kursie 176.80 to wejście w środek pozycji bez konfirmacji.\n\n---\n\n**Podsumowanie sekcji 1.2:** Z 1 dostępnego sygnału — **0 warto grać**. Jedyny sygnał (ACN) ma zbyt wiele czynników osłabiających: bearish close na 2. dołku, wyniki za niecałe 30 dni i brak wsparcia tygodniowego trendu. Przy neutralnym breadth (47%) selekcja musi być rygorystyczna.\n\n---\n\n## CZĘŚĆ 2: Niezależne rekomendacje swing trade\n\n### Skanowanie raportu pod kątem setupów\n\nNa podstawie danych ETF i kontekstu makro identyfikuję następujące okazje:\n\n| ETF | RSI | vs MA50 | 20d | Uwagi |\n|-----|-----|---------|-----|-------|\n| **XLE** | 65.7 | +5.2% | +8.4% | Ropa droga, momentum silne |\n| **XLB** | 33.7 | -3.1% | -5.4% | Głęboka wyprzedaż, RSI < 35 |\n| **TLT** | 27.6 | -3.7% | -4.3% | Ekstremalna wyprzedaż, ryzyko |\n| **SMH** | 60.9 | +18.8% | +14.1% | Za daleko od MA50, za wysokie RSI |\n| **GLD** | 36.5 | -4.8% | -5.5% | Złoto pod presją rosnących rentowności |\n\n---\n\n### Setup 1: XLE — Energia / Ropa\n\n```\nTICKER: XLE\nKIERUNEK: Long\nTEZA: Ropa WTI na 103 USD przy konflikcie USA-Iran \n      (tankowce opuszczają Hormuz, niepewność dostaw). \n      XLE w silnym uptrendzie, korekta do MA50 możliwa, \n      ale momentum wspierane makro. RSI 65.7 — nie jest \n      wykupiony, wolumen poniżej normy (0.8x) = zdrowa \n      konsolidacja. Sektor z najsilniejszą relatywną siłą \n      (+5.2pp vs SPY w 20 dniach).\nENTRY: 61.29 (aktualna cena z raportu)\nSTOP LOSS: 58.26 (MA50 — poziom wsparcia śr. 50-sesyjnej) \n           | -5.0% od entry\nTARGET 1: 66.50 (+8.5% od entry) | R:R: 1.7x\nPOZYCJA: 1% ryzyka / 5.0% stop = 20% portfela\nHORYZONT: 7-14 dni\nRYZYKA: Szybkie porozumienie USA-Iran = gwałtowny \n        spadek ropy; RSI bliski 65 = potencjalna korekta; \n        rynek USA aktualnie zamknięty — luka przy otwarciu\nPEWNOSC: Srednia\n```\n\n> **Uwaga:** XLE jest najsilniejszym sektorem z potwierdzeniem makro (Iran, ropa powyżej 100 USD). Ryzyko odwrócenia przy \"Iran deal\" jest realne — nagłówki Reutersa sugerują, że Trump/Vance rozmawiają o zakończeniu konfliktu. Ustaw alert na nagłówki.\n\n---\n\n### Setup 2: XLB — Materiały podstawowe (odbicie od wyprzedania)\n\n```\nTICKER: XLB\nKIERUNEK: Long\nTEZA: XLB z RSI 33.7 — blisko strefy głębokiej wyprzedaży \n      (<35). Sektor materiałów po korekcie -5.4% w 20 dniach, \n      cena poniżej MA50 o 3.1%. Przy stabilizacji rynku \n      (breadth 47%) sektor wrażliwy na odreagowanie. \n      Setup: odbicie od wyprzedania w sektorze cyklicznym.\nENTRY: 49.04 (aktualna cena z raportu)\nSTOP LOSS: 47.50 (poniżej ostatnich dołków) | -3.1% od entry\nTARGET 1: 50.61 (MA50 — cel techniczny) | +3.2% | R:R: 1.0x\nTARGET 2: 52.00 (+6.0%) | R:R: 1.9x\nPOZYCJA: 1% ryzyka / 3.1% stop = 32% portfela \n         (ogranicz do max 15% przy breadth neutralnym)\nHORYZONT: 7-10 dni\nRYZYKA: Rosnące rentowności (4.67%) ciążą sektorom \n        wrażliwym na koszty; breadth 47% = rynek nie \n        pędzi do góry; brak katalizatora fundamentalnego; \n        R:R do TARGET 1 słaby (1.0x)\nPEWNOSC: Spekulacyjna\n```\n\n> **Uwaga:** Ten setup jest **spekulacyjny** — gram wyłącznie z bardzo małą pozycją i tylko jeśli następna sesja otworzy się z zielonym wolumenem powyżej normy. Bez konfirmacji — odpuszczam.\n\n---\n\n### Setup 3: TLT — Długoterminowe obligacje USA (kontrariański)\n\n```\nTICKER: TLT\nKIERUNEK: Long (kontrariański)\nTEZA: RSI 27.6 — strefa ekstremalnej wyprzedaży \n      (historycznie WR ~67% przy RSI<30). TLT -4.3% \n      w 20 dniach, wolumen 1.5x normy = kapitulacja \n      sprzedających. Przy ewentualnym \"Iran deal\" \n      rentowności mogą się cofnąć, co wzmocni TLT. \n      Trade kontrariański — idziesz pod prąd trendu.\nENTRY: 83.02 (aktualna cena z raportu)\nSTOP LOSS: 81.00 (poniżej psychologicznego wsparcia) \n           | -2.4% od entry\nTARGET 1: 86.22 (MA50) | +3.9% | R:R: 1.6x\nPOZYCJA: 1% ryzyka / 2.4% stop = 42% portfela \n         (ogranicz do max 10% — to trade kontrariański)\nHORYZONT: 5-10 dni\nRYZYKA: Inflacja i wyższe rentowności to trend \n        strukturalny — TLT może kontynuować spadki; \n        G7 naciska na działania fiskalne; brak odwrócenia \n        polityki Fed; to trade \"łapania spadającego noża\"\nPEWNOSC: Spekulacyjna\n```\n\n> **Uwaga krytyczna:** TLT jest **najsłabszym** setupem ze względu na kontekst makro — rosnące rentowności (4.67%), twarde dane o inflacji i brak pivot Fed. Gram **tylko** z minimalną pozycją (5-8% portfela) i tylko jeśli pojawi się nagłówek o postępach w Iran deal lub gołębi komentarz Fed. To bardziej \"alert do obserwacji\" niż aktywna rekomendacja.\n\n---\n\n## CZĘŚĆ 3: Tabela danych strukturyzowanych\n\n```\nTABELA_REKOMENDACJI:\nTICKER | KIERUNEK | ENTRY | STOP | TARGET1 | RR | PEWNOSC | TEZA\nXLE | Long | 61.29 | 58.26 | 66.50 | 1.7 | Srednia | Ropa 103 USD, Iran konflikt, silne momentum sektora\nXLB | Long | 49.04 | 47.50 | 50.61 | 1.0 | Spekulacyjna | RSI 33.7, odbicie od wyprzedania, cel MA50\nTLT | Long | 83.02 | 81.00 | 86.22 | 1.6 | Spekulacyjna | RSI 27.6 ekstremalna wyprzedaz, kontrarian\n---KONIEC_TABELI---\n```\n\n---\n\n## CZĘŚĆ 4: Fundamentalne okazje — komentarz long-term\n\n**MSFT — OKAZJA**: Microsoft posiada jeden z najtrwalszych moatów (trwałej przewagi konkurencyjnej) w historii technologii — Azure rośnie +18% rocznie, Copilot integruje AI w ekosystem O365 i GitHub, PEG 0.8 przy -25% przecenie to historycznie atrakcyjna wycena. Główne ryzyko na 1-2 lata to regulacje antytrustowe (szczególnie w UE) oraz spowolnienie wydatków korporacyjnych na cloud jeśli recesja się zmaterializuje. Przy 25% przecenie, FCF margin 25%, ROE 33% i PEG <1 — to klasyczna okazja do akumulacji na 7+ lat, nie strukturalny problem.\n\n**INTU — OKAZJA**: Intuit ma ekstremalnie silny moat poprzez efekt sieci (TurboTax, QuickBooks, Credit Karma) — przełączenie kosztów dla małych firm jest bardzo wysokie, co chroni marże (80% gross margin). Główne ryzyko: IRS rozważa darmowe narzędzia do rozliczeń podatkowych, co bezpośrednio zagraża segmentowi TurboTax (ok. 30% przychodów); to ryzyko regulacyjne, nie cykliczne. Przecena -51% od szczytu przy PEG 0.6 i FCF margin 32% to potencjalnie wyjątkowa okazja — ale ryzyko IRS Free File monitoruj uważnie.\n\n**ADBE — OSTROŻNIE**: Adobe ma fenomenalny moat w narzędziach kreatywnych (Photoshop, Premiere, Figma przejęcie zablokowane) i gross margin 89% potwierdza siłę modelu subskrypcyjnego. Czerwona flaga: **insiderzy SPRZEDAJĄ** (15 sell vs 5 buy) przy -40% przecenie — to niepokojący sygnał, że osoby z najlepszą wiedzą o spółce nie widzą tu okazji. Analitycy mówią \"Trzymaj\", nie \"Kupuj\" — czekaj na stabilizację insiderskich zakupów lub wyraźny sygnał odwrócenia trendu zanim budujesz pozycję.\n\n**V — OKAZJA**: Visa to duopol płatniczy z ROE 59%, FCF margin 54% i rosnącym EPS przez 5 lat z rzędu — moat niemal nie do przebicia. Ryzyko: regulacje interchange fees w USA/EU oraz rosnąca konkurencja crypto/stablecoins w płatnościach transgranicznych (długoterminowe). Przecena zaledwie -12% od szczytu to bardziej \"uczciwa cena\" niż głęboka okazja — akumuluj przy dalszych słabościach do poziomów RSI <40, obecna wycena P/E 28 jest uczciwa, nie \"tania\".\n\n**MA — CZEKAJ**: Mastercard ma identyczny moat co Visa (duopol, sieć efektów), ROE 206% wynika ze struktury kapitałowej (D/E 2.82 — wysoka dźwignia finansowa), co przy rosnących stopach procentowych podnosi koszty obsługi długu. Główne ryzyko 1-2 lata: rosnące stopy + potencjalne regulacje opłat interchange. Przecena -17% przy D/E 2.82 i środowisku wysokich stóp — **czekaj** na pivot Fed lub głębszą korektę do P/E ~22-24 zanim budujesz długoterminową pozycję.\n\n---\n\n> ⚠️ **Zastrzeżenie:** Powyższy materiał ma charakter wyłącznie edukacyjny i jest analizą techniczną, nie rekomendacją inwestycyjną. Inwestowanie wiąże się z ryzykiem utraty kapitału. Decyzje inwestycyjne podejmujesz na własną odpowiedzialność. Przeszłe wyniki nie gwarantują przyszłych rezultatów.",
     "recommendations": [
+      {
+        "ticker": "XLE",
+        "direction": "Long",
+        "entry": "61.29",
+        "stop": "58.26",
+        "target": "66.50",
+        "rr": "1.7",
+        "confidence": "Srednia",
+        "teza": "Ropa 103 USD, Iran konflikt, silne momentum sektora"
+      },
+      {
+        "ticker": "XLB",
+        "direction": "Long",
+        "entry": "49.04",
+        "stop": "47.50",
+        "target": "50.61",
+        "rr": "1.0",
+        "confidence": "Spekulacyjna",
+        "teza": "RSI 33.7, odbicie od wyprzedania, cel MA50"
+      },
       {
         "ticker": "TLT",
         "direction": "Long",
         "entry": "83.02",
-        "stop": "80.50",
+        "stop": "81.00",
         "target": "86.22",
-        "rr": "1.3",
-        "confidence": "Spekulacyjna",
-        "teza": "RSI 27.6 wyprzedany, odbicie przy de-eskalacji Iran"
-      },
-      {
-        "ticker": "BTC/USD",
-        "direction": "Long",
-        "entry": "77189.97",
-        "stop": "73000.00",
-        "target": "84000.00",
         "rr": "1.6",
         "confidence": "Spekulacyjna",
-        "teza": "Fear 27 + hash rate rosnacy = akumulacja smart money"
-      },
-      {
-        "ticker": "XLK",
-        "direction": "Long",
-        "entry": "165.00",
-        "stop": "159.00",
-        "target": "173.24",
-        "rr": "2.3",
-        "confidence": "Srednia",
-        "teza": "Najsilniejszy sektor, entry po pullbacku RSI<55"
+        "teza": "RSI 27.6 ekstremalna wyprzedaz, kontrarian"
       }
     ]
   },
@@ -500,8 +503,8 @@
         "analyst_count": 46,
         "next_earnings": "11 Jun 2026",
         "headlines": [
-          "Adobe and Salesforce Stocks Trade Up, What You Need To Know",
-          "BofA Just Reinstated Zeta as a Buy With a $24 Price Target. Is AdTech Heating Up..."
+          "A 5.18% Warning and a Trillion-Dollar Earnings Call Tonight",
+          "Adobe and Salesforce Stocks Trade Up, What You Need To Know"
         ],
         "insider": "Insiderzy SPRZEDAJA (15 sell vs 5 buy)"
       }
@@ -587,7 +590,7 @@
         "low_52w": 480.5,
         "high_52w_date": "2025-08-22",
         "market_cap": 447402.72,
-        "dividend_yield": 0.6880325826924217,
+        "dividend_yield": 0.6964178507104263,
         "beta": 0.76142484,
         "eps_series": [
           16.521,
