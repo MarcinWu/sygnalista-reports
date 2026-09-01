@@ -1,184 +1,36 @@
 {
   "schema_version": 1,
   "scan": {
-    "time_iso": "2026-09-01T00:02",
-    "time_pl": "01.09.2026 00:02",
+    "time_iso": "2026-09-01T22:46",
+    "time_pl": "01.09.2026 22:46",
     "date": "2026-09-01",
     "interval": "1D",
     "rsi_period": 14,
     "data_source": "Twelve Data + stooq + Finnhub + Yahoo Finance",
-    "total_signals": 2
+    "total_signals": 0
   },
   "market": {
-    "vix": 14.92,
-    "breadth_sp500_above_ma50_pct": 49.5
+    "vix": null,
+    "breadth_sp500_above_ma50_pct": 45.5
   },
   "btc_onchain": {
     "fear_greed": 69,
     "fear_greed_label": "Greed",
-    "hash_rate_eh": 1019,
-    "hash_rate_30d_chg": 16.9,
-    "tx_count": 879309,
-    "tx_30d_chg": 26.5
+    "hash_rate_eh": 951,
+    "hash_rate_30d_chg": 3.8,
+    "tx_count": 697056,
+    "tx_30d_chg": -8.1
   },
-  "signals": [
-    {
-      "ticker": "LIN",
-      "group": "USA S&P500",
-      "tier_report": "DO_OBSERWACJI",
-      "tier_journal": "T3",
-      "divergence": {
-        "date_prev": "2026-07-31",
-        "price_prev": 478.38,
-        "rsi_prev": 29.71,
-        "date_last": "2026-08-17",
-        "price_last": 474.33,
-        "rsi_last": 33.53,
-        "current_price": 489.58,
-        "current_rsi": 48.23,
-        "macd_divergence": false,
-        "vol_ratio": 0.3343,
-        "vol_vs_avg20": 1.0364,
-        "candle_pattern": "Bearish close (zamkniecie blisko dolka sesji — slaby sygnał)",
-        "trough_low": 473.049988,
-        "confirmed": true
-      },
-      "estimate": {
-        "target_price": 492.46,
-        "t1_target": 492.46,
-        "t2_target": 517.083,
-        "atr_for_trail": 7.0907,
-        "pct_upside": 0.6,
-        "pct_upside_t2": 5.6,
-        "confidence": 48,
-        "conf_label": "weak",
-        "conf_color": "#c0392b",
-        "rr_ratio": 0.15,
-        "stop_loss": 470.4258,
-        "position_sizes": {
-          "0.5%": 12.8,
-          "1%": 25.6,
-          "2%": 51.1,
-          "stop_pct": 3.9
-        },
-        "ma50": 504.17,
-        "ma100": 505.04,
-        "ma200": 479.3,
-        "weekly_rsi": 48.0,
-        "weekly_rsi_down": false,
-        "earnings_warning": false,
-        "analyst_conflict": false
-      },
-      "fundamentals": {
-        "rating_label": "buy",
-        "rating_color": "#27ae60",
-        "analyst_count": 30,
-        "next_earnings": "29 Apr 2027",
-        "headlines": [
-          "Dividend Champion, Contender, And Challenger Highlights: Week August 30",
-          "If You Invested $100 In Linde Stock 10 Years Ago, You Would Have This Much Today"
-        ],
-        "insider": "MIXED (8 buy, 12 sell)"
-      },
-      "ai_analysis": {
-        "verdict": "NIEGRYWALNY",
-        "summary": "Za: - Wolumen 2. dołka niższy o 66% (vol_ratio ~0.34) — bardzo silne wyczerpanie sprzedaży ✅ - RSI dołka 1 = 29.71 (głęboka wyprzedaż) ✅ - Potwierdzenie: TAK (bar po dołku zamknął wyżej) ✅ - Wyniki dopiero 29 Apr 2027 — brak ryzyka binarnego ✅ Przeciw: - R:R = 0.15x — katastrofalny stosunek ryzyka do zysku. Cel +0.6%, stop 3.9% od entry. To nie jest swing trade, to ruletka z ujemną wartością oczekiwaną ❌ - Cena poniżej MA50 (504) i MA100 (505) — setup pod oporem, nie na wsparciu ❌ - Weekly RSI = 48.0 — neutralny, brak potwierdzenia tygodniowego trendu wzrostowego ❌ - Insiderzy: MIXED (8 buy, 12 sell) — lekka przewaga sprzedaży ❌ - Siła sygnału: 48/100 — słaby ❌ Decyzja: Nie gramy. Nawet świetna dywergencja RSI z doskonałym wolumenem jest bezużyteczna przy R:R = 0.15. Cena 489.58 jest zbyt daleko od realnego celu (492.46), który leży tuż poniżej silnego oporu MA50/MA100 przy ~504. To nie jest setup do gry."
-      }
-    },
-    {
-      "ticker": "DOT/USD",
-      "group": "Krypto",
-      "tier_report": "HIDDEN",
-      "tier_journal": "T3",
-      "divergence": {
-        "date_prev": "2026-07-31",
-        "price_prev": 0.759,
-        "rsi_prev": 31.45,
-        "date_last": "2026-08-18",
-        "price_last": 0.752,
-        "rsi_last": 35.12,
-        "current_price": 0.845,
-        "current_rsi": 51.26,
-        "macd_divergence": true,
-        "vol_ratio": null,
-        "vol_vs_avg20": null,
-        "candle_pattern": "Hammer/Bullish rejection (zamkniecie w gornej 35%, dlugi dolny cien)",
-        "trough_low": 0.723,
-        "confirmed": true
-      },
-      "estimate": {
-        "target_price": 0.857,
-        "t1_target": 0.857,
-        "t2_target": 1.022,
-        "atr_for_trail": 0.059,
-        "pct_upside": 1.4,
-        "pct_upside_t2": 20.9,
-        "confidence": 31,
-        "conf_label": "weak",
-        "conf_color": "#c0392b",
-        "rr_ratio": 0.2,
-        "stop_loss": 0.7859,
-        "position_sizes": {
-          "0.5%": 7.1,
-          "1%": 14.3,
-          "2%": 28.6,
-          "stop_pct": 7.0
-        },
-        "ma50": 0.82,
-        "ma100": 0.89,
-        "ma200": 1.12,
-        "weekly_rsi": 37.0,
-        "weekly_rsi_down": false,
-        "earnings_warning": false,
-        "analyst_conflict": false
-      },
-      "fundamentals": null,
-      "ai_analysis": {
-        "verdict": "NIEGRYWALNY",
-        "summary": "Za: - Swieca 2. dołka: Hammer/Bullish rejection ✅ - Potwierdzenie: TAK ✅ - MACD: TAK ✅ - Wolumen 2. dołka niższy (brak danych o %) — domyślnie neutralnie Przeciw: - R:R = 0.2x — równie fatalne jak LIN. Cel +1.4%, stop 7% od entry ❌ - Siła sygnału: 31/100 — bardzo słaby ❌ - Weekly RSI = 37.0 — słaby/neutralny, trend tygodniowy przeciw ❌ - MA100 = 0.89, cena = 0.845 — cena poniżej MA100, czyli poważny opór nad głową ❌ - DOT fundamentalnie słaby altcoin — w środowisku Fear & Greed = 69 (Greed) BTC już wyprzedził altcoiny, DOT na 0.845 vs ATH sugeruje kapitulację projektu ❌ - Brak wsparcia on-chain specyficznego dla DOT w raporcie ❌ Decyzja: Nie gramy. R:R dyskwalifikuje natychmiastowo. DOT to jeden ze słabszych L1 (Layer 1 — blockchain pierwszej warstwy) w tym cyklu, trend tygodniowy negatywny. Nawet dobra świeca nie ratuje fatального setup."
-      }
-    }
-  ],
+  "signals": [],
   "claude_analysis": {
-    "markdown": "# Analiza Swing Trade — 01.09.2026\n\n---\n\n## CZĘŚĆ 1: Weryfikacja top 3 sygnałów\n\n### 1.1 Kontekst rynkowy\n\nVIX na 14.92 (niski, rynek spokojny), ale SPY i QQQ mają RSI ~53-54 — neutralne, bez wyraźnego impulsu. **Market Breadth = 50%** (neutralna strefa), co oznacza selektywne podejście: nie wszystkie sygnały bycze będą działać. Makro daje mieszane sygnały: rosnące ceny ropy (ataki na Bliskim Wschodzie), wzrost rentowności 10Y do 4.76%, plus Citadel ostrzega przed ryzykiem we wrześniu — historycznie najtrudniejszym miesiącem dla akcji. **Moment neutralny — selektywność wymagana, nie czas na agresywne pozycje.**\n\n---\n\n### 1.2 Ocena sygnałów\n\n#### [1] LIN — **NIEGRYWALNY**\n\n**Za:**\n- Wolumen 2. dołka niższy o 66% (vol_ratio ~0.34) — bardzo silne wyczerpanie sprzedaży ✅\n- RSI dołka 1 = 29.71 (głęboka wyprzedaż) ✅\n- Potwierdzenie: TAK (bar po dołku zamknął wyżej) ✅\n- Wyniki dopiero 29 Apr 2027 — brak ryzyka binarnego ✅\n\n**Przeciw:**\n- **R:R = 0.15x** — katastrofalny stosunek ryzyka do zysku. Cel +0.6%, stop 3.9% od entry. To nie jest swing trade, to ruletka z ujemną wartością oczekiwaną ❌\n- Cena **poniżej MA50 (504) i MA100 (505)** — setup pod oporem, nie na wsparciu ❌\n- Weekly RSI = 48.0 — neutralny, brak potwierdzenia tygodniowego trendu wzrostowego ❌\n- Insiderzy: MIXED (8 buy, 12 sell) — lekka przewaga sprzedaży ❌\n- Siła sygnału: 48/100 — słaby ❌\n\n**Decyzja:** Nie gramy. Nawet świetna dywergencja RSI z doskonałym wolumenem jest bezużyteczna przy R:R = 0.15. Cena 489.58 jest zbyt daleko od realnego celu (492.46), który leży tuż poniżej silnego oporu MA50/MA100 przy ~504. To nie jest setup do gry.\n\n---\n\n#### [2] DOT/USD — **NIEGRYWALNY**\n\n**Za:**\n- Swieca 2. dołka: Hammer/Bullish rejection ✅\n- Potwierdzenie: TAK ✅\n- MACD: TAK ✅\n- Wolumen 2. dołka niższy (brak danych o %) — domyślnie neutralnie\n\n**Przeciw:**\n- **R:R = 0.2x** — równie fatalne jak LIN. Cel +1.4%, stop 7% od entry ❌\n- Siła sygnału: **31/100** — bardzo słaby ❌\n- Weekly RSI = 37.0 — słaby/neutralny, trend tygodniowy przeciw ❌\n- **MA100 = 0.89, cena = 0.845** — cena poniżej MA100, czyli poważny opór nad głową ❌\n- DOT fundamentalnie słaby altcoin — w środowisku Fear & Greed = 69 (Greed) BTC już wyprzedził altcoiny, DOT na 0.845 vs ATH sugeruje kapitulację projektu ❌\n- Brak wsparcia on-chain specyficznego dla DOT w raporcie ❌\n\n**Decyzja:** Nie gramy. R:R dyskwalifikuje natychmiastowo. DOT to jeden ze słabszych L1 (Layer 1 — blockchain pierwszej warstwy) w tym cyklu, trend tygodniowy negatywny. Nawet dobra świeca nie ratuje fatального setup.\n\n---\n\n> **Podsumowanie sekcji 1.2:** Z 2 dostępnych sygnałów **0 warto zagrać**. Oba mają R:R poniżej 0.5x, co dyskwalifikuje je niezależnie od jakości dywergencji. LIN ma świetne wyczerpanie wolumenowe, ale cel jest za blisko — gdyby stop był szerszy a cel przy MA50, setup byłby inny. Na ten moment: pass.\n\n---\n\n## CZĘŚĆ 2: Niezależne rekomendacje swing trade\n\n> **Kontekst decyzyjny:** Breadth 50% (neutralny), wrzesień historycznie słaby, rentowności 10Y wysokie (4.76%), rosnące ceny ropy. Szukam sektorów z realnym makro-wsparciem i czystym setupem technicznym.\n\nAnaliza ETF-ów wskazuje jasno dwa liderzy: **XLE** (energia, RSI 67.9 — już rozgrzany) i **XLV** (healthcare, RSI 55.4 — zdrowy). Złoto i srebro (GLD/SLV) z momentum. XLI i ITA — mocno słabe, omijamy. XLU — wyprzedany ale bez katalizatora.\n\n**XLE odpadа** — RSI 67.9, aż 9.6% powyżej MA50. Za drogi na wejście Long teraz.\n\n---\n\n```\nTICKER: XLV\nKIERUNEK: Long\nTEZA: Healthcare outperformuje SPY o +5.8pp w ostatnich 20 dniach przy neutralnym \n      rynku. Trump planuje ogłoszenie umów cenowych z producentami leków — może być \n      krótkoterminowy katalizator pozytywny dla sektora. RSI 55 z czystym setupem \n      powyżej MA50.\nENTRY: 170.54 (cena z raportu, wejście na otwarciu)\nSTOP LOSS: 164.17 (poziom MA50, -3.7% od entry)\nTARGET 1: 179.00 (+5.0% od entry) | R:R ~1.35\nPOZYCJA: 27% portfela (1% ryzyko / 3.7% stop)\nHORYZONT: 10-14 dni\nRYZYKA: Trump może ogłosić agresywne cięcia cen leków — negatywne dla sektora. \n         Wrzesień historycznie słaby. Breadth neutralny nie wspiera mocno.\nPEWNOSC: Średnia\n```\n\n---\n\n```\nTICKER: GLD\nKIERUNEK: Long\nTEZA: Złoto (4501 USD/oz) z silnym momentum: +9.2% w 20 dni, silniejsze od SPY \n      o +9.7pp. Makro idealne dla złota: napięcia na Bliskim Wschodzie (ataki \n      na Kharg Island — irański terminal naftowy), wysokie stopy procentowe \n      generują strach, a historycznie wrzesień to dobry miesiąc dla metali \n      szlachetnych. RSI 54 — nie przegrzany, jest przestrzeń do wzrostu.\nENTRY: 408.42 (cena z raportu)\nSTOP LOSS: 386.49 (poziom MA50, -5.4% od entry)\nTARGET 1: 430.00 (+5.3% od entry) | R:R ~0.98\nPOZYCJA: 19% portfela (1% ryzyko / 5.4% stop)\nHORYZONT: 10-14 dni\nRYZYKI: De-eskalacja na Bliskim Wschodzie mogłaby wyciągnąć kapitał z bezpiecznych \n         przystani. Umocnienie dolara przy jastrzębim FED. Złoto już mocno wzrosło \n         — część zysku może być już wyceniona.\nPEWNOSC: Średnia\n```\n\n---\n\n```\nTICKER: XLE\nKIERUNEK: Long\nTEZA: Ropa WTI na 86.62 USD z katalyzatorem geopolitycznym (ataki na Bliskim \n      Wschodzie, zagrożenie dla irańskiego eksportu przez Kharg Island). \n      XLE +9.3% w 20 dni, silniejszy od SPY o +9.9pp. Sektor energetyczny \n      w wyraźnej sile relatywnej — rotacja kapitału widoczna.\nENTRY: 63.96 (cena z raportu — wejście tylko przy pullbacku intraday do ~62.50-63.00, \n       NIE na otwarciu przy RSI 67.9)\nSTOP LOSS: 61.00 (poniżej ostatniego wsparcia, -4.6% od entry 63.00)\nTARGET 1: 67.00 (+6.3% od entry 63.00) | R:R ~1.37\nPOZYCJA: 22% portfela (1% ryzyko / 4.6% stop) — TYLKO przy pullback entry\nHORYZONT: 7-10 dni\nRYZYKA: RSI blisko wykupienia (67.9) — bez pullbacku NIE wchodzić. Nagłe \n         zawieszenie broni / dyplomacja mogłaby wyciąć ropę. XLE już +9.6% \n         powyżej MA50 — rozciągnięty technicznie.\nPEWNOSC: Spekulacyjna (zależna od realizacji pullbacku)\n```\n\n> ⚠️ **Uwaga do XLE:** To rekomendacja warunkowa — czekaj na cofnięcie do RSI ~55-58 przed wejściem. Przy RSI 67.9 i cenie 9.6% powyżej MA50 wejście na rynku to gonienie rozgrzanego pociągu. Jeśli pullback nie nadejdzie w 2-3 sesjach — odpuszczaj.\n\n---\n\n## CZĘŚĆ 3: Tabela danych strukturyzowanych\n\n```\nTABELA_REKOMENDACJI:\nTICKER | KIERUNEK | ENTRY | STOP | TARGET1 | RR | PEWNOSC | TEZA\nXLV | Long | 170.54 | 164.17 | 179.00 | 1.4 | Srednia | Healthcare outperformuje, Trump lek-deal katalizator\nGLD | Long | 408.42 | 386.49 | 430.00 | 1.0 | Srednia | Zloto momentum + geopolityka Bliski Wschod\nXLE | Long | 63.00 | 61.00 | 67.00 | 2.0 | Spekulacyjna | Ropa WTI wzrost, tylko przy pullback RSI<60\n---KONIEC_TABELI---\n```\n\n---\n\n## CZĘŚĆ 4: Fundamentalne okazje — komentarz long-term\n\n**ORCL — OKAZJA:** Oracle ma silny moat (przewagę konkurencyjną) dzięki dominacji w bazach danych korporacyjnych i szybko rosnącemu segmentowi cloud (OCI), który bezpośrednio korzysta z boomu AI — +17% wzrost przychodów to potwierdza. Główne ryzyko to wysoki dług (D/E = 3.01) przy stopach 4.76% — obsługa długu drożeje. Przecena 57% od szczytu przy PEG = 0.8 wygląda jak okazja na 7+ lat, ale insiderzy sprzedają (15 vs 5 buy) — warto poczekać na stabilizację lub kupować transzami.\n\n**ADBE — OSTROŻNIE:** Adobe ma wyjątkowy moat w narzędziach kreatywnych i marżę brutto 89% — to klasa światowa. Główne ryzyko to erozja modelu subskrypcyjnego przez generatywne AI (Midjourney, Sora, itp.) — Firefly może nie wystarczyć do obrony pozycji długoterminowej. Przecena 21% jest umiarkowana, PEG 1.4 nie jest tani — to nie jest oczywista okazja, raczej spółka z pytajnikiem nad modelem biznesowym w horyzoncie 5+ lat.\n\n**INTU — OKAZJA:** Intuit (TurboTax, QuickBooks, Credit Karma) ma silny moat dzięki efektowi przyzwyczajenia i danych finansowych milionów użytkowników — AI wbudowane w produkty wzmacnia pozycję, nie osłabia. Przecena 49% od szczytu przy PEG = 0.6 i D/E = 0.30 to fundamentalnie atrakcyjna wycena, a 42 analityków daje buy. Długoterminowo to jeden z najlepszych setupów w zestawieniu — warto akumulować przy dalszych korektach.\n\n**NFLX — CZEKAJ:** Netflix zbudował realny moat dzięki skali produkcji oryginalnych treści i globalnej bazie 300M+ subskrybentów — ROE 48% i rosnące FCF (21%) potwierdzają jakość biznesu. Ryzyko to rosnąca konkurencja (Disney+, Apple TV, Amazon) i presja na ARPU (średni przychód na użytkownika) w rynkach wschodzących. Przecena 36% przy PEG = 0.7 jest interesująca, ale spółka operuje przy niskich cenach (81$) — sprawdź czy to split akcji lub błąd danych, bo historyczna cena NFLX jest ~600-700$ — **zweryfikuj ticker/cenę przed inwestycją**.\n\n**GOOGL — OKAZJA:** Google ma jeden z najszerszych moatów na świecie: wyszukiwarka (90% rynku), YouTube, Google Cloud, Android i globalny ekosystem reklamowy. Wzrost przychodów +20% przy P/E = 17.3 i PEG = 0.2 to praktycznie free money na 7+ lat — 70 analityków daje buy. Główne ryzyko to regulacje antymonopolowe (DOJ) oraz AI-search (Perplexity, ChatGPT) podgryzające udział w wyszukiwaniu — realne, ale Google sam inwestuje mocno w Gemini. Przecena 17% to dobry moment na długoterminową akumulację.\n\n---\n\n> ⚠️ **Zastrzeżenie:** Powyższa analiza ma charakter wyłącznie edukacyjny i techniczny. Nie stanowi rekomendacji inwestycyjnej w rozumieniu przepisów prawa. Inwestowanie wiąże się z ryzykiem utraty kapitału. Decyzje inwestycyjne podejmujesz wyłącznie na własną odpowiedzialność.",
-    "recommendations": [
-      {
-        "ticker": "XLV",
-        "direction": "Long",
-        "entry": "170.54",
-        "stop": "164.17",
-        "target": "179.00",
-        "rr": "1.4",
-        "confidence": "Srednia",
-        "teza": "Healthcare outperformuje, Trump lek-deal katalizator"
-      },
-      {
-        "ticker": "GLD",
-        "direction": "Long",
-        "entry": "408.42",
-        "stop": "386.49",
-        "target": "430.00",
-        "rr": "1.0",
-        "confidence": "Srednia",
-        "teza": "Zloto momentum + geopolityka Bliski Wschod"
-      },
-      {
-        "ticker": "XLE",
-        "direction": "Long",
-        "entry": "63.00",
-        "stop": "61.00",
-        "target": "67.00",
-        "rr": "2.0",
-        "confidence": "Spekulacyjna",
-        "teza": "Ropa WTI wzrost, tylko przy pullback RSI<60"
-      }
-    ]
+    "markdown": null,
+    "recommendations": []
   },
   "fundamental_picks": [
     {
       "score": 87,
       "details": [
-        "Przecena 57% od szczytu (+20)",
+        "Przecena 59% od szczytu (+20)",
         "EPS 4/4 lat wzrost, CAGR +25% (+20)",
         "ROE 50% (+15)",
         "FCF margin 22% (sr. 23%) (+10)",
@@ -186,7 +38,7 @@
         "Gross margin 66% (+10)",
         "PEG 0.8 (+5)"
       ],
-      "discount_pct": 56.9,
+      "discount_pct": 59.1,
       "metrics": {
         "pe": 26.4497,
         "roe": 50.38,
@@ -201,7 +53,7 @@
         "high_52w_date": "2025-09-10",
         "market_cap": 451945.88,
         "dividend_yield": 1.37634,
-        "beta": 1.7681805,
+        "beta": 1.764294,
         "eps_series": [
           5.8638,
           4.3416,
@@ -218,7 +70,7 @@
         ]
       },
       "ticker": "ORCL",
-      "current_price": 149.12,
+      "current_price": 141.32001,
       "fund": {
         "rating_label": null,
         "rating_color": null,
@@ -231,7 +83,7 @@
     {
       "score": 84,
       "details": [
-        "Przecena 21% od szczytu (+16)",
+        "Przecena 23% od szczytu (+16)",
         "EPS 4/4 lat wzrost, CAGR +14% (+15)",
         "ROE 62% (+15)",
         "FCF margin 41% (sr. 40%) (+15)",
@@ -240,9 +92,9 @@
         "D/E 0.58 (+3)",
         "PEG 1.4 (+3)"
       ],
-      "discount_pct": 21.1,
+      "discount_pct": 22.9,
       "metrics": {
-        "pe": 16.0567,
+        "pe": 16.0996,
         "roe": 62.39,
         "rev_growth": 11.49,
         "eps_growth": 11.83,
@@ -253,9 +105,9 @@
         "high_52w": 370.86,
         "low_52w": 190.12,
         "high_52w_date": "2025-09-18",
-        "market_cap": 116073.97,
+        "market_cap": 116384.03,
         "dividend_yield": null,
-        "beta": 1.415778,
+        "beta": 1.4133427,
         "eps_series": [
           16.6979,
           12.3556,
@@ -272,7 +124,7 @@
         ]
       },
       "ticker": "ADBE",
-      "current_price": 292.79001,
+      "current_price": 286.079987,
       "fund": {
         "rating_label": null,
         "rating_color": null,
@@ -285,7 +137,7 @@
     {
       "score": 82,
       "details": [
-        "Przecena 49% od szczytu (+20)",
+        "Przecena 51% od szczytu (+20)",
         "EPS 3/4 lat wzrost, CAGR +16% (+10)",
         "ROE 23% (+10)",
         "FCF margin 32% (sr. 31%) (+15)",
@@ -294,7 +146,7 @@
         "D/E 0.30 (+5)",
         "PEG 0.6 (+5)"
       ],
-      "discount_pct": 49.0,
+      "discount_pct": 51.1,
       "metrics": {
         "pe": 19.9729,
         "roe": 23.29,
@@ -309,7 +161,7 @@
         "high_52w_date": "2025-09-22",
         "market_cap": 91555.56,
         "dividend_yield": 0.63822,
-        "beta": 0.98274463,
+        "beta": 0.98066926,
         "eps_series": [
           13.6714,
           10.4331,
@@ -326,15 +178,15 @@
         ]
       },
       "ticker": "INTU",
-      "current_price": 359.29999,
+      "current_price": 344.92999,
       "fund": {
         "rating_label": "buy",
         "rating_color": "#27ae60",
         "analyst_count": 42,
         "next_earnings": "18 May 2027",
         "headlines": [
-          "Tech Rallies In September, I'm Adding Software And Chip Stocks",
-          "Dividend Announcements: August 22-28, 2026"
+          "Intuit's Credit Karma Expands Reach: Can Double-Digit Growth Last?",
+          "2 Software Stocks Showing the Way Out of the SaaSpocalypse"
         ],
         "insider": "SELLING (14 sell vs 6 buy)"
       }
@@ -351,7 +203,7 @@
         "D/E 0.47 (+4)",
         "PEG 0.7 (+5)"
       ],
-      "discount_pct": 36.0,
+      "discount_pct": 36.2,
       "metrics": {
         "pe": 23.4437,
         "roe": 47.96,
@@ -366,7 +218,7 @@
         "high_52w_date": "2025-09-05",
         "market_cap": 319998.78,
         "dividend_yield": null,
-        "beta": 1.6130129,
+        "beta": 1.6099823,
         "eps_series": [
           2.528,
           1.9832,
@@ -383,7 +235,7 @@
         ]
       },
       "ticker": "NFLX",
-      "current_price": 81.050003,
+      "current_price": 80.81,
       "fund": {
         "rating_label": null,
         "rating_color": null,
@@ -396,7 +248,7 @@
     {
       "score": 77,
       "details": [
-        "Przecena 17% od szczytu (+12)",
+        "Przecena 18% od szczytu (+12)",
         "EPS 3/4 lat wzrost, CAGR +18% (+10)",
         "ROE 51% (+15)",
         "FCF margin 18% (sr. 22%) (+10)",
@@ -405,7 +257,7 @@
         "D/E 0.15 (+5)",
         "PEG 0.2 (+5)"
       ],
-      "discount_pct": 17.0,
+      "discount_pct": 18.0,
       "metrics": {
         "pe": 17.3095,
         "roe": 50.839999999999996,
@@ -420,7 +272,7 @@
         "high_52w_date": "2026-05-18",
         "market_cap": 4227055,
         "dividend_yield": null,
-        "beta": 1.222929,
+        "beta": 1.2225188,
         "eps_series": [
           10.807,
           8.0435,
@@ -437,24 +289,24 @@
         ]
       },
       "ticker": "GOOGL",
-      "current_price": 339.35001,
+      "current_price": 335.019989,
       "fund": {
         "rating_label": "buy",
         "rating_color": "#27ae60",
         "analyst_count": 70,
         "next_earnings": "27 Apr 2027",
         "headlines": [
-          "Top dow jones movers in Monday's session",
-          "Warren Buffett Set Berkshire Hathaway Up for Years: Top 5 Stocks Yield $589 Mill..."
+          "Stay informed with the top movers within the dow jones index on Tuesday.",
+          "EXCLUSIVE: DeepSeek Was Just the Start. New ETF Targets China’s AI Tigers in a '..."
         ],
         "insider": "SELLING (17 sell vs 3 buy)"
       }
     }
   ],
   "performance": {
-    "live_summary": "T1: 11 sygnalow | WR 55% | avg +0.6% &nbsp;|&nbsp; T2: 14 sygnalow | WR 57% | avg +2.6% &nbsp;|&nbsp; Claude: 69 sygnalow | WR 58% | avg +0.6%",
+    "live_summary": "T1: 11 sygnalow | WR 55% | avg +0.6% &nbsp;|&nbsp; T2: 14 sygnalow | WR 57% | avg +2.6% &nbsp;|&nbsp; Claude: 70 sygnalow | WR 57% | avg +0.5%",
     "full_stats": {
-      "overall_resolved": 127,
+      "overall_resolved": 128,
       "t1": {
         "count": 11,
         "wr": 54.5,
@@ -507,12 +359,12 @@
         ]
       },
       "claude": {
-        "count": 69,
-        "wr": 58.0,
-        "avg_pnl": 0.59,
-        "pf": 1.46,
+        "count": 70,
+        "wr": 57.1,
+        "avg_pnl": 0.54,
+        "pf": 1.41,
         "targets": 20,
-        "stops": 19,
+        "stops": 20,
         "timeouts": 30,
         "best": [
           "XLE",
