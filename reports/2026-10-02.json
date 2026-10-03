@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "scan": {
-    "time_iso": "2026-10-02T00:05",
-    "time_pl": "02.10.2026 00:05",
+    "time_iso": "2026-10-02T23:58",
+    "time_pl": "02.10.2026 23:58",
     "date": "2026-10-02",
     "interval": "1D",
     "rsi_period": 14,
@@ -11,15 +11,15 @@
   },
   "market": {
     "vix": null,
-    "breadth_sp500_above_ma50_pct": 22.9
+    "breadth_sp500_above_ma50_pct": 24.7
   },
   "btc_onchain": {
-    "fear_greed": 72,
+    "fear_greed": 67,
     "fear_greed_label": "Greed",
-    "hash_rate_eh": 931,
+    "hash_rate_eh": 898,
     "hash_rate_30d_chg": 4.8,
-    "tx_count": 603758,
-    "tx_30d_chg": -3.8
+    "tx_count": 535739,
+    "tx_30d_chg": -7.9
   },
   "signals": [],
   "claude_analysis": {
@@ -30,7 +30,7 @@
     {
       "score": 91,
       "details": [
-        "Przecena 60% od szczytu (+20)",
+        "Przecena 59% od szczytu (+20)",
         "EPS 4/4 lat wzrost, CAGR +23% (+20)",
         "ROE 23% (+10)",
         "FCF margin 40% (sr. 33%) (+15)",
@@ -39,9 +39,9 @@
         "D/E 0.40 (+4)",
         "PEG 0.8 (+5)"
       ],
-      "discount_pct": 59.8,
+      "discount_pct": 59.2,
       "metrics": {
-        "pe": 16.9756,
+        "pe": 16.3215,
         "roe": 23.419999999999998,
         "rev_growth": 13.9,
         "eps_growth": 20.37,
@@ -49,12 +49,12 @@
         "net_margin": null,
         "de_ratio": 0.4038,
         "current_ratio": 1.5065,
-        "high_52w": 703.96,
+        "high_52w": 689.17,
         "low_52w": 252.84,
-        "high_52w_date": "2025-09-29",
-        "market_cap": 77510.46,
+        "high_52w_date": "2025-10-27",
+        "market_cap": 74524.1,
         "dividend_yield": 0.63822,
-        "beta": 0.9573745,
+        "beta": 0.9619722,
         "eps_series": [
           16.4838,
           13.6714,
@@ -71,15 +71,15 @@
         ]
       },
       "ticker": "INTU",
-      "current_price": 282.78,
+      "current_price": 281.079987,
       "fund": {
         "rating_label": "hold",
         "rating_color": "#d68910",
         "analyst_count": 42,
         "next_earnings": "18 May 2027",
         "headlines": [
-          "RedHammer to Help Shape Intuit Enterprise Suite for Construction",
-          "3 Dividend Stocks With Yields Over 2%"
+          "Intuit (INTU) Stock Declines While Market Improves: Some Information for Investo...",
+          "Cramer Warned Viewers That Meta’s AI Would Crush This Stock, and Someone Just Be..."
         ],
         "insider": "SELLING (14 sell vs 6 buy)"
       }
@@ -87,17 +87,17 @@
     {
       "score": 90,
       "details": [
-        "Przecena 57% od szczytu (+20)",
+        "Przecena 56% od szczytu (+20)",
         "EPS 4/4 lat wzrost, CAGR +25% (+20)",
         "ROE 43% (+15)",
         "FCF margin 22% (sr. 23%) (+10)",
         "Rev growth 22% (+10)",
         "Gross margin 64% (+10)",
-        "PEG 0.4 (+5)"
+        "PEG 0.5 (+5)"
       ],
-      "discount_pct": 57.2,
+      "discount_pct": 55.9,
       "metrics": {
-        "pe": 22.0084,
+        "pe": 22.694,
         "roe": 42.58,
         "rev_growth": 21.62,
         "eps_growth": 49.08,
@@ -108,9 +108,9 @@
         "high_52w": 322.54,
         "low_52w": 114.5,
         "high_52w_date": "2025-10-16",
-        "market_cap": 416398.72,
+        "market_cap": 429370.53,
         "dividend_yield": 1.37634,
-        "beta": 1.78341,
+        "beta": 1.777273,
         "eps_series": [
           5.8638,
           4.3416,
@@ -127,20 +127,20 @@
         ]
       },
       "ticker": "ORCL",
-      "current_price": 138.070007,
+      "current_price": 142.3,
       "fund": {
         "rating_label": null,
         "rating_color": null,
         "analyst_count": 0,
         "next_earnings": null,
         "headlines": [],
-        "insider": "SELLING (17 sell vs 3 buy)"
+        "insider": "SELLING (16 sell vs 4 buy)"
       }
     },
     {
       "score": 88,
       "details": [
-        "Przecena 34% od szczytu (+20)",
+        "Przecena 35% od szczytu (+20)",
         "EPS 4/4 lat wzrost, CAGR +14% (+15)",
         "ROE 63% (+15)",
         "FCF margin 41% (sr. 40%) (+15)",
@@ -149,9 +149,9 @@
         "D/E 0.54 (+3)",
         "PEG 1.1 (+3)"
       ],
-      "discount_pct": 33.7,
+      "discount_pct": 34.6,
       "metrics": {
-        "pe": 12.8205,
+        "pe": 12.8921,
         "roe": 62.88,
         "rev_growth": 12.03,
         "eps_growth": 11.68,
@@ -162,9 +162,9 @@
         "high_52w": 363.7,
         "low_52w": 190.12,
         "high_52w_date": "2025-10-28",
-        "market_cap": 93384.65,
+        "market_cap": 93906.18,
         "dividend_yield": null,
-        "beta": 1.4061182,
+        "beta": 1.414199,
         "eps_series": [
           16.6979,
           12.3556,
@@ -181,7 +181,7 @@
         ]
       },
       "ticker": "ADBE",
-      "current_price": 241.28,
+      "current_price": 237.69,
       "fund": {
         "rating_label": null,
         "rating_color": null,
@@ -192,9 +192,9 @@
       }
     },
     {
-      "score": 83,
+      "score": 79,
       "details": [
-        "Przecena 31% od szczytu (+20)",
+        "Przecena 28% od szczytu (+16)",
         "EPS 3/4 lat wzrost, CAGR +32% (+10)",
         "ROE 44% (+15)",
         "FCF margin 42% (sr. 45%) (+15)",
@@ -204,9 +204,9 @@
         "PEG 0.4 (+5)",
         "P/E 44 drogie (-5)"
       ],
-      "discount_pct": 30.6,
+      "discount_pct": 28.3,
       "metrics": {
-        "pe": 43.6844,
+        "pe": 43.9576,
         "roe": 43.91,
         "rev_growth": 48.69,
         "eps_growth": 100.1,
@@ -217,9 +217,9 @@
         "high_52w": 495,
         "low_52w": 289.96,
         "high_52w_date": "2026-06-03",
-        "market_cap": 1671582,
+        "market_cap": 1682036.2,
         "dividend_yield": 1.87972,
-        "beta": 1.489901,
+        "beta": 1.497583,
         "eps_series": [
           4.7653,
           1.2338,
@@ -236,15 +236,15 @@
         ]
       },
       "ticker": "AVGO",
-      "current_price": 343.64001,
+      "current_price": 355.14001,
       "fund": {
         "rating_label": "buy",
         "rating_color": "#27ae60",
         "analyst_count": 57,
         "next_earnings": "1 Jun 2027",
         "headlines": [
-          "Is Marvell Stock Ready For A Slowdown In AI Demand?",
-          "Broadcom: Get Ready For A Breakout"
+          "3 Great AI Stocks To Own In October 2026",
+          "Broadcom Bets $102 Billion on Anthropic Chips"
         ],
         "insider": "SELLING (20 sell vs 0 buy)"
       }
@@ -261,9 +261,9 @@
         "D/E 0.47 (+4)",
         "PEG 0.6 (+5)"
       ],
-      "discount_pct": 45.7,
+      "discount_pct": 46.3,
       "metrics": {
-        "pe": 20.773,
+        "pe": 20.4526,
         "roe": 47.96,
         "rev_growth": 16.02,
         "eps_growth": 35.26,
@@ -274,9 +274,9 @@
         "high_52w": 124.86,
         "low_52w": 65.08,
         "high_52w_date": "2025-10-21",
-        "market_cap": 283543.5,
+        "market_cap": 279171.34,
         "dividend_yield": null,
-        "beta": 1.6150585,
+        "beta": 1.6086684,
         "eps_series": [
           2.528,
           1.9832,
@@ -293,7 +293,7 @@
         ]
       },
       "ticker": "NFLX",
-      "current_price": 67.85,
+      "current_price": 67.059998,
       "fund": {
         "rating_label": null,
         "rating_color": null,
@@ -305,9 +305,9 @@
     }
   ],
   "performance": {
-    "live_summary": "T1: 11 sygnalow | WR 55% | avg +0.6% &nbsp;|&nbsp; T2: 14 sygnalow | WR 57% | avg +2.6% &nbsp;|&nbsp; Claude: 82 sygnalow | WR 55% | avg +0.5%",
+    "live_summary": "T1: 11 sygnalow | WR 55% | avg +0.6% &nbsp;|&nbsp; T2: 14 sygnalow | WR 57% | avg +2.6% &nbsp;|&nbsp; Claude: 83 sygnalow | WR 54% | avg +0.5%",
     "full_stats": {
-      "overall_resolved": 145,
+      "overall_resolved": 146,
       "t1": {
         "count": 11,
         "wr": 54.5,
@@ -360,12 +360,12 @@
         ]
       },
       "claude": {
-        "count": 82,
-        "wr": 54.9,
-        "avg_pnl": 0.52,
-        "pf": 1.39,
+        "count": 83,
+        "wr": 54.2,
+        "avg_pnl": 0.48,
+        "pf": 1.36,
         "targets": 23,
-        "stops": 25,
+        "stops": 26,
         "timeouts": 34,
         "best": [
           "XLE",
