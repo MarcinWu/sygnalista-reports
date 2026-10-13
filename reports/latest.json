@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "scan": {
-    "time_iso": "2026-10-10T00:16",
-    "time_pl": "10.10.2026 00:16",
-    "date": "2026-10-10",
+    "time_iso": "2026-10-13T02:12",
+    "time_pl": "13.10.2026 02:12",
+    "date": "2026-10-13",
     "interval": "1D",
     "rsi_period": 14,
     "data_source": "Twelve Data + stooq + Finnhub + Yahoo Finance",
@@ -11,15 +11,15 @@
   },
   "market": {
     "vix": null,
-    "breadth_sp500_above_ma50_pct": 35.2
+    "breadth_sp500_above_ma50_pct": 37.0
   },
   "btc_onchain": {
-    "fear_greed": 64,
+    "fear_greed": 57,
     "fear_greed_label": "Greed",
-    "hash_rate_eh": 917,
-    "hash_rate_30d_chg": -10.1,
-    "tx_count": 630220,
-    "tx_30d_chg": -16.9
+    "hash_rate_eh": 1003,
+    "hash_rate_30d_chg": 4.8,
+    "tx_count": 742708,
+    "tx_30d_chg": -6.2
   },
   "signals": [],
   "claude_analysis": {
@@ -39,9 +39,9 @@
         "D/E 0.40 (+4)",
         "PEG 0.9 (+5)"
       ],
-      "discount_pct": 56.1,
+      "discount_pct": 55.6,
       "metrics": {
-        "pe": 17.7853,
+        "pe": 18.1605,
         "roe": 23.419999999999998,
         "rev_growth": 13.9,
         "eps_growth": 20.37,
@@ -52,9 +52,9 @@
         "high_52w": 689.17,
         "low_52w": 252.84,
         "high_52w_date": "2025-10-27",
-        "market_cap": 81207.67,
+        "market_cap": 82920.66,
         "dividend_yield": 0.63822,
-        "beta": 0.96931034,
+        "beta": 0.9738792,
         "eps_series": [
           16.4838,
           13.6714,
@@ -71,15 +71,15 @@
         ]
       },
       "ticker": "INTU",
-      "current_price": 302.75,
+      "current_price": 305.98999,
       "fund": {
         "rating_label": "hold",
         "rating_color": "#d68910",
         "analyst_count": 42,
         "next_earnings": "18 May 2027",
         "headlines": [
-          "Are SaaS Stocks Making A Comeback? Autodesk, Intuit Outperform In Tough Week For...",
-          "Intuit Stock Gains Nearly 9% in 3 Months: Is More Upside Still Ahead?"
+          "Stock Market Today: Dow Outperforms In Mixed Trade; Tanker Firm Navios Glides In...",
+          "Stock Market Today: Nasdaq Drops As Lumentum Dives; Tanker Firm Navios Glides In..."
         ],
         "insider": "MIXED (8 buy, 12 sell)"
       }
@@ -87,17 +87,17 @@
     {
       "score": 90,
       "details": [
-        "Przecena 56% od szczytu (+20)",
+        "Przecena 57% od szczytu (+20)",
         "EPS 4/4 lat wzrost, CAGR +25% (+20)",
         "ROE 43% (+15)",
         "FCF margin 22% (sr. 23%) (+10)",
         "Rev growth 22% (+10)",
         "Gross margin 64% (+10)",
-        "PEG 0.4 (+5)"
+        "PEG 0.5 (+5)"
       ],
-      "discount_pct": 56.2,
+      "discount_pct": 57.4,
       "metrics": {
-        "pe": 21.6856,
+        "pe": 22.1762,
         "roe": 42.58,
         "rev_growth": 21.62,
         "eps_growth": 49.08,
@@ -108,9 +108,9 @@
         "high_52w": 322.54,
         "low_52w": 114.5,
         "high_52w_date": "2025-10-16",
-        "market_cap": 410290.75,
+        "market_cap": 419573.6,
         "dividend_yield": 1.37634,
-        "beta": 1.7760453,
+        "beta": 1.7770437,
         "eps_series": [
           5.8638,
           4.3416,
@@ -127,15 +127,15 @@
         ]
       },
       "ticker": "ORCL",
-      "current_price": 141.39999,
+      "current_price": 137.39,
       "fund": {
         "rating_label": "buy",
         "rating_color": "#27ae60",
         "analyst_count": 49,
         "next_earnings": "8 Jun 2027",
         "headlines": [
-          "Jim Cramer Just Made the Case for the Dividend Stocks You Are Bored Of",
-          "What Could Surprise CoreWeave Stock Investors On The Upside?"
+          "Why Palo Alto Networks (PANW) Stock Is Falling Today",
+          "Is Salesforce Still The Business You Bought?"
         ],
         "insider": "SELLING (16 sell vs 4 buy)"
       }
@@ -143,7 +143,7 @@
     {
       "score": 88,
       "details": [
-        "Przecena 33% od szczytu (+20)",
+        "Przecena 34% od szczytu (+20)",
         "EPS 4/4 lat wzrost, CAGR +14% (+15)",
         "ROE 63% (+15)",
         "FCF margin 41% (sr. 40%) (+15)",
@@ -152,9 +152,9 @@
         "D/E 0.54 (+3)",
         "PEG 1.1 (+3)"
       ],
-      "discount_pct": 33.4,
+      "discount_pct": 34.5,
       "metrics": {
-        "pe": 12.8798,
+        "pe": 12.945,
         "roe": 62.88,
         "rev_growth": 12.03,
         "eps_growth": 11.68,
@@ -165,9 +165,9 @@
         "high_52w": 363.7,
         "low_52w": 190.12,
         "high_52w_date": "2025-10-28",
-        "market_cap": 93816.664,
+        "market_cap": 94291.49,
         "dividend_yield": null,
-        "beta": 1.4165132,
+        "beta": 1.4166666,
         "eps_series": [
           16.6979,
           12.3556,
@@ -184,7 +184,7 @@
         ]
       },
       "ticker": "ADBE",
-      "current_price": 242.27,
+      "current_price": 238.14,
       "fund": {
         "rating_label": null,
         "rating_color": null,
@@ -197,19 +197,19 @@
     {
       "score": 79,
       "details": [
-        "Przecena 27% od szczytu (+16)",
+        "Przecena 28% od szczytu (+16)",
         "EPS 3/4 lat wzrost, CAGR +32% (+10)",
         "ROE 44% (+15)",
         "FCF margin 42% (sr. 45%) (+15)",
         "Rev growth 49% (+10)",
         "Gross margin 69% (+10)",
         "D/E 0.60 (+3)",
-        "PEG 0.5 (+5)",
-        "P/E 45 drogie (-5)"
+        "PEG 0.4 (+5)",
+        "P/E 44 drogie (-5)"
       ],
-      "discount_pct": 27.0,
+      "discount_pct": 28.3,
       "metrics": {
-        "pe": 45.2338,
+        "pe": 44.4223,
         "roe": 43.91,
         "rev_growth": 48.69,
         "eps_growth": 100.1,
@@ -220,9 +220,9 @@
         "high_52w": 495,
         "low_52w": 289.96,
         "high_52w_date": "2026-06-03",
-        "market_cap": 1730870.5,
+        "market_cap": 1699818,
         "dividend_yield": 1.87972,
-        "beta": 1.4933813,
+        "beta": 1.4918584,
         "eps_series": [
           4.7653,
           1.2338,
@@ -239,15 +239,15 @@
         ]
       },
       "ticker": "AVGO",
-      "current_price": 361.54001,
+      "current_price": 354.73001,
       "fund": {
         "rating_label": "buy",
         "rating_color": "#27ae60",
         "analyst_count": 57,
         "next_earnings": "1 Jun 2027",
         "headlines": [
-          "Should Qualcomm Stock Holders Look At First Solar Instead?",
-          "Jim Cramer Just Made the Case for the Dividend Stocks You Are Bored Of"
+          "SNDK, MU, INTC, AMD, SKHY: Chip Stocks Extend Slide As AI Funding Concerns, Chin...",
+          "Broadcom vs. Qualcomm: Which Chip Stock Is a Better Buy in 2026?"
         ],
         "insider": "SELLING (20 sell vs 0 buy)"
       }
@@ -255,7 +255,7 @@
     {
       "score": 78,
       "details": [
-        "Przecena 44% od szczytu (+20)",
+        "Przecena 43% od szczytu (+20)",
         "EPS 3/4 lat wzrost, CAGR +22% (+10)",
         "ROE 48% (+15)",
         "FCF margin 21% (sr. 14%) (+10)",
@@ -264,9 +264,9 @@
         "D/E 0.47 (+4)",
         "PEG 0.6 (+5)"
       ],
-      "discount_pct": 43.7,
+      "discount_pct": 43.4,
       "metrics": {
-        "pe": 21.6287,
+        "pe": 21.7446,
         "roe": 47.96,
         "rev_growth": 16.02,
         "eps_growth": 35.26,
@@ -277,9 +277,9 @@
         "high_52w": 124.86,
         "low_52w": 65.08,
         "high_52w_date": "2025-10-21",
-        "market_cap": 295223.34,
+        "market_cap": 296805.66,
         "dividend_yield": null,
-        "beta": 1.6074977,
+        "beta": 1.6054342,
         "eps_series": [
           2.528,
           1.9832,
@@ -296,7 +296,7 @@
         ]
       },
       "ticker": "NFLX",
-      "current_price": 70.3,
+      "current_price": 70.61,
       "fund": {
         "rating_label": null,
         "rating_color": null,
@@ -308,9 +308,9 @@
     }
   ],
   "performance": {
-    "live_summary": "T1: 11 sygnalow | WR 55% | avg +0.6% &nbsp;|&nbsp; T2: 14 sygnalow | WR 57% | avg +2.6% &nbsp;|&nbsp; Claude: 85 sygnalow | WR 54% | avg +0.4%",
+    "live_summary": "T1: 11 sygnalow | WR 55% | avg +0.6% &nbsp;|&nbsp; T2: 14 sygnalow | WR 57% | avg +2.6% &nbsp;|&nbsp; Claude: 89 sygnalow | WR 55% | avg +0.5%",
     "full_stats": {
-      "overall_resolved": 148,
+      "overall_resolved": 152,
       "t1": {
         "count": 11,
         "wr": 54.5,
@@ -363,13 +363,13 @@
         ]
       },
       "claude": {
-        "count": 85,
-        "wr": 54.1,
-        "avg_pnl": 0.41,
-        "pf": 1.3,
+        "count": 89,
+        "wr": 55.1,
+        "avg_pnl": 0.47,
+        "pf": 1.36,
         "targets": 23,
         "stops": 26,
-        "timeouts": 36,
+        "timeouts": 40,
         "best": [
           "XLE",
           10.62
