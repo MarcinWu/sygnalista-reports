@@ -1,25 +1,25 @@
 {
   "schema_version": 1,
   "scan": {
-    "time_iso": "2026-10-14T23:22",
-    "time_pl": "14.10.2026 23:22",
-    "date": "2026-10-14",
+    "time_iso": "2026-10-15T23:13",
+    "time_pl": "15.10.2026 23:13",
+    "date": "2026-10-15",
     "interval": "1D",
     "rsi_period": 14,
     "data_source": "Twelve Data + stooq + Finnhub + Yahoo Finance",
     "total_signals": 1
   },
   "market": {
-    "vix": 16.87,
-    "breadth_sp500_above_ma50_pct": 35.0
+    "vix": 16.46,
+    "breadth_sp500_above_ma50_pct": 44.1
   },
   "btc_onchain": {
-    "fear_greed": 62,
-    "fear_greed_label": "Greed",
-    "hash_rate_eh": 1075,
-    "hash_rate_30d_chg": 13.2,
-    "tx_count": 838363,
-    "tx_30d_chg": 18.4
+    "fear_greed": 53,
+    "fear_greed_label": "Neutral",
+    "hash_rate_eh": 1062,
+    "hash_rate_30d_chg": 2.9,
+    "tx_count": 803842,
+    "tx_30d_chg": -1.8
   },
   "signals": [
     {
@@ -30,41 +30,41 @@
       "divergence": {
         "date_prev": "2026-09-15",
         "price_prev": 307.05,
-        "rsi_prev": 26.33,
+        "rsi_prev": 26.27,
         "date_last": "2026-10-07",
         "price_last": 303.62,
-        "rsi_last": 32.29,
-        "current_price": 307.02,
-        "current_rsi": 37.4,
+        "rsi_last": 32.27,
+        "current_price": 311.95,
+        "current_rsi": 44.25,
         "macd_divergence": true,
         "vol_ratio": 0.5382,
-        "vol_vs_avg20": 0.7448,
+        "vol_vs_avg20": 0.7508,
         "candle_pattern": "Bearish close (zamkniecie blisko dolka sesji — slaby sygnał)",
         "trough_low": 302.98001,
         "confirmed": true
       },
       "estimate": {
-        "target_price": 317.0357,
-        "t1_target": 317.0357,
-        "t2_target": 332.8875,
-        "atr_for_trail": 6.6771,
-        "pct_upside": 3.3,
-        "pct_upside_t2": 8.4,
-        "confidence": 48,
+        "target_price": 321.8114,
+        "t1_target": 321.8114,
+        "t2_target": 337.902,
+        "atr_for_trail": 6.5743,
+        "pct_upside": 3.2,
+        "pct_upside_t2": 8.3,
+        "confidence": 46,
         "conf_label": "weak",
         "conf_color": "#c0392b",
-        "rr_ratio": 1.62,
+        "rr_ratio": 0.89,
         "stop_loss": 300.8207,
         "position_sizes": {
-          "0.5%": 24.8,
-          "1%": 49.5,
-          "2%": 99.0,
-          "stop_pct": 2.0
+          "0.5%": 14.0,
+          "1%": 28.0,
+          "2%": 56.1,
+          "stop_pct": 3.6
         },
-        "ma50": 333.04,
-        "ma100": 340.54,
+        "ma50": 331.65,
+        "ma100": 340.63,
         "ma200": 323.82,
-        "weekly_rsi": 41.7,
+        "weekly_rsi": 43.6,
         "weekly_rsi_down": false,
         "earnings_warning": false,
         "analyst_conflict": false
@@ -75,49 +75,29 @@
         "analyst_count": 32,
         "next_earnings": "19 Apr 2027",
         "headlines": [
-          "Government‑Backed Prestwick Expansion Might Change The Case For Investing In Gen...",
-          "General Electric (GE) Wins UK Backing To Expand Prestwick Jet Engine Jobs"
+          "Why It’s Time To Load Up on GE Aerospace Stock",
+          "GE (GE) Q3 Earnings on the Horizon: Analysts' Insights on Key Performance Measur..."
         ],
         "insider": "MIXED (8 buy, 12 sell)"
       },
       "ai_analysis": {
         "verdict": "NIEGRYWALNY",
-        "summary": "Za: - Wolumen 2. dołka NIŻSZY o 46% niż 1. dołka (vol_ratio ~0.54) — silne potwierdzenie wyczerpania sprzedaży ✅ - RSI dołka 1 wynosił 26.33 — głęboka wyprzedaż ✅ - Potwierdzenie: TAK (bar po dołku zamknął wyżej) ✅ - Wyniki dopiero 19 Apr 2027 — brak ryzyka binarnego w horyzoncie swing ✅ Przeciw: - Cena 7.8% poniżej MA50 (333.04) i 9.8% poniżej MA100 (340.54) — brak wsparcia dynamicznego, to zona oporu, nie wsparcia ❌ - Weekly RSI 41.7 — neutralny, brak potwierdzenia trendu tygodniowego ❌ - Swieca 2. dołka: Bearish close (zamknięcie blisko dolnej krawędzi) — brak byczego odwrócenia na samym dołku ❌ - Insiderzy: MIXED (8 buy, 12 sell) — przewaga sprzedających ❌ - Siła sygnału: 48/100 — najsłabszy możliwy zakres ❌ - Market Breadth 35% — szeroki rynek słaby, byczy sygnał o małej wiarygodności ❌ - Aktualna cena (307.02) prawie wróciła do 1. dołka (307.05) — dywergencja cenowa minimalna ❌ Decyzja: Dywergencja RSI technicznie istnieje, ale jakość setupu jest bardzo niska. Bearish close na dołku, MA50 daleko nad głową jako opór, insiderzy w przeważającej sprzedaży, słaby rynek. Nie gram."
+        "summary": "Za: - Wolumen 2. dołka NIŻSZY o 46% niż 1. dołka (vol_ratio ~0.54 < 0.8) — bardzo mocne potwierdzenie wyczerpania sprzedaży - RSI na 1. dołku wynosił 26.27 (strefa głębokiej wyprzedaży <30) - Potwierdzenie: TAK — bar po dołku zamknął wyżej (+5pp WR historycznie) - MACD potwierdza dywergencję - Wyniki dopiero 19 Apr 2027 — brak ryzyka binarnego w horyzoncie 1-2 tygodni - Pozytywny news (\"Time To Load Up on GE Aerospace Stock\") Przeciw: - Siła sygnału tylko 46/100 — poniżej progu \"solid setup\" - Cena 311.95 jest daleko poniżej MA50 (331.65, czyli -5.9%) i MA100 (340.63, -8.4%) — brak wsparcia ze średnich kroczących, które działają jako opór (resistance) - Weekly RSI 43.6 — neutralny, nie wspiera trendu wzrostowego - R:R zaledwie 0.89x — poniżej minimalnego akceptowalnego 1.5x. Target (+3.2%) jest mniejszy niż ryzyko (stop -3.6%) - Swieca 2. dołka: Bearish close — zamknięcie blisko dołka sesji, słaby sygnał popytu - Insiderzy: MIXED (8 buy, 12 sell) — więcej sprzedających niż kupujących - Bieżący wolumen 0.8x średniej — brak zainteresowania Decyzja: Nie gram. R:R poniżej 1.0x dyskwalifikuje setup automatycznie — ryzykuję więcej niż mogę zarobić. MA50 daleko powyżej jako opór, insiderzy przeważnie sprzedają, swieca dołkowa słaba. Mimo dobrego wolumenu na dołku, reszta układanki nie pasuje."
       }
     }
   ],
   "claude_analysis": {
-    "markdown": "# Analiza Swing Trade — 14.10.2026\n\n---\n\n## CZĘŚĆ 1: Weryfikacja sygnałów RSI Dywergencji\n\n### 1.1 Kontekst rynkowy\n\nVIX na 16.87 sugeruje spokój, ale **Market Breadth (szerokość rynku — % spółek powyżej MA50) wynosi zaledwie 35%** — to poziom BEARISH, bliski silnego ostrzeżenia (<30%). SPY i QQQ mają RSI neutralny (~44-49), jednak inflacja wrześniowa zaskoczyła in plus, co przywraca na stół podwyżkę stóp FOMC za 14 dni (28.10), a obligacje 10Y na 5.19% to realne zagrożenie dla wycen. **To zdecydowanie nie jest dobry moment na agresywne długie pozycje — selektywność i małe rozmiary to podstawa.**\n\n---\n\n### 1.2 Ocena sygnałów\n\n#### [1] GE — **NIEGRYWALNY**\n\n**Za:**\n- Wolumen 2. dołka NIŻSZY o 46% niż 1. dołka (vol_ratio ~0.54) — silne potwierdzenie wyczerpania sprzedaży ✅\n- RSI dołka 1 wynosił 26.33 — głęboka wyprzedaż ✅\n- Potwierdzenie: TAK (bar po dołku zamknął wyżej) ✅\n- Wyniki dopiero 19 Apr 2027 — brak ryzyka binarnego w horyzoncie swing ✅\n\n**Przeciw:**\n- Cena **7.8% poniżej MA50 (333.04) i 9.8% poniżej MA100 (340.54)** — brak wsparcia dynamicznego, to zona oporu, nie wsparcia ❌\n- Weekly RSI 41.7 — neutralny, brak potwierdzenia trendu tygodniowego ❌\n- Swieca 2. dołka: **Bearish close** (zamknięcie blisko dolnej krawędzi) — brak byczego odwrócenia na samym dołku ❌\n- Insiderzy: MIXED (8 buy, 12 sell) — przewaga sprzedających ❌\n- Siła sygnału: **48/100 — najsłabszy możliwy zakres** ❌\n- Market Breadth 35% — szeroki rynek słaby, byczy sygnał o małej wiarygodności ❌\n- Aktualna cena (307.02) prawie wróciła do 1. dołka (307.05) — dywergencja cenowa minimalna ❌\n\n**Decyzja:** Dywergencja RSI technicznie istnieje, ale jakość setupu jest bardzo niska. Bearish close na dołku, MA50 daleko nad głową jako opór, insiderzy w przeważającej sprzedaży, słaby rynek. Nie gram.\n\n---\n\n**Podsumowanie sekcji 1:** Z 1 dostarczonego sygnału — **0 warto zagrać.** Jedyny sygnał (GE) ma zbyt wiele czynników osłabiających (bearish close, MA50 daleko, insiderzy sprzedają, breadth 35%) przy bardzo niskiej sile sygnału 48/100.\n\n---\n\n## CZĘŚĆ 2: Niezależne rekomendacje swing trade\n\n### Ocena możliwości\n\nZanim przejdę do setupów, szczera ocena środowiska:\n- Breadth 35% — **strefa ostrzeżenia**\n- FOMC za 14 dni + inflacja powyżej oczekiwań = ryzyko podwyżki\n- Ataki na tankowce w Hormuz, Houtisi atakują Aramco — geopolityka rozgrzana\n- Większość sektorów poniżej MA50\n\n**Co działa:** energia (XLE RSI 71 — ale wykupiony), healthcare (XLV RSI 62, +3.1%), consumer staples (XLP RSI 66.8, +3.1%). To klasyczna rotacja defensywna.\n\n> ⚠️ XLE RSI 71.3 — wykupiony, **nie rekomenduje Long przy obecnej cenie.**\n\n---\n\n### Rekomendacja 1\n\n```\nTICKER: XLV\nKIERUNEK: Long\nTEZA: Healthcare wyprzedza rynek (+3.1% w 20 dni), RSI zdrowy (62), \n      cena 2.6% powyżej MA50 — trend silniejszy niż indeks. \n      Defensywna rotacja w środowisku wysokich stóp i strachu \n      przed FOMC. Atut: Merck breakthrough vaccine (news z raportu).\nENTRY: 173.96\nSTOP LOSS: 169.49 (MA50) — odległość: 2.57%\nTARGET 1: 181.00 — R:R ~1.6x\nPOZYCJA: ~39% portfela (ryzyko 1% / stop 2.57%)\nHORYZONT: 1-2 tygodnie\nRYZYKA: FOMC 28.10 może zaszkodzić nawet defensywnym sektorom; \n        RSI 62 — ograniczona przestrzeń do wzrostu przed wykupieniem;\n        brak dywergencji RSI — to setup momentum, nie reversal\nPEWNOSC: Średnia\n```\n\n---\n\n### Rekomendacja 2\n\n```\nTICKER: XLP\nKIERUNEK: Long\nTEZA: Consumer Staples (dobra podstawowe) — klasyczna bezpieczna \n      przystań przy breadth 35% i przed FOMC. RSI 66.8 wciąż \n      poniżej 70, cena 2.4% nad MA50, wolumen 1.4x — kapitał \n      płynie do defensywnych sektorów. Korelacja ujemna z \n      ryzykiem rynkowym.\nENTRY: 86.06\nSTOP LOSS: 84.01 (MA50) — odległość: 2.38%\nTARGET 1: 90.00 — R:R ~1.9x\nPOZYCJA: ~42% portfela (ryzyko 1% / stop 2.38%)\nHORYZONT: 1-2 tygodnie\nRYZYKA: Jeśli inflacja zaskoczy pozytywnie i Fed jest hawkish \n        (jastrzębi), defensywne sektory mogą oddać zyski; \n        RSI bliski 70 — mały zapas przed wykupieniem\nPEWNOSC: Średnia\n```\n\n---\n\n### Rekomendacja 3\n\n```\nTICKER: ITA\nKIERUNEK: Long\nTEZA: ETF obronny (aerospace & defense) przy RSI 30.1 — głęboka \n      wyprzedaż, historycznie WR ~67% przy RSI<30. Geopolityka \n      silnie wspiera: Houtisi atakują Aramco i tankowce w Hormuz, \n      Rosja-Chiny-Iran omawiają kooperację. Wolumen 0.8x — \n      sprzedaż wygasa. Korekta -4.5% w 20 dni i -9.2% od MA50 \n      tworzy potencjał do odbicia.\nENTRY: 204.24\nSTOP LOSS: 197.00 — odległość: 3.55%\nTARGET 1: 220.00 (strefa przed MA50) — R:R ~2.2x\nPOZYCJA: ~28% portfela (ryzyko 1% / stop 3.55%)\nHORYZONT: 1-2 tygodnie\nRYZYKI: MA50 na 224.92 to silny opór — nie zakładamy powrotu \n        do MA50 w tym horyzoncie, cel 220 to strefa przed nim; \n        breadth 35% może hamować nawet dobre setupy; \n        brak potwierdzenia byczą świecą (dane nie pokazują hammera)\nPEWNOSC: Spekulacyjna\n```\n\n> ⚠️ **Uwaga na pozycjonowanie:** Przy breadth 35% i FOMC za 14 dni — łączna ekspozycja na powyższe 3 pozycje powinna być ograniczona. Rozważ uruchomienie tylko 1-2 setupów z połową normalnej pozycji. Gotówka to też strategia.\n\n---\n\n## CZĘŚĆ 3: Tabela danych strukturyzowanych\n\n```\nTABELA_REKOMENDACJI:\nTICKER | KIERUNEK | ENTRY | STOP | TARGET1 | RR | PEWNOSC | TEZA\nXLV | Long | 173.96 | 169.49 | 181.00 | 1.6 | Srednia | Healthcare defensywne, momentum, rotacja przed FOMC\nXLP | Long | 86.06 | 84.01 | 90.00 | 1.9 | Srednia | Consumer staples, bezpieczna przystan, breadth 35%\nITA | Long | 204.24 | 197.00 | 220.00 | 2.2 | Spekulacyjna | Obronnosc, RSI<30, geopolityka wspiera popyt\n---KONIEC_TABELI---\n```\n\n---\n\n## CZĘŚĆ 4: Fundamentalne okazje — komentarz long-term\n\n**INTU — OKAZJA:**\nIntuit ma trwały moat (efekt sieciowy w TurboTax, QuickBooks, rosnące przejście na AI z Assist) przy ROE 23%, marży FCF 40% i PEG 0.9 — to rzadkość przy takiej jakości biznesu. Główne ryzyko na 1-2 lata: IRS rozszerza darmowe narzędzia podatkowe (Direct File) — bezpośredni zamach na segment TurboTax. Przecena 55% od szczytu przy 14% wzroście przychodów i EPS rosnącym systematycznie (7.27→16.48 w 5 latach) wygląda jak **okazja dla inwestora 7+**, pod warunkiem że Direct File nie zabierze więcej niż 10-15% rynku.\n\n**ORCL — CZEKAJ:**\nOracle ma silny moat w legacy bazach danych (baza klientów korporacyjnych jest \"przyklejona\" kontraktami na dekady) i ROE 43% przy eksplozji przychodów cloud (+22%). Główne ryzyko: bardzo wysokie zadłużenie (D/E 2.01) w środowisku 5.19% 10Y — koszt obsługi długu rośnie, co ogranicza FCF. **Niepokojący sygnał: insiderzy sprzedają (16 sell vs 4 buy)** — przy przecenie 60% to czerwona flaga. Poczekaj na stabilizację długu lub wyraźny sygnał od insiderów.\n\n**ADBE — CZEKAJ:**\nAdobe ma prawdopodobnie najsilniejszy moat w tej grupie (Photoshop/Premiere/Acrobat = standard branżowy od 30 lat), ROE 63%, marża FCF 41% i P/E 12.6 — historycznie tania. Główne ryzyko: Canva, Figma (po blokadzie przejęcia) i narzędzia AI (Midjourney, Sora) naruszają rynek kreatywny. **Insiderzy sprzedają masowo (18 sell vs 2 buy)** — to wyraźna czerwona flaga, sugeruje że wewnętrznie widzą presję, której rynek jeszcze w pełni nie wycenia. Czekaj na stabilizację sprzedaży insiderskiej.\n\n**AVGO — OKAZJA (z zastrzeżeniem):**\nBroadcom ma fenomenalne fundamenty (ROE 44%, FCF 42%, PEG 0.4 przy wzroście +49% przychodów) i moat w chipach do sieci/AI custom silicon (Apple, Google jako klienci). Ryzyko: P/E 44.4 wciąż wysokie, a EPS miał anomalię w 4. roku (1.23 — prawdopodobnie rok akwizycji VMware z jednorazowymi kosztami). **Insiderzy sprzedają agresywnie (20 sell vs 0 buy) — zero zakupów wewnętrznych to niepokojący sygnał.** Dla inwestora 7+ prawdopodobnie okazja, ale wejdź w transzach i nie spiesz się.\n\n**NFLX — OKAZJA:**\nNetflix zbudował trwały moat na skali (270M+ subskrybentów), oryginalnych treściach i danych o użytkownikach — bariera wejścia rośnie, nie maleje. Główne ryzyko na 1-2 lata: nasycenie rynku w USA/Europie + presja cenowa przy reklamowym modelu (ad-tier) wymaga udowodnienia monetyzacji. Przy P/E 21.7, PEG 0.6 i przecenie 44% przy rosnącym FCF (21% vs historyczne 14%) — **to solidna okazja długoterminowa**; insiderzy MIXED (13 buy, 7 sell) to pozytywny sygnał w tym zestawieniu.\n\n---\n\n*⚠️ Zastrzeżenie: Powyższe treści mają charakter wyłącznie edukacyjny i stanowią analizę techniczną/fundamentalną. NIE są rekomendacją inwestycyjną w rozumieniu przepisów prawa. Inwestowanie wiąże się z ryzykiem utraty kapitału. Każdą decyzję inwestycyjną podejmuj samodzielnie lub z pomocą licencjonowanego doradcy.*",
+    "markdown": "# Analiza Swing Trade — 15.10.2026\n\n---\n\n## CZĘŚĆ 1: Weryfikacja sygnałów RSI Dywergencji\n\n### 1.1 Kontekst rynkowy\n\nVIX na 16.46 jest niski — panika nieobecna, rynek spokojny. Market Breadth 44% (neutralne terytorium) oznacza, że rynek nie jest ani zdrowy, ani wyraźnie słaby — ponad połowa spółek z S&P500 poniżej MA50 (średnia krocząca 50-sesyjna, kluczowy poziom wsparcia/oporu). Rentowność 10-latek USA na 5.09% to poziom, który historycznie ciągnie wyceny akcji w dół (drogi pieniądz), a FOMC za 13 dni dodaje ryzyko — dobry moment na selektywne, małe pozycje Long, ale nie na agresywne ładowanie portfela.\n\n---\n\n### 1.2 Ocena sygnałów\n\n#### [1] GE — **NIEGRYWALNY**\n\n**Za:**\n- Wolumen 2. dołka NIŻSZY o 46% niż 1. dołka (vol_ratio ~0.54 < 0.8) — bardzo mocne potwierdzenie wyczerpania sprzedaży\n- RSI na 1. dołku wynosił 26.27 (strefa głębokiej wyprzedaży <30)\n- Potwierdzenie: TAK — bar po dołku zamknął wyżej (+5pp WR historycznie)\n- MACD potwierdza dywergencję\n- Wyniki dopiero 19 Apr 2027 — brak ryzyka binarnego w horyzoncie 1-2 tygodni\n- Pozytywny news (\"Time To Load Up on GE Aerospace Stock\")\n\n**Przeciw:**\n- Siła sygnału tylko 46/100 — poniżej progu \"solid setup\"\n- Cena 311.95 jest daleko poniżej MA50 (331.65, czyli -5.9%) i MA100 (340.63, -8.4%) — brak wsparcia ze średnich kroczących, które działają jako opór (resistance)\n- Weekly RSI 43.6 — neutralny, nie wspiera trendu wzrostowego\n- R:R zaledwie 0.89x — poniżej minimalnego akceptowalnego 1.5x. Target (+3.2%) jest mniejszy niż ryzyko (stop -3.6%)\n- Swieca 2. dołka: Bearish close — zamknięcie blisko dołka sesji, słaby sygnał popytu\n- Insiderzy: MIXED (8 buy, 12 sell) — więcej sprzedających niż kupujących\n- Bieżący wolumen 0.8x średniej — brak zainteresowania\n\n**Decyzja:** Nie gram. R:R poniżej 1.0x dyskwalifikuje setup automatycznie — ryzykuję więcej niż mogę zarobić. MA50 daleko powyżej jako opór, insiderzy przeważnie sprzedają, swieca dołkowa słaba. Mimo dobrego wolumenu na dołku, reszta układanki nie pasuje.\n\n---\n\n**Podsumowanie sekcji 1:** Z 1 dostępnego sygnału — **0 warte zagrania**. Jedyny sygnał ma R:R <1.0x, co jest twardym veto. Brak dalszych sygnałów w raporcie.\n\n---\n\n## CZĘŚĆ 2: Niezależne rekomendacje Swing Trade\n\n### Skanowanie raportu pod kątem setupów\n\nPrzeglądam ETF-y i dane:\n\n- **XLE** RSI 63.4 — za wysokie, nie wchodzę Long przy RSI >60 bez pullbacku\n- **XLV** RSI 67.6, +5.2% w 20 dni — zbliża się do wykupienia (overbought), entry ryzykowne\n- **XLP** RSI 69.0, +4.7% w 20 dni — przy granicy RSI 70, za późno wchodzić\n- **QQQ** RSI 44.1, blisko MA50 — neutralne, brak katalizatora\n- **XLK** RSI 41.0, MA50 blisko — technologia pod presją 5.09% yield\n- **SMH** RSI 36.3, silnie pod MA50 (-3.6%) — półprzewodniki w trendzie spadkowym, brak sygnału odwrócenia\n- **ITA** RSI 38.2, -7.6% od MA50 — obronność mocno poniżej MA50, ale news o Houthis i atakach na infrastrukturę Arabii Saudyjskiej...\n- **GLD** RSI 46.2, -3.7% od MA50 — złoto koryguje mimo geopolitycznego napięcia (niepokojące)\n- **IWM** RSI 37.2, -5.0% od MA50 — small-caps słabe, nie dotykam\n\n### Analiza makro-kontekstu:\n\nNewsy: ataki Houtich na Arabię Saudyjską (infrastruktura), drony atakujące statki koło Rumunii (Morze Czarne/Bałtyk?), Hezbollah, sankcje na Iran, konflikt Izrael-Gaza. **To jest środowisko Pro-Energia, Pro-Obronność, Pro-Złoto.** Jednak złoto i obronność (ITA) nie reagują wzrostem — ITA jest -7.6% od MA50. Energia (XLE) już wzrosła +3.5% w 20 dni i RSI 63.4.\n\n**Wnioski:**\n\nRynek jest w trudnym miejscu. Market Breadth 44% (neutralna/słaba), FOMC za 13 dni, rentowność 10Y na 5.09%. XLP i XLV — defensywne sektory — już mocno wybiegły (RSI ~68-69). XLE wzrósł, ale RSI za wysoki na nowe wejście. ITA technicznie słaba mimo geopolityki.\n\nJedyne potencjalne setupy to **ITA** (pullback do strefy wsparcia przy rosnącym napięciu zbrojnym) i **QQQ/XLK** (neutralne RSI, przy MA50) — ale oba mają istotne zastrzeżenia.\n\n---\n\n### Rekomendacja 1\n\n```\nTICKER: ITA\nKIERUNEK: Long\nTEZA: Sektor obronny (aerospace & defense) pod silną presją makro-\n      geopolityczną — ataki Houthich, Hezbollah, drony na Morzu \n      Czarnym. ITA w głębokiej korekcie (-7.6% od MA50), RSI 38.2 \n      — wyprzedany, potencjalne odwrócenie przy dalszej eskalacji.\nENTRY: 206.92 (aktualna cena z raportu)\nSTOP LOSS: 199.50 — poniżej okrągłego wsparcia 200 USD\n           (ok. -3.6% od entry)\nTARGET 1: 218.00 — pierwsze znaczące opory techniczne, \n           zbliżenie do MA50 (ok. +5.3% od entry)\n           R:R = 5.3 / 3.6 = 1.47x\nPOZYCJA: 1% / 3.6% = ~28% portfela\n          (przy ryzyku max 1% kapitału)\nHORYZONT: 10-14 dni\nRYZYKA: ITA słabsza od SPY o -4.6pp — trend spadkowy może \n        trwać; geopolityka może nie przełożyć się na budżety \n        obronne w krótkim terminie; FOMC 28 Oct może uderzyć \n        w cały rynek; brak sygnału odwrócenia (brak byczej \n        swiece potwierdzającej)\nPEWNOSC: Spekulacyjna\n```\n\n---\n\n### Rekomendacja 2\n\n```\nTICKER: XLE\nKIERUNEK: Long\nTEZA: Ropa WTI na 96.13 USD/bbl — wysoki poziom wspierany przez \n      geopolitykę (ataki na infrastrukturę Arabii Saudyjskiej, \n      napięcia na Bliskim Wschodzie). XLE +3.5% w 20 dni, powyżej \n      MA50 (+5.1%) — sektor w wyraźnym uptrendzie.\nENTRY: Czekam na pullback do ~63.50-64.00 (okolice MA50), \n       NIE wchodzę przy RSI 63.4 i aktualnej cenie 66.56.\n       BRAK natychmiastowej rekomendacji — RSI za wysoki.\n       Ustaw alert na 63.80.\nSTOP LOSS: [brak — czekam na pullback]\nTARGET 1: [brak — czekam na pullback]\nPOZYCJA: [brak]\nHORYZONT: Obserwacja, wejście przy korekcie\nRYZYKA: Ropa może cofnąć się przy deeskalacji konfliktu; \n        FOMC może ochłodzić rynek\nPEWNOSC: N/A — CZEKAJ NA LEPSZY ENTRY\n```\n\n> **Uwaga:** XLE technicznie wygląda dobrze, ale przy RSI 63.4 i cenie +5.1% powyżej MA50 — wejście teraz to gonienie rynku. Lepiej czekać na korektę.\n\n---\n\n### Ogólna konkluzja CZĘŚCI 2\n\nW obecnych warunkach (Breadth 44%, FOMC za 13 dni, 10Y yield 5.09%, defensywne ETF-y wykupione, momentum ETF-y za wysokie lub za słabe) — **brak jednoznacznie silnych setupów Long**. Jedyną propozycją z uzasadnieniem jest **ITA jako spekulacyjna pozycja geopolityczna**, ale z wyraźnym ostrzeżeniem o słabości technicznej.\n\n**Jeśli preferujesz ostrożność — CASH jest tu właściwą odpowiedzią.** Poczekaj na rozstrzygnięcie FOMC (28 Oct) i wyklarowanie się Breadth powyżej 50%.\n\n---\n\n## CZĘŚĆ 3: Tabela danych strukturyzowanych\n\n```\nTABELA_REKOMENDACJI:\nTICKER | KIERUNEK | ENTRY | STOP | TARGET1 | RR | PEWNOSC | TEZA\nITA | Long | 206.92 | 199.50 | 218.00 | 1.5 | Spekulacyjna | Geopolityka + wyprzedany sektor obronny przy RSI 38\n---KONIEC_TABELI---\n```\n\n---\n\n## CZĘŚĆ 4: Fundamentalne okazje — komentarz long-term (7+ lat)\n\n**INTU — OKAZJA:**\nIntuit ma jeden z najsilniejszych moatów w branży software — efekt sieciowy TurboTax i QuickBooks tworzy wysokie bariery wyjścia dla klientów (switching costs), a 80% marży brutto i 40% FCF margin potwierdzają jakość biznesu. Główne ryzyko na 1-2 lata to presja AI na rynek przygotowania zeznań podatkowych (darmowe narzędzia AI mogą podkopać TurboTax) oraz wycena — mimo przeceny 52% od szczytu, P/E 19x przy PEG 0.9 wygląda atrakcyjnie. Przecena o 52% przy fundamentach tej jakości (ROE 23%, EPS rosnące z 7.27 do 16.48 w 5 lat) to historycznie dobry punkt wejścia dla inwestora długoterminowego — kupuj w transzach.\n\n---\n\n**ORCL — OKAZJA (z zastrzeżeniem):**\nOracle zbudował silny moat na rynku baz danych enterprise i przyspiesza w cloud (OCI) — wzrost przychodów +22% i ROE 43% są imponujące, a PEG 0.4 sugeruje znaczne niedowartościowanie przy tej dynamice wzrostu. Główne ryzyko to wysokie zadłużenie (D/E 2.01) w środowisku 5% stóp procentowych — obsługa długu będzie coraz bardziej kosztowna, a jakikolwiek slowdown w cloud może odsłonić ten problem. Niepokojący jest bardzo agresywny insider selling (16 sell vs 4 buy) — zarząd sprzedaje mimo historycznie niskiej ceny (58% od szczytu), co każe zachować ostrożność; niemniej fundamenty i momentum wzrostu czynią ORCL atrakcyjnym dla długoterminowego inwestora akceptującego wyższe ryzyko bilansowe.\n\n---\n\n**ADBE — CZEKAJ:**\nAdobe ma fenomenalny moat oparty na ecosystem lock-in (Creative Cloud, Document Cloud) z marżą brutto 89% i FCF margin 41% — to klasa sama w sobie w branży software. Główne ryzyko to rosnąca konkurencja ze strony narzędzi AI generatywnej (Midjourney, Firefly od konkurencji, Canva AI), która może erodować wartość produktów Adobe wśród amatorów i małych firm. Przecena 31% od szczytu przy P/E 12.9 i PEG 1.1 brzmi atrakcyjnie, ale masowy insider selling (18 sell vs 2 buy) to wyraźny sygnał ostrzegawczy — warto poczekać na kwartalne wyniki i potwierdzenie, że AI jest szansą a nie zagrożeniem dla modelu biznesowego.\n\n---\n\n**AVGO — OKAZJA:**\nBroadcom (AVGO) ma zdywersyfikowany moat łączący custom silicon (ASIC dla AI), infrastrukturę sieciową i po przejęciu VMware silną pozycję w software enterprise — wzrost przychodów +49% i FCF margin 42% to liczby klasy premium. Główne ryzyko to koncentracja przychodów — znaczna część wzrostu pochodzi od kilku dużych klientów (Apple, Google, Meta), których decyzja o insourcingu chipów mogłaby uderzyć w wyniki, plus P/E 43.2 zostawia małe pole na błąd. Brak jakiegokolwiek insider buying przy 20 sprzedających jest niepokojący, ale skala wzrostu i PEG 0.4 czynią AVGO bardzo atrakcyjną dla inwestora 7+ lat — buduj pozycję stopniowo.\n\n---\n\n**NVDA — OKAZJA:**\nNvidia posiada absolutnie dominujący moat w ekosystemie AI — platforma CUDA (środowisko programistyczne dla GPU) to de facto standard, który przez lata budował się jako lock-in niemożliwy do szybkiego zastąpienia przez AMD czy Intel. Główne ryzyko na 1-2 lata to regulacje eksportowe (sankcje na Chiny redukują adresowany rynek), ewentualne spowolnienie capex AI u hyperscalerów oraz konkurencja custom ASIC (od Google, Amazon, Microsoft). Przecena tylko 11% od szczytu przy fundamentach klasy kosmicznej (ROE 110%, FCF margin 45%, EPS z 0.38 do 4.90 w 5 lat, PEG 0.2) — NVDA to nie jest okazja cenowa, ale przy horyzoncie 7+ lat i dalszym wzroście AI jest to nadal jedna z najlepszych spółek wzrostowych na świecie; akumuluj przy każdej głębszej korekcie.\n\n---\n\n> ⚠️ **Zastrzeżenie:** Powyższa analiza ma charakter wyłącznie edukacyjny i stanowi analizę techniczną/fundamentalną. Nie jest rekomendacją inwestycyjną w rozumieniu przepisów prawa. Każda decyzja inwestycyjna powinna być poprzedzona własną analizą i/lub konsultacją z licencjonowanym doradcą finansowym. Inwestowanie wiąże się z ryzykiem utraty kapitału.",
     "recommendations": [
-      {
-        "ticker": "XLV",
-        "direction": "Long",
-        "entry": "173.96",
-        "stop": "169.49",
-        "target": "181.00",
-        "rr": "1.6",
-        "confidence": "Srednia",
-        "teza": "Healthcare defensywne, momentum, rotacja przed FOMC"
-      },
-      {
-        "ticker": "XLP",
-        "direction": "Long",
-        "entry": "86.06",
-        "stop": "84.01",
-        "target": "90.00",
-        "rr": "1.9",
-        "confidence": "Srednia",
-        "teza": "Consumer staples, bezpieczna przystan, breadth 35%"
-      },
       {
         "ticker": "ITA",
         "direction": "Long",
-        "entry": "204.24",
-        "stop": "197.00",
-        "target": "220.00",
-        "rr": "2.2",
+        "entry": "206.92",
+        "stop": "199.50",
+        "target": "218.00",
+        "rr": "1.5",
         "confidence": "Spekulacyjna",
-        "teza": "Obronnosc, RSI<30, geopolityka wspiera popyt"
+        "teza": "Geopolityka + wyprzedany sektor obronny przy RSI 38"
       }
     ]
   },
@@ -125,7 +105,7 @@
     {
       "score": 91,
       "details": [
-        "Przecena 55% od szczytu (+20)",
+        "Przecena 52% od szczytu (+20)",
         "EPS 4/4 lat wzrost, CAGR +23% (+20)",
         "ROE 23% (+10)",
         "FCF margin 40% (sr. 33%) (+15)",
@@ -134,9 +114,9 @@
         "D/E 0.40 (+4)",
         "PEG 0.9 (+5)"
       ],
-      "discount_pct": 55.0,
+      "discount_pct": 52.1,
       "metrics": {
-        "pe": 18.0174,
+        "pe": 19.0489,
         "roe": 23.419999999999998,
         "rev_growth": 13.9,
         "eps_growth": 20.37,
@@ -147,9 +127,9 @@
         "high_52w": 689.17,
         "low_52w": 252.84,
         "high_52w_date": "2025-10-27",
-        "market_cap": 82267.266,
+        "market_cap": 86977.3,
         "dividend_yield": 0.63822,
-        "beta": 0.97293335,
+        "beta": 0.9639904,
         "eps_series": [
           16.4838,
           13.6714,
@@ -166,15 +146,15 @@
         ]
       },
       "ticker": "INTU",
-      "current_price": 310.44,
+      "current_price": 330.17001,
       "fund": {
         "rating_label": "hold",
         "rating_color": "#d68910",
         "analyst_count": 42,
         "next_earnings": "18 May 2027",
         "headlines": [
-          "Why the Market Dipped But Intuit (INTU) Gained Today",
-          "Intuit (INTU) Adds Payroll Tax Closure Support For QuickBooks Workforce"
+          "Intuit deal signals bet on AI demand in revenue management",
+          "Why Intuit (INTU) Stock Is Trading Up Today"
         ],
         "insider": "MIXED (8 buy, 12 sell)"
       }
@@ -182,7 +162,7 @@
     {
       "score": 90,
       "details": [
-        "Przecena 60% od szczytu (+20)",
+        "Przecena 58% od szczytu (+20)",
         "EPS 4/4 lat wzrost, CAGR +25% (+20)",
         "ROE 43% (+15)",
         "FCF margin 22% (sr. 23%) (+10)",
@@ -190,9 +170,9 @@
         "Gross margin 64% (+10)",
         "PEG 0.4 (+5)"
       ],
-      "discount_pct": 59.5,
+      "discount_pct": 58.3,
       "metrics": {
-        "pe": 21.2892,
+        "pe": 20.7861,
         "roe": 42.58,
         "rev_growth": 21.62,
         "eps_growth": 49.08,
@@ -203,9 +183,9 @@
         "high_52w": 322.54,
         "low_52w": 114.5,
         "high_52w_date": "2025-10-16",
-        "market_cap": 402791.88,
+        "market_cap": 393273.16,
         "dividend_yield": 1.37634,
-        "beta": 1.7783165,
+        "beta": 1.7779702,
         "eps_series": [
           5.8638,
           4.3416,
@@ -222,15 +202,15 @@
         ]
       },
       "ticker": "ORCL",
-      "current_price": 130.55,
+      "current_price": 134.455,
       "fund": {
         "rating_label": "buy",
         "rating_color": "#27ae60",
         "analyst_count": 49,
         "next_earnings": "8 Jun 2027",
         "headlines": [
-          "Stock Market Today, Oct. 14: CoreWeave Plummets on Gartner Neocloud Warning and ...",
-          "Stock Market Today, Oct. 14: Oracle Tumbles on Hotter CPI Data Lifting Treasury ..."
+          "Don't See Canary in Coal Mine For AI: Khoda",
+          "Could OpenAI Go Bankrupt While AI Takes Over the World?"
         ],
         "insider": "SELLING (16 sell vs 4 buy)"
       }
@@ -238,7 +218,7 @@
     {
       "score": 88,
       "details": [
-        "Przecena 34% od szczytu (+20)",
+        "Przecena 31% od szczytu (+20)",
         "EPS 4/4 lat wzrost, CAGR +14% (+15)",
         "ROE 63% (+15)",
         "FCF margin 41% (sr. 40%) (+15)",
@@ -247,9 +227,9 @@
         "D/E 0.54 (+3)",
         "PEG 1.1 (+3)"
       ],
-      "discount_pct": 33.8,
+      "discount_pct": 30.8,
       "metrics": {
-        "pe": 12.625,
+        "pe": 12.8601,
         "roe": 62.88,
         "rev_growth": 12.03,
         "eps_growth": 11.68,
@@ -260,9 +240,9 @@
         "high_52w": 363.7,
         "low_52w": 190.12,
         "high_52w_date": "2025-10-28",
-        "market_cap": 91960.18,
+        "market_cap": 93672.66,
         "dividend_yield": null,
-        "beta": 1.4145689,
+        "beta": 1.4160343,
         "eps_series": [
           16.6979,
           12.3556,
@@ -279,7 +259,7 @@
         ]
       },
       "ticker": "ADBE",
-      "current_price": 240.67999,
+      "current_price": 251.67,
       "fund": {
         "rating_label": null,
         "rating_color": null,
@@ -300,11 +280,11 @@
         "Gross margin 69% (+10)",
         "D/E 0.60 (+3)",
         "PEG 0.4 (+5)",
-        "P/E 44 drogie (-5)"
+        "P/E 43 drogie (-5)"
       ],
-      "discount_pct": 30.1,
+      "discount_pct": 30.4,
       "metrics": {
-        "pe": 44.436,
+        "pe": 43.1984,
         "roe": 43.91,
         "rev_growth": 48.69,
         "eps_growth": 100.1,
@@ -315,9 +295,9 @@
         "high_52w": 495,
         "low_52w": 289.96,
         "high_52w_date": "2026-06-03",
-        "market_cap": 1700343.1,
+        "market_cap": 1652988.6,
         "dividend_yield": 1.87972,
-        "beta": 1.4910728,
+        "beta": 1.4945898,
         "eps_series": [
           4.7653,
           1.2338,
@@ -334,15 +314,15 @@
         ]
       },
       "ticker": "AVGO",
-      "current_price": 346.25,
+      "current_price": 344.32999,
       "fund": {
         "rating_label": "buy",
         "rating_color": "#27ae60",
         "analyst_count": 57,
         "next_earnings": "1 Jun 2027",
         "headlines": [
-          "AMD Stock Takes a Bigger Hit as Cracks Emerge in the AI Trade",
-          "Can Marvell Stock Drop From Here?"
+          "AI Stocks Are Hurting. Look at These Other Sectors for Protection.",
+          "This AI rout is just another scare for investors"
         ],
         "insider": "SELLING (20 sell vs 0 buy)"
       }
@@ -350,55 +330,58 @@
     {
       "score": 78,
       "details": [
-        "Przecena 44% od szczytu (+20)",
-        "EPS 3/4 lat wzrost, CAGR +22% (+10)",
-        "ROE 48% (+15)",
-        "FCF margin 21% (sr. 14%) (+10)",
-        "Rev growth 16% (+7)",
-        "Gross margin 49% (+7)",
-        "D/E 0.47 (+4)",
-        "PEG 0.6 (+5)"
+        "Przecena 11% od szczytu (+8)",
+        "EPS 3/4 lat wzrost, CAGR +89% (+10)",
+        "ROE 110% (+15)",
+        "FCF margin 45% (sr. 36%) (+15)",
+        "Rev growth 83% (+10)",
+        "Gross margin 75% (+10)",
+        "D/E 0.15 (+5)",
+        "PEG 0.2 (+5)"
       ],
-      "discount_pct": 43.5,
+      "discount_pct": 10.7,
       "metrics": {
-        "pe": 21.7156,
-        "roe": 47.96,
-        "rev_growth": 16.02,
-        "eps_growth": 35.26,
-        "gross_margin": 49.12,
+        "pe": 26.8827,
+        "roe": 110.11,
+        "rev_growth": 83.38,
+        "eps_growth": 125.15,
+        "gross_margin": 74.67,
         "net_margin": null,
-        "de_ratio": 0.4746,
-        "current_ratio": 1.1416,
-        "high_52w": 124.86,
-        "low_52w": 65.08,
-        "high_52w_date": "2025-10-21",
-        "market_cap": 296410.06,
-        "dividend_yield": null,
-        "beta": 1.605843,
+        "de_ratio": 0.1457,
+        "current_ratio": 4.5889,
+        "high_52w": 243.37,
+        "low_52w": 164.27,
+        "high_52w_date": "2026-10-06",
+        "market_cap": 5185115,
+        "dividend_yield": 0.03349,
+        "beta": 2.2597117,
         "eps_series": [
-          2.528,
-          1.9832,
-          1.2031,
-          0.9954,
-          1.1235
+          4.8979,
+          2.9382,
+          1.1933,
+          0.1742,
+          0.3847
         ],
         "fcf_margin_series": [
-          0.2094,
-          0.1775,
-          0.2054,
-          0.0512,
-          0.0772
+          0.4477,
+          0.4663,
+          0.4435,
+          0.1412,
+          0.3021
         ]
       },
-      "ticker": "NFLX",
-      "current_price": 70.57,
+      "ticker": "NVDA",
+      "current_price": 217.23,
       "fund": {
-        "rating_label": null,
-        "rating_color": null,
-        "analyst_count": 0,
-        "next_earnings": null,
-        "headlines": [],
-        "insider": "MIXED (13 buy, 7 sell)"
+        "rating_label": "buy",
+        "rating_color": "#27ae60",
+        "analyst_count": 69,
+        "next_earnings": "18 May 2027",
+        "headlines": [
+          "Deutsche Bank has blunt advice after NVIDIA-linked stock sinks 15%",
+          "Is Apple the Ultimate Stock to Buy Right Now?"
+        ],
+        "insider": "SELLING (18 sell vs 2 buy)"
       }
     }
   ],
