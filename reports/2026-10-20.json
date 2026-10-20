@@ -1,0 +1,388 @@
+{
+  "schema_version": 1,
+  "scan": {
+    "time_iso": "2026-10-20T23:19",
+    "time_pl": "20.10.2026 23:19",
+    "date": "2026-10-20",
+    "interval": "1D",
+    "rsi_period": 14,
+    "data_source": "Twelve Data + stooq + Finnhub + Yahoo Finance",
+    "total_signals": 0
+  },
+  "market": {
+    "vix": null,
+    "breadth_sp500_above_ma50_pct": 52.1
+  },
+  "btc_onchain": {
+    "fear_greed": 55,
+    "fear_greed_label": "Greed",
+    "hash_rate_eh": 1062,
+    "hash_rate_30d_chg": 2.9,
+    "tx_count": 803842,
+    "tx_30d_chg": -1.8
+  },
+  "signals": [],
+  "claude_analysis": {
+    "markdown": null,
+    "recommendations": []
+  },
+  "fundamental_picks": [
+    {
+      "score": 91,
+      "details": [
+        "Przecena 51% od szczytu (+20)",
+        "EPS 4/4 lat wzrost, CAGR +23% (+20)",
+        "ROE 23% (+10)",
+        "FCF margin 40% (sr. 33%) (+15)",
+        "Rev growth 14% (+7)",
+        "Gross margin 80% (+10)",
+        "D/E 0.40 (+4)",
+        "PEG 0.9 (+5)"
+      ],
+      "discount_pct": 51.3,
+      "metrics": {
+        "pe": 19.0302,
+        "roe": 23.419999999999998,
+        "rev_growth": 13.9,
+        "eps_growth": 20.37,
+        "gross_margin": 80.17,
+        "net_margin": null,
+        "de_ratio": 0.4038,
+        "current_ratio": 1.5065,
+        "high_52w": 689.17,
+        "low_52w": 252.84,
+        "high_52w_date": "2025-10-27",
+        "market_cap": 86891.78,
+        "dividend_yield": 0.63822,
+        "beta": 0.9497208,
+        "eps_series": [
+          16.4838,
+          13.6714,
+          10.4331,
+          8.424,
+          7.2746
+        ],
+        "fcf_margin_series": [
+          0.4018,
+          0.323,
+          0.2846,
+          0.3331,
+          0.2876
+        ]
+      },
+      "ticker": "INTU",
+      "current_price": 335.29001,
+      "fund": {
+        "rating_label": "hold",
+        "rating_color": "#d68910",
+        "analyst_count": 41,
+        "next_earnings": "18 May 2027",
+        "headlines": [
+          "Top Stock Reports for SAP, Accenture & Moody's",
+          "INTU vs. MSFT: Which Stock Is the Better Value Option?"
+        ],
+        "insider": "MIXED (8 buy, 12 sell)"
+      }
+    },
+    {
+      "score": 90,
+      "details": [
+        "Przecena 59% od szczytu (+20)",
+        "EPS 4/4 lat wzrost, CAGR +25% (+20)",
+        "ROE 43% (+15)",
+        "FCF margin 22% (sr. 23%) (+10)",
+        "Rev growth 22% (+10)",
+        "Gross margin 64% (+10)",
+        "PEG 0.4 (+5)"
+      ],
+      "discount_pct": 59.3,
+      "metrics": {
+        "pe": 20.4933,
+        "roe": 42.58,
+        "rev_growth": 21.62,
+        "eps_growth": 49.08,
+        "gross_margin": 63.96,
+        "net_margin": null,
+        "de_ratio": 2.0146,
+        "current_ratio": 1.1708,
+        "high_52w": 322.54,
+        "low_52w": 114.5,
+        "high_52w_date": "2025-10-16",
+        "market_cap": 387733.66,
+        "dividend_yield": 1.37634,
+        "beta": 1.7826288,
+        "eps_series": [
+          5.8638,
+          4.3416,
+          3.7078,
+          3.0741,
+          2.411
+        ],
+        "fcf_margin_series": [
+          0.2229,
+          0.1696,
+          0.1185,
+          0.3397,
+          0.2963
+        ]
+      },
+      "ticker": "ORCL",
+      "current_price": 131.14,
+      "fund": {
+        "rating_label": "buy",
+        "rating_color": "#27ae60",
+        "analyst_count": 48,
+        "next_earnings": "8 Jun 2027",
+        "headlines": [
+          "Oracle Is Winning In AI, But It's Still Overvalued",
+          "Oracle Just Dropped 12% in a Month. Is It Time to Sell, or Load Up?"
+        ],
+        "insider": "SELLING (16 sell vs 4 buy)"
+      }
+    },
+    {
+      "score": 84,
+      "details": [
+        "Przecena 29% od szczytu (+16)",
+        "EPS 4/4 lat wzrost, CAGR +14% (+15)",
+        "ROE 63% (+15)",
+        "FCF margin 41% (sr. 40%) (+15)",
+        "Rev growth 12% (+7)",
+        "Gross margin 89% (+10)",
+        "D/E 0.54 (+3)",
+        "PEG 1.1 (+3)"
+      ],
+      "discount_pct": 29.4,
+      "metrics": {
+        "pe": 13.1016,
+        "roe": 62.88,
+        "rev_growth": 12.03,
+        "eps_growth": 11.68,
+        "gross_margin": 89.25,
+        "net_margin": null,
+        "de_ratio": 0.5409,
+        "current_ratio": 0.7704,
+        "high_52w": 363.7,
+        "low_52w": 190.12,
+        "high_52w_date": "2025-10-28",
+        "market_cap": 95431.84,
+        "dividend_yield": null,
+        "beta": 1.412607,
+        "eps_series": [
+          16.6979,
+          12.3556,
+          11.8257,
+          10.0977,
+          10.0249
+        ],
+        "fcf_margin_series": [
+          0.4145,
+          0.3661,
+          0.3577,
+          0.4201,
+          0.436
+        ]
+      },
+      "ticker": "ADBE",
+      "current_price": 256.73001,
+      "fund": {
+        "rating_label": null,
+        "rating_color": null,
+        "analyst_count": 0,
+        "next_earnings": null,
+        "headlines": [],
+        "insider": "SELLING (18 sell vs 2 buy)"
+      }
+    },
+    {
+      "score": 83,
+      "details": [
+        "Przecena 32% od szczytu (+20)",
+        "EPS 3/4 lat wzrost, CAGR +32% (+10)",
+        "ROE 44% (+15)",
+        "FCF margin 42% (sr. 45%) (+15)",
+        "Rev growth 49% (+10)",
+        "Gross margin 69% (+10)",
+        "D/E 0.60 (+3)",
+        "PEG 0.4 (+5)",
+        "P/E 42 drogie (-5)"
+      ],
+      "discount_pct": 32.5,
+      "metrics": {
+        "pe": 41.8567,
+        "roe": 43.91,
+        "rev_growth": 48.69,
+        "eps_growth": 100.1,
+        "gross_margin": 68.82,
+        "net_margin": null,
+        "de_ratio": 0.596,
+        "current_ratio": 2.5037,
+        "high_52w": 495,
+        "low_52w": 289.96,
+        "high_52w_date": "2026-06-03",
+        "market_cap": 1601648.2,
+        "dividend_yield": 1.87972,
+        "beta": 1.5011349,
+        "eps_series": [
+          4.7653,
+          1.2338,
+          3.2979,
+          2.7175,
+          1.5702
+        ],
+        "fcf_margin_series": [
+          0.4213,
+          0.3764,
+          0.4923,
+          0.4913,
+          0.4853
+        ]
+      },
+      "ticker": "AVGO",
+      "current_price": 334.37,
+      "fund": {
+        "rating_label": "buy",
+        "rating_color": "#27ae60",
+        "analyst_count": 56,
+        "next_earnings": "1 Jun 2027",
+        "headlines": [
+          "Did The Market Read Texas Instruments Stock Right?",
+          "Microsoft, Alphabet, Goldman Sachs Join Growing List of Companies Objecting to T..."
+        ],
+        "insider": "SELLING (20 sell vs 0 buy)"
+      }
+    },
+    {
+      "score": 78,
+      "details": [
+        "Przecena 11% od szczytu (+8)",
+        "EPS 3/4 lat wzrost, CAGR +89% (+10)",
+        "ROE 110% (+15)",
+        "FCF margin 45% (sr. 36%) (+15)",
+        "Rev growth 83% (+10)",
+        "Gross margin 75% (+10)",
+        "D/E 0.15 (+5)",
+        "PEG 0.2 (+5)"
+      ],
+      "discount_pct": 11.1,
+      "metrics": {
+        "pe": 26.7553,
+        "roe": 110.11,
+        "rev_growth": 83.38,
+        "eps_growth": 125.15,
+        "gross_margin": 74.67,
+        "net_margin": null,
+        "de_ratio": 0.1457,
+        "current_ratio": 4.5889,
+        "high_52w": 243.37,
+        "low_52w": 164.27,
+        "high_52w_date": "2026-10-06",
+        "market_cap": 5160533,
+        "dividend_yield": 0.03349,
+        "beta": 2.2658267,
+        "eps_series": [
+          4.8979,
+          2.9382,
+          1.1933,
+          0.1742,
+          0.3847
+        ],
+        "fcf_margin_series": [
+          0.4477,
+          0.4663,
+          0.4435,
+          0.1412,
+          0.3021
+        ]
+      },
+      "ticker": "NVDA",
+      "current_price": 216.47,
+      "fund": {
+        "rating_label": "buy",
+        "rating_color": "#27ae60",
+        "analyst_count": 69,
+        "next_earnings": "18 May 2027",
+        "headlines": [
+          "SpaceX Crushes Q3 with Some Help From Musk",
+          "Major gold holder backs NVIDIA challenger"
+        ],
+        "insider": "SELLING (18 sell vs 2 buy)"
+      }
+    }
+  ],
+  "performance": {
+    "live_summary": "T1: 11 sygnalow | WR 55% | avg +0.6% &nbsp;|&nbsp; T2: 14 sygnalow | WR 57% | avg +2.6% &nbsp;|&nbsp; Claude: 89 sygnalow | WR 55% | avg +0.5%",
+    "full_stats": {
+      "overall_resolved": 153,
+      "t1": {
+        "count": 11,
+        "wr": 54.5,
+        "avg_pnl": 0.63,
+        "pf": 1.35,
+        "targets": 5,
+        "stops": 4,
+        "timeouts": 2,
+        "best": [
+          "TMO",
+          6.72
+        ],
+        "worst": [
+          "ACN",
+          -7.0
+        ]
+      },
+      "t2": {
+        "count": 14,
+        "wr": 57.1,
+        "avg_pnl": 2.64,
+        "pf": 3.44,
+        "targets": 8,
+        "stops": 5,
+        "timeouts": 1,
+        "best": [
+          "ADA/USD",
+          13.98
+        ],
+        "worst": [
+          "INTU",
+          -6.14
+        ]
+      },
+      "t3": {
+        "count": 39,
+        "wr": 79.5,
+        "avg_pnl": 3.11,
+        "pf": 11.49,
+        "targets": 24,
+        "stops": 9,
+        "timeouts": 6,
+        "best": [
+          "ETH/USD",
+          11.58
+        ],
+        "worst": [
+          "DOT/USD",
+          -7.0
+        ]
+      },
+      "claude": {
+        "count": 89,
+        "wr": 55.1,
+        "avg_pnl": 0.47,
+        "pf": 1.36,
+        "targets": 23,
+        "stops": 26,
+        "timeouts": 40,
+        "best": [
+          "XLE",
+          10.62
+        ],
+        "worst": [
+          "BTC/USD",
+          -7.02
+        ]
+      }
+    }
+  },
+  "disclaimer": "Materiał ma charakter wyłącznie edukacyjny i analityczny. Nie stanowi rekomendacji inwestycyjnej w rozumieniu Rozporządzenia MAR ani usługi doradztwa inwestycyjnego. Każda decyzja inwestycyjna wiąże się z ryzykiem utraty kapitału."
+}
