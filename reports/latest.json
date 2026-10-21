@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "scan": {
-    "time_iso": "2026-10-20T23:19",
-    "time_pl": "20.10.2026 23:19",
-    "date": "2026-10-20",
+    "time_iso": "2026-10-21T23:33",
+    "time_pl": "21.10.2026 23:33",
+    "date": "2026-10-21",
     "interval": "1D",
     "rsi_period": 14,
     "data_source": "Twelve Data + stooq + Finnhub + Yahoo Finance",
@@ -11,15 +11,15 @@
   },
   "market": {
     "vix": null,
-    "breadth_sp500_above_ma50_pct": 52.1
+    "breadth_sp500_above_ma50_pct": 55.3
   },
   "btc_onchain": {
-    "fear_greed": 55,
+    "fear_greed": 63,
     "fear_greed_label": "Greed",
-    "hash_rate_eh": 1062,
-    "hash_rate_30d_chg": 2.9,
-    "tx_count": 803842,
-    "tx_30d_chg": -1.8
+    "hash_rate_eh": 1069,
+    "hash_rate_30d_chg": 5.2,
+    "tx_count": 663650,
+    "tx_30d_chg": -18.4
   },
   "signals": [],
   "claude_analysis": {
@@ -37,11 +37,11 @@
         "Rev growth 14% (+7)",
         "Gross margin 80% (+10)",
         "D/E 0.40 (+4)",
-        "PEG 0.9 (+5)"
+        "PEG 1.0 (+5)"
       ],
       "discount_pct": 51.3,
       "metrics": {
-        "pe": 19.0302,
+        "pe": 19.6435,
         "roe": 23.419999999999998,
         "rev_growth": 13.9,
         "eps_growth": 20.37,
@@ -52,9 +52,9 @@
         "high_52w": 689.17,
         "low_52w": 252.84,
         "high_52w_date": "2025-10-27",
-        "market_cap": 86891.78,
+        "market_cap": 89692.42,
         "dividend_yield": 0.63822,
-        "beta": 0.9497208,
+        "beta": 0.9619919,
         "eps_series": [
           16.4838,
           13.6714,
@@ -71,15 +71,15 @@
         ]
       },
       "ticker": "INTU",
-      "current_price": 335.29001,
+      "current_price": 335.60999,
       "fund": {
         "rating_label": "hold",
         "rating_color": "#d68910",
         "analyst_count": 41,
         "next_earnings": "18 May 2027",
         "headlines": [
-          "Top Stock Reports for SAP, Accenture & Moody's",
-          "INTU vs. MSFT: Which Stock Is the Better Value Option?"
+          "Top Analyst Reports for Salesforce, S&P & Intuit",
+          "3 Reasons to Sell INTU and 1 Stock to Buy Instead"
         ],
         "insider": "MIXED (8 buy, 12 sell)"
       }
@@ -87,7 +87,7 @@
     {
       "score": 90,
       "details": [
-        "Przecena 59% od szczytu (+20)",
+        "Przecena 55% od szczytu (+20)",
         "EPS 4/4 lat wzrost, CAGR +25% (+20)",
         "ROE 43% (+15)",
         "FCF margin 22% (sr. 23%) (+10)",
@@ -95,9 +95,9 @@
         "Gross margin 64% (+10)",
         "PEG 0.4 (+5)"
       ],
-      "discount_pct": 59.3,
+      "discount_pct": 55.4,
       "metrics": {
-        "pe": 20.4933,
+        "pe": 20.5413,
         "roe": 42.58,
         "rev_growth": 21.62,
         "eps_growth": 49.08,
@@ -105,12 +105,12 @@
         "net_margin": null,
         "de_ratio": 2.0146,
         "current_ratio": 1.1708,
-        "high_52w": 322.54,
+        "high_52w": 289.24,
         "low_52w": 114.5,
-        "high_52w_date": "2025-10-16",
-        "market_cap": 387733.66,
+        "high_52w_date": "2025-10-20",
+        "market_cap": 388640.8,
         "dividend_yield": 1.37634,
-        "beta": 1.7826288,
+        "beta": 1.7782867,
         "eps_series": [
           5.8638,
           4.3416,
@@ -127,15 +127,15 @@
         ]
       },
       "ticker": "ORCL",
-      "current_price": 131.14,
+      "current_price": 129.13,
       "fund": {
         "rating_label": "buy",
         "rating_color": "#27ae60",
         "analyst_count": 48,
         "next_earnings": "8 Jun 2027",
         "headlines": [
-          "Oracle Is Winning In AI, But It's Still Overvalued",
-          "Oracle Just Dropped 12% in a Month. Is It Time to Sell, or Load Up?"
+          "Oracle boss Larry Ellison just suffered a historic wealth collapse",
+          "SKYD Surges After Media Baron John Malone Predicts $8–10B SpaceX Investment"
         ],
         "insider": "SELLING (16 sell vs 4 buy)"
       }
@@ -143,18 +143,18 @@
     {
       "score": 84,
       "details": [
-        "Przecena 29% od szczytu (+16)",
+        "Przecena 30% od szczytu (+16)",
         "EPS 4/4 lat wzrost, CAGR +14% (+15)",
         "ROE 63% (+15)",
         "FCF margin 41% (sr. 40%) (+15)",
         "Rev growth 12% (+7)",
         "Gross margin 89% (+10)",
         "D/E 0.54 (+3)",
-        "PEG 1.1 (+3)"
+        "PEG 1.2 (+3)"
       ],
-      "discount_pct": 29.4,
+      "discount_pct": 29.9,
       "metrics": {
-        "pe": 13.1016,
+        "pe": 13.7176,
         "roe": 62.88,
         "rev_growth": 12.03,
         "eps_growth": 11.68,
@@ -165,9 +165,9 @@
         "high_52w": 363.7,
         "low_52w": 190.12,
         "high_52w_date": "2025-10-28",
-        "market_cap": 95431.84,
+        "market_cap": 99919.32,
         "dividend_yield": null,
-        "beta": 1.412607,
+        "beta": 1.4150654,
         "eps_series": [
           16.6979,
           12.3556,
@@ -184,7 +184,7 @@
         ]
       },
       "ticker": "ADBE",
-      "current_price": 256.73001,
+      "current_price": 255.059998,
       "fund": {
         "rating_label": null,
         "rating_color": null,
@@ -207,9 +207,9 @@
         "PEG 0.4 (+5)",
         "P/E 42 drogie (-5)"
       ],
-      "discount_pct": 32.5,
+      "discount_pct": 31.8,
       "metrics": {
-        "pe": 41.8567,
+        "pe": 41.8062,
         "roe": 43.91,
         "rev_growth": 48.69,
         "eps_growth": 100.1,
@@ -220,9 +220,9 @@
         "high_52w": 495,
         "low_52w": 289.96,
         "high_52w_date": "2026-06-03",
-        "market_cap": 1601648.2,
+        "market_cap": 1599715,
         "dividend_yield": 1.87972,
-        "beta": 1.5011349,
+        "beta": 1.4953284,
         "eps_series": [
           4.7653,
           1.2338,
@@ -239,15 +239,15 @@
         ]
       },
       "ticker": "AVGO",
-      "current_price": 334.37,
+      "current_price": 337.79999,
       "fund": {
         "rating_label": "buy",
         "rating_color": "#27ae60",
         "analyst_count": 56,
         "next_earnings": "1 Jun 2027",
         "headlines": [
-          "Did The Market Read Texas Instruments Stock Right?",
-          "Microsoft, Alphabet, Goldman Sachs Join Growing List of Companies Objecting to T..."
+          "$4,000 in These 4 Non-Nvidia Chip Stocks Could Be Worth This Much by 2030",
+          "Microsoft and Alphabet opt out of tokenized stocks in latest blow to ambitious p..."
         ],
         "insider": "SELLING (20 sell vs 0 buy)"
       }
@@ -255,58 +255,55 @@
     {
       "score": 78,
       "details": [
-        "Przecena 11% od szczytu (+8)",
-        "EPS 3/4 lat wzrost, CAGR +89% (+10)",
-        "ROE 110% (+15)",
-        "FCF margin 45% (sr. 36%) (+15)",
-        "Rev growth 83% (+10)",
-        "Gross margin 75% (+10)",
-        "D/E 0.15 (+5)",
-        "PEG 0.2 (+5)"
+        "Przecena 48% od szczytu (+20)",
+        "EPS 3/4 lat wzrost, CAGR +22% (+10)",
+        "ROE 48% (+15)",
+        "FCF margin 21% (sr. 14%) (+10)",
+        "Rev growth 16% (+7)",
+        "Gross margin 49% (+7)",
+        "D/E 0.47 (+4)",
+        "PEG 0.6 (+5)"
       ],
-      "discount_pct": 11.1,
+      "discount_pct": 47.9,
       "metrics": {
-        "pe": 26.7553,
-        "roe": 110.11,
-        "rev_growth": 83.38,
-        "eps_growth": 125.15,
-        "gross_margin": 74.67,
+        "pe": 21.3129,
+        "roe": 47.96,
+        "rev_growth": 16.02,
+        "eps_growth": 35.26,
+        "gross_margin": 49.12,
         "net_margin": null,
-        "de_ratio": 0.1457,
-        "current_ratio": 4.5889,
-        "high_52w": 243.37,
-        "low_52w": 164.27,
-        "high_52w_date": "2026-10-06",
-        "market_cap": 5160533,
-        "dividend_yield": 0.03349,
-        "beta": 2.2658267,
+        "de_ratio": 0.4746,
+        "current_ratio": 1.1416,
+        "high_52w": 124.86,
+        "low_52w": 65.08,
+        "high_52w_date": "2025-10-21",
+        "market_cap": 290913.66,
+        "dividend_yield": null,
+        "beta": 1.6073649,
         "eps_series": [
-          4.8979,
-          2.9382,
-          1.1933,
-          0.1742,
-          0.3847
+          2.528,
+          1.9832,
+          1.2031,
+          0.9954,
+          1.1235
         ],
         "fcf_margin_series": [
-          0.4477,
-          0.4663,
-          0.4435,
-          0.1412,
-          0.3021
+          0.2094,
+          0.1775,
+          0.2054,
+          0.0512,
+          0.0772
         ]
       },
-      "ticker": "NVDA",
-      "current_price": 216.47,
+      "ticker": "NFLX",
+      "current_price": 65.040001,
       "fund": {
-        "rating_label": "buy",
-        "rating_color": "#27ae60",
-        "analyst_count": 69,
-        "next_earnings": "18 May 2027",
-        "headlines": [
-          "SpaceX Crushes Q3 with Some Help From Musk",
-          "Major gold holder backs NVIDIA challenger"
-        ],
-        "insider": "SELLING (18 sell vs 2 buy)"
+        "rating_label": null,
+        "rating_color": null,
+        "analyst_count": 0,
+        "next_earnings": null,
+        "headlines": [],
+        "insider": "MIXED (13 buy, 7 sell)"
       }
     }
   ],
