@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "scan": {
-    "time_iso": "2026-10-23T23:23",
-    "time_pl": "23.10.2026 23:23",
-    "date": "2026-10-23",
+    "time_iso": "2026-10-27T00:01",
+    "time_pl": "27.10.2026 00:01",
+    "date": "2026-10-27",
     "interval": "1D",
     "rsi_period": 14,
     "data_source": "Twelve Data + stooq + Finnhub + Yahoo Finance",
@@ -11,15 +11,15 @@
   },
   "market": {
     "vix": null,
-    "breadth_sp500_above_ma50_pct": 58.1
+    "breadth_sp500_above_ma50_pct": 59.4
   },
   "btc_onchain": {
-    "fear_greed": 50,
+    "fear_greed": 48,
     "fear_greed_label": "Neutral",
-    "hash_rate_eh": 894,
-    "hash_rate_30d_chg": 5.1,
-    "tx_count": 560565,
-    "tx_30d_chg": -3.8
+    "hash_rate_eh": 1090,
+    "hash_rate_30d_chg": 7.3,
+    "tx_count": 799372,
+    "tx_30d_chg": 5.6
   },
   "signals": [],
   "claude_analysis": {
@@ -30,7 +30,7 @@
     {
       "score": 91,
       "details": [
-        "Przecena 50% od szczytu (+20)",
+        "Przecena 51% od szczytu (+20)",
         "EPS 4/4 lat wzrost, CAGR +23% (+20)",
         "ROE 23% (+10)",
         "FCF margin 40% (sr. 33%) (+15)",
@@ -39,9 +39,9 @@
         "D/E 0.40 (+4)",
         "PEG 1.0 (+5)"
       ],
-      "discount_pct": 50.2,
+      "discount_pct": 50.7,
       "metrics": {
-        "pe": 19.6424,
+        "pe": 20.0319,
         "roe": 23.419999999999998,
         "rev_growth": 13.9,
         "eps_growth": 20.37,
@@ -52,9 +52,9 @@
         "high_52w": 689.17,
         "low_52w": 252.84,
         "high_52w_date": "2025-10-27",
-        "market_cap": 89687.07,
+        "market_cap": 91465.53,
         "dividend_yield": 0.63822,
-        "beta": 0.94386774,
+        "beta": 0.93463564,
         "eps_series": [
           16.4838,
           13.6714,
@@ -71,15 +71,15 @@
         ]
       },
       "ticker": "INTU",
-      "current_price": 343.39001,
+      "current_price": 339.89001,
       "fund": {
         "rating_label": "hold",
         "rating_color": "#d68910",
         "analyst_count": 41,
         "next_earnings": "18 May 2027",
         "headlines": [
-          "Intuit (INTU) Suffers a Larger Drop Than the General Market: Key Insights",
-          "Broyhill is Upgrading Quality in Software: Moving from Intuit (INTU) to Microsof..."
+          "Intuit vs. BILL: Which Financial Software Stock Is a Better Buy Today?",
+          "Intuit's Multi-Year Strategy Supports Growth Outlook, Oppenheimer Says"
         ],
         "insider": "MIXED (8 buy, 12 sell)"
       }
@@ -97,7 +97,7 @@
       ],
       "discount_pct": 56.1,
       "metrics": {
-        "pe": 20.2216,
+        "pe": 19.9252,
         "roe": 42.58,
         "rev_growth": 21.62,
         "eps_growth": 49.08,
@@ -108,9 +108,9 @@
         "high_52w": 287.19,
         "low_52w": 114.5,
         "high_52w_date": "2025-10-24",
-        "market_cap": 382593.34,
+        "market_cap": 376984.3,
         "dividend_yield": 1.37634,
-        "beta": 1.7835776,
+        "beta": 1.7858766,
         "eps_series": [
           5.8638,
           4.3416,
@@ -127,20 +127,23 @@
         ]
       },
       "ticker": "ORCL",
-      "current_price": 126.16,
+      "current_price": 126.059998,
       "fund": {
-        "rating_label": null,
-        "rating_color": null,
-        "analyst_count": 0,
-        "next_earnings": null,
-        "headlines": [],
+        "rating_label": "buy",
+        "rating_color": "#27ae60",
+        "analyst_count": 48,
+        "next_earnings": "8 Jun 2027",
+        "headlines": [
+          "What Is The Market Seeing In Manhattan Associates Stock?",
+          "Microsoft offers buyouts to 60,000 workers as it looks to trim costs"
+        ],
         "insider": "SELLING (16 sell vs 4 buy)"
       }
     },
     {
       "score": 84,
       "details": [
-        "Przecena 28% od szczytu (+16)",
+        "Przecena 29% od szczytu (+16)",
         "EPS 4/4 lat wzrost, CAGR +14% (+15)",
         "ROE 63% (+15)",
         "FCF margin 41% (sr. 40%) (+15)",
@@ -149,9 +152,9 @@
         "D/E 0.54 (+3)",
         "PEG 1.2 (+3)"
       ],
-      "discount_pct": 27.5,
+      "discount_pct": 28.9,
       "metrics": {
-        "pe": 14.4561,
+        "pe": 14.0965,
         "roe": 62.88,
         "rev_growth": 12.03,
         "eps_growth": 11.68,
@@ -162,9 +165,9 @@
         "high_52w": 363.7,
         "low_52w": 190.12,
         "high_52w_date": "2025-10-28",
-        "market_cap": 105298.055,
+        "market_cap": 102678.75,
         "dividend_yield": null,
-        "beta": 1.4057506,
+        "beta": 1.4014893,
         "eps_series": [
           16.6979,
           12.3556,
@@ -181,7 +184,7 @@
         ]
       },
       "ticker": "ADBE",
-      "current_price": 263.82001,
+      "current_price": 258.62,
       "fund": {
         "rating_label": null,
         "rating_color": null,
@@ -194,7 +197,7 @@
     {
       "score": 83,
       "details": [
-        "Przecena 35% od szczytu (+20)",
+        "Przecena 34% od szczytu (+20)",
         "EPS 3/4 lat wzrost, CAGR +32% (+10)",
         "ROE 44% (+15)",
         "FCF margin 42% (sr. 45%) (+15)",
@@ -204,9 +207,9 @@
         "PEG 0.4 (+5)",
         "P/E 41 drogie (-5)"
       ],
-      "discount_pct": 35.0,
+      "discount_pct": 33.5,
       "metrics": {
-        "pe": 40.53,
+        "pe": 41.2243,
         "roe": 43.91,
         "rev_growth": 48.69,
         "eps_growth": 100.1,
@@ -217,9 +220,9 @@
         "high_52w": 495,
         "low_52w": 289.96,
         "high_52w_date": "2026-06-03",
-        "market_cap": 1550880.8,
+        "market_cap": 1577446,
         "dividend_yield": 1.87972,
-        "beta": 1.5016118,
+        "beta": 1.5059385,
         "eps_series": [
           4.7653,
           1.2338,
@@ -236,15 +239,15 @@
         ]
       },
       "ticker": "AVGO",
-      "current_price": 321.67999,
+      "current_price": 329.17001,
       "fund": {
         "rating_label": "buy",
         "rating_color": "#27ae60",
         "analyst_count": 56,
         "next_earnings": "1 Jun 2027",
         "headlines": [
-          "Prediction: Nvidia Will Outperform Broadcom Over the Next 5 Years",
-          "Taiwan Semiconductor (TSMC) Posted Record Profit and the Stock Still Fell. Here'..."
+          "Broadcom Partners With Wall Street Bigwigs To Forge $63B Deal To Power Anthropic...",
+          "Broadcom secures $63 billion from banks to finance AI compute sales to Anthropic"
         ],
         "insider": "SELLING (20 sell vs 0 buy)"
       }
@@ -261,9 +264,9 @@
         "D/E 0.15 (+5)",
         "PEG 0.1 (+5)"
       ],
-      "discount_pct": 21.6,
+      "discount_pct": 22.5,
       "metrics": {
-        "pe": 16.3229,
+        "pe": 15.9302,
         "roe": 50.839999999999996,
         "rev_growth": 20.05,
         "eps_growth": 115.31,
@@ -272,11 +275,11 @@
         "de_ratio": 0.1533,
         "current_ratio": 2.724,
         "high_52w": 408.61,
-        "low_52w": 249.29,
+        "low_52w": 251.85,
         "high_52w_date": "2026-05-18",
-        "market_cap": 3986124,
+        "market_cap": 3890240.8,
         "dividend_yield": null,
-        "beta": 1.2108115,
+        "beta": 1.2143896,
         "eps_series": [
           10.807,
           8.0435,
@@ -293,15 +296,15 @@
         ]
       },
       "ticker": "GOOGL",
-      "current_price": 320.20999,
+      "current_price": 316.79999,
       "fund": {
         "rating_label": "buy",
         "rating_color": "#27ae60",
         "analyst_count": 67,
         "next_earnings": "27 Apr 2027",
         "headlines": [
-          "Dow Jones Futures: Microsoft, Google, Amazon Lead Earnings Wave; What To Do In M...",
-          "Meta and Google About to Run the Old Playbook Again, Will “Sell Space Inside The..."
+          "Tech Earnings Are the Market’s Biggest Story This Week: Here’s Why Microsoft, Am...",
+          "Why Google might avoid an earnings 'reckoning' this week"
         ],
         "insider": "SELLING (15 sell vs 5 buy)"
       }
