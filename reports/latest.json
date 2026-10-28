@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "scan": {
-    "time_iso": "2026-10-27T00:01",
-    "time_pl": "27.10.2026 00:01",
+    "time_iso": "2026-10-27T23:56",
+    "time_pl": "27.10.2026 23:56",
     "date": "2026-10-27",
     "interval": "1D",
     "rsi_period": 14,
@@ -11,15 +11,15 @@
   },
   "market": {
     "vix": null,
-    "breadth_sp500_above_ma50_pct": 59.4
+    "breadth_sp500_above_ma50_pct": 60.0
   },
   "btc_onchain": {
-    "fear_greed": 48,
+    "fear_greed": 51,
     "fear_greed_label": "Neutral",
-    "hash_rate_eh": 1090,
-    "hash_rate_30d_chg": 7.3,
-    "tx_count": 799372,
-    "tx_30d_chg": 5.6
+    "hash_rate_eh": 1132,
+    "hash_rate_30d_chg": 17.5,
+    "tx_count": 822379,
+    "tx_30d_chg": 8.9
   },
   "signals": [],
   "claude_analysis": {
@@ -30,7 +30,7 @@
     {
       "score": 91,
       "details": [
-        "Przecena 51% od szczytu (+20)",
+        "Przecena 52% od szczytu (+20)",
         "EPS 4/4 lat wzrost, CAGR +23% (+20)",
         "ROE 23% (+10)",
         "FCF margin 40% (sr. 33%) (+15)",
@@ -39,9 +39,9 @@
         "D/E 0.40 (+4)",
         "PEG 1.0 (+5)"
       ],
-      "discount_pct": 50.7,
+      "discount_pct": 52.3,
       "metrics": {
-        "pe": 20.0319,
+        "pe": 19.4773,
         "roe": 23.419999999999998,
         "rev_growth": 13.9,
         "eps_growth": 20.37,
@@ -52,9 +52,9 @@
         "high_52w": 689.17,
         "low_52w": 252.84,
         "high_52w_date": "2025-10-27",
-        "market_cap": 91465.53,
+        "market_cap": 88933.47,
         "dividend_yield": 0.63822,
-        "beta": 0.93463564,
+        "beta": 0.9516193,
         "eps_series": [
           16.4838,
           13.6714,
@@ -71,15 +71,15 @@
         ]
       },
       "ticker": "INTU",
-      "current_price": 339.89001,
+      "current_price": 328.45001,
       "fund": {
         "rating_label": "hold",
         "rating_color": "#d68910",
         "analyst_count": 41,
         "next_earnings": "18 May 2027",
         "headlines": [
-          "Intuit vs. BILL: Which Financial Software Stock Is a Better Buy Today?",
-          "Intuit's Multi-Year Strategy Supports Growth Outlook, Oppenheimer Says"
+          "Intuit: I Am Long, But It's Not A Buy Now (Rating Downgrade)",
+          "Intuit (INTU) Following New AI Rollout, Is The Growth Story Already Priced In"
         ],
         "insider": "MIXED (8 buy, 12 sell)"
       }
@@ -87,7 +87,7 @@
     {
       "score": 90,
       "details": [
-        "Przecena 56% od szczytu (+20)",
+        "Przecena 54% od szczytu (+20)",
         "EPS 4/4 lat wzrost, CAGR +25% (+20)",
         "ROE 43% (+15)",
         "FCF margin 22% (sr. 23%) (+10)",
@@ -95,9 +95,9 @@
         "Gross margin 64% (+10)",
         "PEG 0.4 (+5)"
       ],
-      "discount_pct": 56.1,
+      "discount_pct": 54.5,
       "metrics": {
-        "pe": 19.9252,
+        "pe": 20.8625,
         "roe": 42.58,
         "rev_growth": 21.62,
         "eps_growth": 49.08,
@@ -108,9 +108,9 @@
         "high_52w": 287.19,
         "low_52w": 114.5,
         "high_52w_date": "2025-10-24",
-        "market_cap": 376984.3,
+        "market_cap": 394717.84,
         "dividend_yield": 1.37634,
-        "beta": 1.7858766,
+        "beta": 1.782187,
         "eps_series": [
           5.8638,
           4.3416,
@@ -127,23 +127,23 @@
         ]
       },
       "ticker": "ORCL",
-      "current_price": 126.059998,
+      "current_price": 130.53,
       "fund": {
         "rating_label": "buy",
         "rating_color": "#27ae60",
         "analyst_count": 48,
         "next_earnings": "8 Jun 2027",
         "headlines": [
-          "What Is The Market Seeing In Manhattan Associates Stock?",
-          "Microsoft offers buyouts to 60,000 workers as it looks to trim costs"
+          "Artificial Intelligence (AI) in Pharmacovigilance Global Market Report 2026 | Ca...",
+          "Artificial Intelligence (AI)-Driven Drug Safety and Pharmacovigilance Platforms ..."
         ],
         "insider": "SELLING (16 sell vs 4 buy)"
       }
     },
     {
-      "score": 84,
+      "score": 88,
       "details": [
-        "Przecena 29% od szczytu (+16)",
+        "Przecena 32% od szczytu (+20)",
         "EPS 4/4 lat wzrost, CAGR +14% (+15)",
         "ROE 63% (+15)",
         "FCF margin 41% (sr. 40%) (+15)",
@@ -152,9 +152,9 @@
         "D/E 0.54 (+3)",
         "PEG 1.2 (+3)"
       ],
-      "discount_pct": 28.9,
+      "discount_pct": 31.7,
       "metrics": {
-        "pe": 14.0965,
+        "pe": 13.8186,
         "roe": 62.88,
         "rev_growth": 12.03,
         "eps_growth": 11.68,
@@ -165,9 +165,9 @@
         "high_52w": 363.7,
         "low_52w": 190.12,
         "high_52w_date": "2025-10-28",
-        "market_cap": 102678.75,
+        "market_cap": 100654.91,
         "dividend_yield": null,
-        "beta": 1.4014893,
+        "beta": 1.4108922,
         "eps_series": [
           16.6979,
           12.3556,
@@ -184,7 +184,7 @@
         ]
       },
       "ticker": "ADBE",
-      "current_price": 258.62,
+      "current_price": 248.36,
       "fund": {
         "rating_label": null,
         "rating_color": null,
@@ -197,7 +197,7 @@
     {
       "score": 83,
       "details": [
-        "Przecena 34% od szczytu (+20)",
+        "Przecena 31% od szczytu (+20)",
         "EPS 3/4 lat wzrost, CAGR +32% (+10)",
         "ROE 44% (+15)",
         "FCF margin 42% (sr. 45%) (+15)",
@@ -205,11 +205,11 @@
         "Gross margin 69% (+10)",
         "D/E 0.60 (+3)",
         "PEG 0.4 (+5)",
-        "P/E 41 drogie (-5)"
+        "P/E 43 drogie (-5)"
       ],
-      "discount_pct": 33.5,
+      "discount_pct": 30.8,
       "metrics": {
-        "pe": 41.2243,
+        "pe": 42.7724,
         "roe": 43.91,
         "rev_growth": 48.69,
         "eps_growth": 100.1,
@@ -220,9 +220,9 @@
         "high_52w": 495,
         "low_52w": 289.96,
         "high_52w_date": "2026-06-03",
-        "market_cap": 1577446,
+        "market_cap": 1636686.8,
         "dividend_yield": 1.87972,
-        "beta": 1.5059385,
+        "beta": 1.4991914,
         "eps_series": [
           4.7653,
           1.2338,
@@ -239,15 +239,15 @@
         ]
       },
       "ticker": "AVGO",
-      "current_price": 329.17001,
+      "current_price": 342.32999,
       "fund": {
         "rating_label": "buy",
         "rating_color": "#27ae60",
         "analyst_count": 56,
         "next_earnings": "1 Jun 2027",
         "headlines": [
-          "Broadcom Partners With Wall Street Bigwigs To Forge $63B Deal To Power Anthropic...",
-          "Broadcom secures $63 billion from banks to finance AI compute sales to Anthropic"
+          "Update: Equity Indexes Rise as Technology Tops Sector Charts Ahead of Hyperscale...",
+          "Stock Market Today: Dow Up Ahead Of Fed Decision; Nasdaq Jumps, Broadcom Pops On..."
         ],
         "insider": "SELLING (20 sell vs 0 buy)"
       }
@@ -264,9 +264,9 @@
         "D/E 0.15 (+5)",
         "PEG 0.1 (+5)"
       ],
-      "discount_pct": 22.5,
+      "discount_pct": 21.5,
       "metrics": {
-        "pe": 15.9302,
+        "pe": 16.1295,
         "roe": 50.839999999999996,
         "rev_growth": 20.05,
         "eps_growth": 115.31,
@@ -275,11 +275,11 @@
         "de_ratio": 0.1533,
         "current_ratio": 2.724,
         "high_52w": 408.61,
-        "low_52w": 251.85,
+        "low_52w": 255.32,
         "high_52w_date": "2026-05-18",
-        "market_cap": 3890240.8,
+        "market_cap": 3938916,
         "dividend_yield": null,
-        "beta": 1.2143896,
+        "beta": 1.2110361,
         "eps_series": [
           10.807,
           8.0435,
@@ -296,15 +296,15 @@
         ]
       },
       "ticker": "GOOGL",
-      "current_price": 316.79999,
+      "current_price": 320.57999,
       "fund": {
         "rating_label": "buy",
         "rating_color": "#27ae60",
         "analyst_count": 67,
         "next_earnings": "27 Apr 2027",
         "headlines": [
-          "Tech Earnings Are the Market’s Biggest Story This Week: Here’s Why Microsoft, Am...",
-          "Why Google might avoid an earnings 'reckoning' this week"
+          "Dow Jones Futures: Growth Stocks Rally, Tesla Clears Buy Point; Fed, Microsoft, ...",
+          "Stock Market Today, Oct. 27: Meta Raises Largest-Ever Equity Offering to Nearly ..."
         ],
         "insider": "SELLING (15 sell vs 5 buy)"
       }
