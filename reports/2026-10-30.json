@@ -1,0 +1,483 @@
+{
+  "schema_version": 1,
+  "scan": {
+    "time_iso": "2026-10-30T00:10",
+    "time_pl": "30.10.2026 00:10",
+    "date": "2026-10-30",
+    "interval": "1D",
+    "rsi_period": 14,
+    "data_source": "Twelve Data + stooq + Finnhub + Yahoo Finance",
+    "total_signals": 1
+  },
+  "market": {
+    "vix": 17.2,
+    "breadth_sp500_above_ma50_pct": 64.8
+  },
+  "btc_onchain": {
+    "fear_greed": 30,
+    "fear_greed_label": "Fear",
+    "hash_rate_eh": 1006,
+    "hash_rate_30d_chg": -4.1,
+    "tx_count": 642252,
+    "tx_30d_chg": -13.3
+  },
+  "signals": [
+    {
+      "ticker": "ORCL",
+      "group": "USA S&P500",
+      "tier_report": "HIDDEN",
+      "tier_journal": "T3",
+      "divergence": {
+        "date_prev": "2026-09-28",
+        "price_prev": 132.6,
+        "rsi_prev": 37.53,
+        "date_last": "2026-10-22",
+        "price_last": 125.54,
+        "rsi_last": 38.47,
+        "current_price": 139.56,
+        "current_rsi": 52.97,
+        "macd_divergence": false,
+        "vol_ratio": 1.0155,
+        "vol_vs_avg20": 1.2351,
+        "candle_pattern": "Neutral (zamkniecie w srodku zakresu)",
+        "trough_low": 122.76,
+        "confirmed": true
+      },
+      "estimate": {
+        "target_price": 144.77,
+        "t1_target": 144.77,
+        "t2_target": 161.2736,
+        "atr_for_trail": 7.2379,
+        "pct_upside": 3.7,
+        "pct_upside_t2": 15.6,
+        "confidence": 29,
+        "conf_label": "weak",
+        "conf_color": "#c0392b",
+        "rr_ratio": 0.53,
+        "stop_loss": 129.7908,
+        "position_sizes": {
+          "0.5%": 7.1,
+          "1%": 14.3,
+          "2%": 28.6,
+          "stop_pct": 7.0
+        },
+        "ma50": 142.03,
+        "ma100": 144.91,
+        "ma200": 157.28,
+        "weekly_rsi": 44.9,
+        "weekly_rsi_down": false,
+        "earnings_warning": false,
+        "analyst_conflict": false
+      },
+      "fundamentals": {
+        "rating_label": "buy",
+        "rating_color": "#27ae60",
+        "analyst_count": 48,
+        "next_earnings": "8 Jun 2027",
+        "headlines": [
+          "Oracle (ORCL) Sees a More Significant Dip Than Broader Market: Some Facts to Kno...",
+          "Microsoft Issues $25 Billion in New Bonds, Adding to AI Debt Spree"
+        ],
+        "insider": "SELLING (14 sell vs 6 buy)"
+      },
+      "ai_analysis": {
+        "verdict": "NIEGRYWALNY",
+        "summary": "Za: - Potwierdzenie: TAK — bar po dołku zamknął wyżej (+5pp win rate historycznie) - RSI dywergencja bycza istnieje (cena niżej, RSI wyżej — klasyczny sygnał wyczerpania sprzedających) - Wyniki dopiero 8 Jun 2027 — brak ryzyka binarnego w horyzoncie swing Przeciw: - Siła sygnału: 29/100 — bardzo słaba — to nie jest mocna dywergencja - Wolumen 2. dołka WYŻSZY (1.02x) — brak wyczerpania sprzedaży, nadal dumping - Swieca 2. dołka: Neutral — brak byczego odrzucenia (hammerа, pin bar) - MACD: NIE — brak potwierdzenia ze strony innego wskaźnika - MA50 = 142.03 powyżej aktualnej ceny 139.56 — cena pod oporem - MA100 = 144.91 — kolejny opór tuż nad ceną - Weekly RSI: 44.9 — neutralny, trend tygodniowy nie wspiera - Insiderzy SPRZEDAJĄ: 14 sell vs 6 buy — smart money ucieka - R:R = 0.53x — katastrofalny stosunek zysku do ryzyka, tracisz 2x więcej niż możesz zyskać Decyzja: Nie gramy. Słaby sygnał, sprzedaż insiderów, cena pod dwoma średnimi kroczącymi i R:R poniżej 1:1. To nie jest setup — to pułapka."
+      }
+    }
+  ],
+  "claude_analysis": {
+    "markdown": "# Analiza Swing Trade — 30.10.2026\n\n---\n\n## CZĘŚĆ 1: Weryfikacja sygnałów RSI\n\n### 1.1 Kontekst rynkowy\n\nVIX na 17.20 (niski, rynek spokojny), SPY RSI 50.8 i QQQ RSI 43.3 — obydwa neutralne, bez euforii ani paniki. **Market Breadth 65%** (procent spółek S&P500 powyżej swojej 50-dniowej średniej kroczącej) — poziom bullish, sygnały bycze są wiarygodne. Rentowność 10-latek USA na 4.99% to wysokie koszty kapitału — presja na wyceny spółek wzrostowych. **Dobry moment na selektywne długie pozycje, ale nie na hurra-optymizm.**\n\n---\n\n### 1.2 Ocena sygnałów\n\n#### [1] ORCL — **NIEGRYWALNY**\n\n**Za:**\n- Potwierdzenie: TAK — bar po dołku zamknął wyżej (+5pp win rate historycznie)\n- RSI dywergencja bycza istnieje (cena niżej, RSI wyżej — klasyczny sygnał wyczerpania sprzedających)\n- Wyniki dopiero 8 Jun 2027 — brak ryzyka binarnego w horyzoncie swing\n\n**Przeciw:**\n- **Siła sygnału: 29/100 — bardzo słaba** — to nie jest mocna dywergencja\n- Wolumen 2. dołka **WYŻSZY** (1.02x) — brak wyczerpania sprzedaży, nadal dumping\n- Swieca 2. dołka: Neutral — brak byczego odrzucenia (hammerа, pin bar)\n- MACD: NIE — brak potwierdzenia ze strony innego wskaźnika\n- MA50 = 142.03 **powyżej aktualnej ceny 139.56** — cena pod oporem\n- MA100 = 144.91 — kolejny opór tuż nad ceną\n- Weekly RSI: 44.9 — neutralny, trend tygodniowy nie wspiera\n- **Insiderzy SPRZEDAJĄ: 14 sell vs 6 buy** — smart money ucieka\n- R:R = 0.53x — **katastrofalny stosunek zysku do ryzyka**, tracisz 2x więcej niż możesz zyskać\n\n**Decyzja:** Nie gramy. Słaby sygnał, sprzedaż insiderów, cena pod dwoma średnimi kroczącymi i R:R poniżej 1:1. To nie jest setup — to pułapka.\n\n---\n\n**Podsumowanie sekcji 1.2:** Z 1 dostępnego sygnału — **0 warto zagrać**. Jedyny sygnał ORCL ma zbyt słabą strukturę (29/100), fatalne R:R 0.53x i aktywną sprzedaż insiderów. Pomijamy.\n\n---\n\n## CZĘŚĆ 2: Niezależne rekomendacje swing trade\n\nRynek szeroki jest zdrowy (Breadth 65%), więc szukamy aktywnie. Na podstawie danych ETF-ów widzę wyraźną rotację sektorową: energia, ochrona zdrowia, consumer staples, utilities rosną — to klasyczny defensywno-inflacyjny mix przy ropie WTI powyżej 100 USD.\n\n---\n\n### Setup #1 — Energia przy wysokiej ropie\n\n```\nTICKER: XLE\nKIERUNEK: Long\nTEZA: WTI Oil 102.75 USD/bbl — ropa wysoko, QatarEnergy kupuje LNG \n      na wypadek zakłóceń w Hormuz (wg Reuters). XLE 20d +9.2%, \n      silniejszy od SPY o 8.1pp — momentum sektorowe potwierdzone makro.\nENTRY: 68.45\nSTOP LOSS: 64.70 (MA50) — 5.5% poniżej entry\nTARGET 1: 74.00 — następny opór, R:R ~1.5x\nPOZYCJA: 18% portfela (ryzyko 1% / stop 5.5%)\nHORYZONT: 10-14 dni\nRYZYKA: Nagły spadek ropy (rozejm na Bliskim Wschodzie, wzrost zapasów \n         EIA), RSI 61.8 — niedaleko do wykupienia (>70). Wejście nie \n         jest idealne po +9.2% — momentum może wyhamować.\nPEWNOSC: Średnia\n```\n\n---\n\n### Setup #2 — Ochrona zdrowia z momentum i wysokim wolumenem\n\n```\nTICKER: XLV\nKIERUNEK: Long\nTEZA: XLV +8.1% w 20 dni, silniejszy od SPY o 7.0pp, wolumen 1.8x \n      normy — instytucje kupują. Healthcare defensywny przy geopolitycznym \n      niepokoju (Jemen, Iran). RSI 64.8 — silny, ale nie wykupiony.\nENTRY: 179.72\nSTOP LOSS: 171.80 (MA50) — 4.4% poniżej entry\nTARGET 1: 190.00 — psychologiczny opór, R:R ~1.7x\nPOZYCJA: 23% portfela (ryzyko 1% / stop 4.4%)\nHORYZONT: 10-14 dni\nRYZYKA: RSI blisko 70 — po kolejnym tygodniu wzrostów może być \n         korekta. Negatywne niespodzianki w wynikach spółek z XLV \n         (earnings sezon). 10Y na 5% — high yield alternatywa dla \n         defensywnych sektorów.\nPEWNOSC: Średnia\n```\n\n---\n\n### Setup #3 — Obligacje skarbowe: kontrariański zakład przy 10Y ~5%\n\n```\nTICKER: TLT\nKIERUNEK: Long\nTEZA: 10Y Treasury przy 4.99% — historycznie poziom, od którego Fed \n      musi reagować. TLT +4.2% w 20 dni, RSI 57.7, powyżej MA50. \n      Przy eskalacji geopolitycznej (Iran, Bliski Wschód) kapitał \n      ucieka w bezpieczne przystanie — obligacje beneficjentem. \n      Hedging portfela akcyjnego.\nENTRY: 80.99\nSTOP LOSS: 78.50 — 3.1% poniżej entry (poniżej ostatniego wsparcia)\nTARGET 1: 85.00 — R:R ~1.6x\nPOZYCJA: 32% portfela (ryzyko 1% / stop 3.1%)\nHORYZONT: 7-14 dni\nRYZYKA: Inflacja zaskoczy w górę — rentowności rosną, TLT spada. \n         Fed twardszy niż oczekiwano. 10Y może jeszcze wzrosnąć do \n         5.25-5.50% zanim się odwróci — timing jest kluczowy.\nPEWNOSC: Spekulacyjna\n```\n\n---\n\n## CZĘŚĆ 3: Tabela danych strukturyzowanych\n\n```\nTABELA_REKOMENDACJI:\nTICKER | KIERUNEK | ENTRY | STOP | TARGET1 | RR | PEWNOSC | TEZA\nXLE | Long | 68.45 | 64.70 | 74.00 | 1.5 | Srednia | Ropa 102 USD, momentum sektorowe +9.2% 20d\nXLV | Long | 179.72 | 171.80 | 190.00 | 1.7 | Srednia | Wolumen 1.8x, defensywny, instytucje kupuja\nTLT | Long | 80.99 | 78.50 | 85.00 | 1.6 | Spekulacyjna | 10Y przy 5%, ucieczka w bezpieczne przystanie\n---KONIEC_TABELI---\n```\n\n---\n\n## CZĘŚĆ 4: Fundamentalne okazje — komentarz long-term\n\n**INTU — OKAZJA**: Intuit ma jeden z najsilniejszych rowów obronnych (moat) w software — TurboTax i QuickBooks to de facto monopole w swoich niszach z kosztami przejścia (switching costs) prawie niemożliwymi do pokonania. Główne ryzyko na 1-2 lata to AI — darmowe narzędzia podatkowe od Big Tech mogą podgryźć TurboTax, ale Intuit aktywnie integruje AI (Intuit Assist). Przecena 52% przy PEG 0.9, ROE 23% i FCF margin 40% to solidna okazja dla inwestora 7+ lat — fundamenty nie uzasadniają takiej przeceny.\n\n**ORCL — OKAZJA (z zastrzeżeniem)**: Oracle zbudował moat przez lock-in w bazach danych (Oracle DB) i chmurze (OCI), który generuje wysoce przewidywalne przychody — ROE 43% i wzrost przychodów +22% to doskonałe liczby. Ryzyko to wysoki dług (D/E 2.01) przy stopach 5% — obsługa zadłużenia drożeje, a insiderzy aktywnie sprzedają co jest niepokojącym sygnałem. Mimo to PEG 0.5 przy takich stopach wzrostu i przecenie 51% to długoterminowo atrakcyjna wycena — ale poczekaj aż insiderzy przestaną sprzedawać.\n\n**ADBE — CZEKAJ**: Adobe ma moat klasy premium — Creative Cloud i PDF to standardy branżowe z lojalnością użytkowników i efektem sieciowym. Główne ryzyko to Figma (i inne AI-native narzędzia) atakujące od dołu segment design, plus AI generatywne podważa monopol na kreację treści. Przy P/E 13.3 i FCF margin 41% cena jest atrakcyjna, ale insider selling (18 sell vs 2 buy) to poważny sygnał ostrzegawczy — warto poczekać na stabilizację aktywności insiderów i klarowność narracji AI.\n\n**GOOGL — OKAZJA**: Alphabet ma moat oparty na danych i skali — Search, YouTube i chmura GCP tworzą samonapędzający się ekosystem trudny do replikacji. Główne ryzyko to przegrana w wojnie o AI search (Perplexity, ChatGPT Search) — jeśli użytkownicy przestaną używać Google Search, cały model reklamowy się sypie. Przy P/E 14.7, PEG 0.2 i ROE 43% to historycznie tania wycena dla tej jakości spółki — przecena 30% przy rosnących EPS to długoterminowo oczywista okazja, ale bieżące wyniki kwartalne (downgrade po \"rough quarter\") wymagają monitorowania.\n\n**AVGO — OKAZJA**: Broadcom ma głęboki moat w chipach sieciowych i infrastrukturze AI ASIC — jest dostawcą dla Meta, Google i Appla, którego nie da się zastąpić w krótkim czasie. Ryzyko to koncentracja przychodów (kilku mega-klientów), spowolnienie capex AI Data Center lub utrata kontraktu z Apple (chip modemowy). Wzrost przychodów +49% z FCF margin 42% i PEG 0.4 to wyjątkowo atrakcyjna kombinacja — brak zakupów insiderów (0 buy!) jest niepokojący, ale przy takich fundamentach i przecenie 30% to solidny kandydat na długoterminowe akumulowanie przy słabości.\n\n---\n\n> ⚠️ **Zastrzeżenie:** Powyższa analiza ma charakter wyłącznie edukacyjny i informacyjny — **nie jest rekomendacją inwestycyjną** w rozumieniu przepisów prawa. Inwestowanie wiąże się z ryzykiem utraty kapitału. Decyzje inwestycyjne podejmuj samodzielnie lub z licencjonowanym doradcą. Dane pochodzą wyłącznie z raportu z datą skanu 30.10.2026.",
+    "recommendations": [
+      {
+        "ticker": "XLE",
+        "direction": "Long",
+        "entry": "68.45",
+        "stop": "64.70",
+        "target": "74.00",
+        "rr": "1.5",
+        "confidence": "Srednia",
+        "teza": "Ropa 102 USD, momentum sektorowe +9.2% 20d"
+      },
+      {
+        "ticker": "XLV",
+        "direction": "Long",
+        "entry": "179.72",
+        "stop": "171.80",
+        "target": "190.00",
+        "rr": "1.7",
+        "confidence": "Srednia",
+        "teza": "Wolumen 1.8x, defensywny, instytucje kupuja"
+      },
+      {
+        "ticker": "TLT",
+        "direction": "Long",
+        "entry": "80.99",
+        "stop": "78.50",
+        "target": "85.00",
+        "rr": "1.6",
+        "confidence": "Spekulacyjna",
+        "teza": "10Y przy 5%, ucieczka w bezpieczne przystanie"
+      }
+    ]
+  },
+  "fundamental_picks": [
+    {
+      "score": 91,
+      "details": [
+        "Przecena 52% od szczytu (+20)",
+        "EPS 4/4 lat wzrost, CAGR +23% (+20)",
+        "ROE 23% (+10)",
+        "FCF margin 40% (sr. 33%) (+15)",
+        "Rev growth 14% (+7)",
+        "Gross margin 80% (+10)",
+        "D/E 0.40 (+4)",
+        "PEG 0.9 (+5)"
+      ],
+      "discount_pct": 51.9,
+      "metrics": {
+        "pe": 19.2707,
+        "roe": 23.419999999999998,
+        "rev_growth": 13.9,
+        "eps_growth": 20.37,
+        "gross_margin": 80.17,
+        "net_margin": null,
+        "de_ratio": 0.4038,
+        "current_ratio": 1.5065,
+        "high_52w": 688.9,
+        "low_52w": 252.84,
+        "high_52w_date": "2025-10-28",
+        "market_cap": 87990.125,
+        "dividend_yield": 0.63822,
+        "beta": 0.96948415,
+        "eps_series": [
+          16.4838,
+          13.6714,
+          10.4331,
+          8.424,
+          7.2746
+        ],
+        "fcf_margin_series": [
+          0.4018,
+          0.323,
+          0.2846,
+          0.3331,
+          0.2876
+        ]
+      },
+      "ticker": "INTU",
+      "current_price": 331.19,
+      "fund": {
+        "rating_label": "hold",
+        "rating_color": "#d68910",
+        "analyst_count": 41,
+        "next_earnings": "18 May 2027",
+        "headlines": [
+          "Intuit to Announce First-Quarter Fiscal Year 2027 Results on Nov. 19",
+          "BILL Holdings (BILL) vs. INTU and PYPL: Can Its Financial Workflow Platform Beco..."
+        ],
+        "insider": "MIXED (8 buy, 12 sell)"
+      }
+    },
+    {
+      "score": 90,
+      "details": [
+        "Przecena 51% od szczytu (+20)",
+        "EPS 4/4 lat wzrost, CAGR +25% (+20)",
+        "ROE 43% (+15)",
+        "FCF margin 22% (sr. 23%) (+10)",
+        "Rev growth 22% (+10)",
+        "Gross margin 64% (+10)",
+        "PEG 0.5 (+5)"
+      ],
+      "discount_pct": 51.1,
+      "metrics": {
+        "pe": 22.6141,
+        "roe": 42.58,
+        "rev_growth": 21.62,
+        "eps_growth": 49.08,
+        "gross_margin": 63.96,
+        "net_margin": null,
+        "de_ratio": 2.0146,
+        "current_ratio": 1.1708,
+        "high_52w": 285.46,
+        "low_52w": 114.5,
+        "high_52w_date": "2025-10-28",
+        "market_cap": 427858.62,
+        "dividend_yield": 1.37634,
+        "beta": 1.7782747,
+        "eps_series": [
+          5.8638,
+          4.3416,
+          3.7078,
+          3.0741,
+          2.411
+        ],
+        "fcf_margin_series": [
+          0.2229,
+          0.1696,
+          0.1185,
+          0.3397,
+          0.2963
+        ]
+      },
+      "ticker": "ORCL",
+      "current_price": 139.56,
+      "fund": {
+        "rating_label": "buy",
+        "rating_color": "#27ae60",
+        "analyst_count": 48,
+        "next_earnings": "8 Jun 2027",
+        "headlines": [
+          "What Asure Software (ASUR) Said on Its Q3 Earnings Call",
+          "Oracle (ORCL) Sees a More Significant Dip Than Broader Market: Some Facts to Kno..."
+        ],
+        "insider": "SELLING (14 sell vs 6 buy)"
+      }
+    },
+    {
+      "score": 88,
+      "details": [
+        "Przecena 32% od szczytu (+20)",
+        "EPS 4/4 lat wzrost, CAGR +14% (+15)",
+        "ROE 63% (+15)",
+        "FCF margin 41% (sr. 40%) (+15)",
+        "Rev growth 12% (+7)",
+        "Gross margin 89% (+10)",
+        "D/E 0.54 (+3)",
+        "PEG 1.1 (+3)"
+      ],
+      "discount_pct": 31.8,
+      "metrics": {
+        "pe": 13.3452,
+        "roe": 62.88,
+        "rev_growth": 12.03,
+        "eps_growth": 11.68,
+        "gross_margin": 89.25,
+        "net_margin": null,
+        "de_ratio": 0.5409,
+        "current_ratio": 0.7704,
+        "high_52w": 363.7,
+        "low_52w": 190.12,
+        "high_52w_date": "2025-10-28",
+        "market_cap": 97206.59,
+        "dividend_yield": null,
+        "beta": 1.4172598,
+        "eps_series": [
+          16.6979,
+          12.3556,
+          11.8257,
+          10.0977,
+          10.0249
+        ],
+        "fcf_margin_series": [
+          0.4145,
+          0.3661,
+          0.3577,
+          0.4201,
+          0.436
+        ]
+      },
+      "ticker": "ADBE",
+      "current_price": 248.12,
+      "fund": {
+        "rating_label": null,
+        "rating_color": null,
+        "analyst_count": 0,
+        "next_earnings": null,
+        "headlines": [],
+        "insider": "SELLING (18 sell vs 2 buy)"
+      }
+    },
+    {
+      "score": 85,
+      "details": [
+        "Przecena 30% od szczytu (+20)",
+        "EPS 3/4 lat wzrost, CAGR +18% (+10)",
+        "ROE 43% (+15)",
+        "FCF margin 18% (sr. 22%) (+10)",
+        "Rev growth 22% (+10)",
+        "Gross margin 61% (+10)",
+        "D/E 0.18 (+5)",
+        "PEG 0.2 (+5)"
+      ],
+      "discount_pct": 30.5,
+      "metrics": {
+        "pe": 14.6831,
+        "roe": 42.620000000000005,
+        "rev_growth": 22.21,
+        "eps_growth": 91.92,
+        "gross_margin": 60.86,
+        "net_margin": null,
+        "de_ratio": 0.1846,
+        "current_ratio": 2.7856,
+        "high_52w": 408.61,
+        "low_52w": 266.5,
+        "high_52w_date": "2026-05-18",
+        "market_cap": 3460723,
+        "dividend_yield": null,
+        "beta": 1.2043431,
+        "eps_series": [
+          10.807,
+          8.0435,
+          5.8428,
+          4.5575,
+          5.6099
+        ],
+        "fcf_margin_series": [
+          0.1819,
+          0.2079,
+          0.2261,
+          0.2122,
+          0.2601
+        ]
+      },
+      "ticker": "GOOGL",
+      "current_price": 283.82001,
+      "fund": {
+        "rating_label": "buy",
+        "rating_color": "#27ae60",
+        "analyst_count": 67,
+        "next_earnings": "27 Apr 2027",
+        "headlines": [
+          "Google owner Alphabet reports 25% revenue growth in Q3 2026",
+          "Amazon cloud business accelerates but shares drop on profit miss"
+        ],
+        "insider": "SELLING (17 sell vs 3 buy)"
+      }
+    },
+    {
+      "score": 83,
+      "details": [
+        "Przecena 30% od szczytu (+20)",
+        "EPS 3/4 lat wzrost, CAGR +32% (+10)",
+        "ROE 44% (+15)",
+        "FCF margin 42% (sr. 45%) (+15)",
+        "Rev growth 49% (+10)",
+        "Gross margin 69% (+10)",
+        "D/E 0.60 (+3)",
+        "PEG 0.4 (+5)",
+        "P/E 43 drogie (-5)"
+      ],
+      "discount_pct": 30.3,
+      "metrics": {
+        "pe": 43.108,
+        "roe": 43.91,
+        "rev_growth": 48.69,
+        "eps_growth": 100.1,
+        "gross_margin": 68.82,
+        "net_margin": null,
+        "de_ratio": 0.596,
+        "current_ratio": 2.5037,
+        "high_52w": 495,
+        "low_52w": 289.96,
+        "high_52w_date": "2026-06-03",
+        "market_cap": 1649527.8,
+        "dividend_yield": 1.87972,
+        "beta": 1.4932766,
+        "eps_series": [
+          4.7653,
+          1.2338,
+          3.2979,
+          2.7175,
+          1.5702
+        ],
+        "fcf_margin_series": [
+          0.4213,
+          0.3764,
+          0.4923,
+          0.4913,
+          0.4853
+        ]
+      },
+      "ticker": "AVGO",
+      "current_price": 345.0,
+      "fund": {
+        "rating_label": "buy",
+        "rating_color": "#27ae60",
+        "analyst_count": 56,
+        "next_earnings": "1 Jun 2027",
+        "headlines": [
+          "Stock Market Today, Oct. 29: Marvell Falls on Lumentum Acquisition Talks",
+          "First Google Search, Now Amazon Retail. Tech’s Moneymakers Are Stumbling."
+        ],
+        "insider": "SELLING (20 sell vs 0 buy)"
+      }
+    }
+  ],
+  "performance": {
+    "live_summary": "T1: 11 sygnalow | WR 55% | avg +0.6% &nbsp;|&nbsp; T2: 14 sygnalow | WR 57% | avg +2.6% &nbsp;|&nbsp; Claude: 92 sygnalow | WR 55% | avg +0.5%",
+    "full_stats": {
+      "overall_resolved": 157,
+      "t1": {
+        "count": 11,
+        "wr": 54.5,
+        "avg_pnl": 0.63,
+        "pf": 1.35,
+        "targets": 5,
+        "stops": 4,
+        "timeouts": 2,
+        "best": [
+          "TMO",
+          6.72
+        ],
+        "worst": [
+          "ACN",
+          -7.0
+        ]
+      },
+      "t2": {
+        "count": 14,
+        "wr": 57.1,
+        "avg_pnl": 2.64,
+        "pf": 3.44,
+        "targets": 8,
+        "stops": 5,
+        "timeouts": 1,
+        "best": [
+          "ADA/USD",
+          13.98
+        ],
+        "worst": [
+          "INTU",
+          -6.14
+        ]
+      },
+      "t3": {
+        "count": 40,
+        "wr": 80.0,
+        "avg_pnl": 3.13,
+        "pf": 11.83,
+        "targets": 24,
+        "stops": 10,
+        "timeouts": 6,
+        "best": [
+          "ETH/USD",
+          11.58
+        ],
+        "worst": [
+          "DOT/USD",
+          -7.0
+        ]
+      },
+      "claude": {
+        "count": 92,
+        "wr": 55.4,
+        "avg_pnl": 0.47,
+        "pf": 1.36,
+        "targets": 25,
+        "stops": 27,
+        "timeouts": 40,
+        "best": [
+          "XLE",
+          10.62
+        ],
+        "worst": [
+          "BTC/USD",
+          -7.02
+        ]
+      }
+    }
+  },
+  "disclaimer": "Materiał ma charakter wyłącznie edukacyjny i analityczny. Nie stanowi rekomendacji inwestycyjnej w rozumieniu Rozporządzenia MAR ani usługi doradztwa inwestycyjnego. Każda decyzja inwestycyjna wiąże się z ryzykiem utraty kapitału."
+}
