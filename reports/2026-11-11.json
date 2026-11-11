@@ -1,0 +1,388 @@
+{
+  "schema_version": 1,
+  "scan": {
+    "time_iso": "2026-11-11T00:49",
+    "time_pl": "11.11.2026 00:49",
+    "date": "2026-11-11",
+    "interval": "1D",
+    "rsi_period": 14,
+    "data_source": "Twelve Data + stooq + Finnhub + Yahoo Finance",
+    "total_signals": 0
+  },
+  "market": {
+    "vix": null,
+    "breadth_sp500_above_ma50_pct": 68.8
+  },
+  "btc_onchain": {
+    "fear_greed": 29,
+    "fear_greed_label": "Fear",
+    "hash_rate_eh": 819,
+    "hash_rate_30d_chg": -20.5,
+    "tx_count": 412523,
+    "tx_30d_chg": -48.8
+  },
+  "signals": [],
+  "claude_analysis": {
+    "markdown": null,
+    "recommendations": []
+  },
+  "fundamental_picks": [
+    {
+      "score": 91,
+      "details": [
+        "Przecena 50% od szczytu (+20)",
+        "EPS 4/4 lat wzrost, CAGR +23% (+20)",
+        "ROE 23% (+10)",
+        "FCF margin 40% (sr. 33%) (+15)",
+        "Rev growth 14% (+7)",
+        "Gross margin 80% (+10)",
+        "D/E 0.40 (+4)",
+        "PEG 1.0 (+5)"
+      ],
+      "discount_pct": 50.1,
+      "metrics": {
+        "pe": 19.7957,
+        "roe": 23.419999999999998,
+        "rev_growth": 13.9,
+        "eps_growth": 20.37,
+        "gross_margin": 80.17,
+        "net_margin": null,
+        "de_ratio": 0.4038,
+        "current_ratio": 1.5065,
+        "high_52w": 682.27,
+        "low_52w": 252.84,
+        "high_52w_date": "2025-11-21",
+        "market_cap": 90387.234,
+        "dividend_yield": 0.63822,
+        "beta": 0.93283933,
+        "eps_series": [
+          16.4838,
+          13.6714,
+          10.4331,
+          8.424,
+          7.2746
+        ],
+        "fcf_margin_series": [
+          0.4018,
+          0.323,
+          0.2846,
+          0.3331,
+          0.2876
+        ]
+      },
+      "ticker": "INTU",
+      "current_price": 340.44,
+      "fund": {
+        "rating_label": "hold",
+        "rating_color": "#d68910",
+        "analyst_count": 41,
+        "next_earnings": "18 May 2027",
+        "headlines": [
+          "Accenture vs. Intuit: Does Corporate Consulting or Financial Software Make For a...",
+          "Intuit (INTU) Grew Revenue 14%, but Guidance Points Lower, Here’s What Investors..."
+        ],
+        "insider": "MIXED (9 buy, 11 sell)"
+      }
+    },
+    {
+      "score": 90,
+      "details": [
+        "Przecena 31% od szczytu (+20)",
+        "EPS 3/4 lat wzrost, CAGR +89% (+10)",
+        "ROE 110% (+15)",
+        "FCF margin 45% (sr. 36%) (+15)",
+        "Rev growth 83% (+10)",
+        "Gross margin 75% (+10)",
+        "D/E 0.15 (+5)",
+        "PEG 0.2 (+5)"
+      ],
+      "discount_pct": 30.6,
+      "metrics": {
+        "pe": 22.3246,
+        "roe": 110.11,
+        "rev_growth": 83.38,
+        "eps_growth": 125.15,
+        "gross_margin": 74.67,
+        "net_margin": null,
+        "de_ratio": 0.1457,
+        "current_ratio": 4.5889,
+        "high_52w": 243.37,
+        "low_52w": 164.27,
+        "high_52w_date": "2026-10-06",
+        "market_cap": 4305947,
+        "dividend_yield": 0.03349,
+        "beta": 2.3539207,
+        "eps_series": [
+          4.8979,
+          2.9382,
+          1.1933,
+          0.1742,
+          0.3847
+        ],
+        "fcf_margin_series": [
+          0.4477,
+          0.4663,
+          0.4435,
+          0.1412,
+          0.3021
+        ]
+      },
+      "ticker": "NVDA",
+      "current_price": 168.89,
+      "fund": {
+        "rating_label": "buy",
+        "rating_color": "#27ae60",
+        "analyst_count": 69,
+        "next_earnings": "18 May 2027",
+        "headlines": [
+          "Dow Jones Futures: Stock Market Falls On Surging Treasury Yields, Nvidia Sell-Of...",
+          "Why AAON Stock Popped Today"
+        ],
+        "insider": "SELLING (18 sell vs 2 buy)"
+      }
+    },
+    {
+      "score": 90,
+      "details": [
+        "Przecena 53% od szczytu (+20)",
+        "EPS 4/4 lat wzrost, CAGR +25% (+20)",
+        "ROE 43% (+15)",
+        "FCF margin 22% (sr. 23%) (+10)",
+        "Rev growth 22% (+10)",
+        "Gross margin 64% (+10)",
+        "PEG 0.4 (+5)"
+      ],
+      "discount_pct": 52.9,
+      "metrics": {
+        "pe": 19.1445,
+        "roe": 42.58,
+        "rev_growth": 21.62,
+        "eps_growth": 49.08,
+        "gross_margin": 63.96,
+        "net_margin": null,
+        "de_ratio": 2.0146,
+        "current_ratio": 1.1708,
+        "high_52w": 250.25,
+        "low_52w": 109.21,
+        "high_52w_date": "2026-06-01",
+        "market_cap": 362213.34,
+        "dividend_yield": 1.37634,
+        "beta": 1.8232294,
+        "eps_series": [
+          5.8638,
+          4.3416,
+          3.7078,
+          3.0741,
+          2.411
+        ],
+        "fcf_margin_series": [
+          0.2229,
+          0.1696,
+          0.1185,
+          0.3397,
+          0.2963
+        ]
+      },
+      "ticker": "ORCL",
+      "current_price": 117.98,
+      "fund": {
+        "rating_label": "buy",
+        "rating_color": "#27ae60",
+        "analyst_count": 47,
+        "next_earnings": "8 Jun 2027",
+        "headlines": [
+          "Stock Market Today, Nov. 10: CoreWeave Stock Edges Lower as a Multibillion-Dolla...",
+          "Here's Why Oracle (ORCL) Fell More Than Broader Market"
+        ],
+        "insider": "SELLING (14 sell vs 6 buy)"
+      }
+    },
+    {
+      "score": 88,
+      "details": [
+        "Przecena 35% od szczytu (+20)",
+        "EPS 4/4 lat wzrost, CAGR +14% (+15)",
+        "ROE 63% (+15)",
+        "FCF margin 41% (sr. 40%) (+15)",
+        "Rev growth 12% (+7)",
+        "Gross margin 89% (+10)",
+        "D/E 0.54 (+3)",
+        "PEG 1.1 (+3)"
+      ],
+      "discount_pct": 34.7,
+      "metrics": {
+        "pe": 12.6805,
+        "roe": 62.88,
+        "rev_growth": 12.03,
+        "eps_growth": 11.68,
+        "gross_margin": 89.25,
+        "net_margin": null,
+        "de_ratio": 0.5409,
+        "current_ratio": 0.7704,
+        "high_52w": 362.71,
+        "low_52w": 190.12,
+        "high_52w_date": "2025-12-12",
+        "market_cap": 92364.95,
+        "dividend_yield": null,
+        "beta": 1.4606287,
+        "eps_series": [
+          16.6979,
+          12.3556,
+          11.8257,
+          10.0977,
+          10.0249
+        ],
+        "fcf_margin_series": [
+          0.4145,
+          0.3661,
+          0.3577,
+          0.4201,
+          0.436
+        ]
+      },
+      "ticker": "ADBE",
+      "current_price": 236.7,
+      "fund": {
+        "rating_label": null,
+        "rating_color": null,
+        "analyst_count": 0,
+        "next_earnings": null,
+        "headlines": [],
+        "insider": "SELLING (18 sell vs 2 buy)"
+      }
+    },
+    {
+      "score": 83,
+      "details": [
+        "Przecena 33% od szczytu (+20)",
+        "EPS 3/4 lat wzrost, CAGR +32% (+10)",
+        "ROE 44% (+15)",
+        "FCF margin 42% (sr. 45%) (+15)",
+        "Rev growth 49% (+10)",
+        "Gross margin 69% (+10)",
+        "D/E 0.60 (+3)",
+        "PEG 0.4 (+5)",
+        "P/E 41 drogie (-5)"
+      ],
+      "discount_pct": 32.9,
+      "metrics": {
+        "pe": 40.5668,
+        "roe": 43.91,
+        "rev_growth": 48.69,
+        "eps_growth": 100.1,
+        "gross_margin": 68.82,
+        "net_margin": null,
+        "de_ratio": 0.596,
+        "current_ratio": 2.5037,
+        "high_52w": 495,
+        "low_52w": 289.767,
+        "high_52w_date": "2026-06-03",
+        "market_cap": 1552289,
+        "dividend_yield": 1.87972,
+        "beta": 1.4779347,
+        "eps_series": [
+          4.7653,
+          1.2338,
+          3.2979,
+          2.7175,
+          1.5702
+        ],
+        "fcf_margin_series": [
+          0.4213,
+          0.3764,
+          0.4923,
+          0.4913,
+          0.4853
+        ]
+      },
+      "ticker": "AVGO",
+      "current_price": 331.98001,
+      "fund": {
+        "rating_label": "buy",
+        "rating_color": "#27ae60",
+        "analyst_count": 57,
+        "next_earnings": "1 Jun 2027",
+        "headlines": [
+          "S&P 500 Top Gainers and Losers for Today's Session",
+          "5 Best Tech Stocks That Pay Dividends"
+        ],
+        "insider": "SELLING (20 sell vs 0 buy)"
+      }
+    }
+  ],
+  "performance": {
+    "live_summary": "T1: 11 sygnalow | WR 55% | avg +0.6% &nbsp;|&nbsp; T2: 14 sygnalow | WR 57% | avg +2.6% &nbsp;|&nbsp; Claude: 96 sygnalow | WR 55% | avg +0.4%",
+    "full_stats": {
+      "overall_resolved": 161,
+      "t1": {
+        "count": 11,
+        "wr": 54.5,
+        "avg_pnl": 0.63,
+        "pf": 1.35,
+        "targets": 5,
+        "stops": 4,
+        "timeouts": 2,
+        "best": [
+          "TMO",
+          6.72
+        ],
+        "worst": [
+          "ACN",
+          -7.0
+        ]
+      },
+      "t2": {
+        "count": 14,
+        "wr": 57.1,
+        "avg_pnl": 2.64,
+        "pf": 3.44,
+        "targets": 8,
+        "stops": 5,
+        "timeouts": 1,
+        "best": [
+          "ADA/USD",
+          13.98
+        ],
+        "worst": [
+          "INTU",
+          -6.14
+        ]
+      },
+      "t3": {
+        "count": 40,
+        "wr": 80.0,
+        "avg_pnl": 3.13,
+        "pf": 11.83,
+        "targets": 24,
+        "stops": 10,
+        "timeouts": 6,
+        "best": [
+          "ETH/USD",
+          11.58
+        ],
+        "worst": [
+          "DOT/USD",
+          -7.0
+        ]
+      },
+      "claude": {
+        "count": 96,
+        "wr": 55.2,
+        "avg_pnl": 0.41,
+        "pf": 1.3,
+        "targets": 27,
+        "stops": 29,
+        "timeouts": 40,
+        "best": [
+          "XLE",
+          10.62
+        ],
+        "worst": [
+          "BTC/USD",
+          -7.02
+        ]
+      }
+    }
+  },
+  "disclaimer": "Materiał ma charakter wyłącznie edukacyjny i analityczny. Nie stanowi rekomendacji inwestycyjnej w rozumieniu Rozporządzenia MAR ani usługi doradztwa inwestycyjnego. Każda decyzja inwestycyjna wiąże się z ryzykiem utraty kapitału."
+}
