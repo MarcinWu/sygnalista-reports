@@ -1,0 +1,545 @@
+{
+  "schema_version": 1,
+  "scan": {
+    "time_iso": "2026-11-20T01:51",
+    "time_pl": "20.11.2026 01:51",
+    "date": "2026-11-20",
+    "interval": "1D",
+    "rsi_period": 14,
+    "data_source": "Twelve Data + stooq + Finnhub + Yahoo Finance",
+    "total_signals": 2
+  },
+  "market": {
+    "vix": 28.44,
+    "breadth_sp500_above_ma50_pct": 48.9
+  },
+  "btc_onchain": {
+    "fear_greed": 12,
+    "fear_greed_label": "Extreme Fear",
+    "hash_rate_eh": 1052,
+    "hash_rate_30d_chg": -8.7,
+    "tx_count": 674354,
+    "tx_30d_chg": -16.6
+  },
+  "signals": [
+    {
+      "ticker": "BE",
+      "group": "USA S&P500",
+      "tier_report": "HIDDEN",
+      "tier_journal": "T3",
+      "divergence": {
+        "date_prev": "2026-10-23",
+        "price_prev": 193.3,
+        "rsi_prev": 32.74,
+        "date_last": "2026-11-05",
+        "price_last": 167.52,
+        "rsi_last": 33.54,
+        "current_price": 168.11,
+        "current_rsi": 37.98,
+        "macd_divergence": false,
+        "vol_ratio": 1.0449,
+        "vol_vs_avg20": 0.884,
+        "candle_pattern": "Neutral (zamkniecie w srodku zakresu)",
+        "trough_low": 156.0,
+        "confirmed": true
+      },
+      "estimate": {
+        "target_price": 195.1268,
+        "t1_target": 195.1268,
+        "t2_target": 222.1436,
+        "atr_for_trail": 18.0112,
+        "pct_upside": 16.1,
+        "pct_upside_t2": 32.1,
+        "confidence": 21,
+        "conf_label": "weak",
+        "conf_color": "#c0392b",
+        "rr_ratio": 2.3,
+        "stop_loss": 156.3423,
+        "position_sizes": {
+          "0.5%": 7.1,
+          "1%": 14.3,
+          "2%": 28.6,
+          "stop_pct": 7.0
+        },
+        "ma50": 236.69,
+        "ma100": 231.34,
+        "ma200": 223.86,
+        "weekly_rsi": 41.4,
+        "weekly_rsi_down": false,
+        "earnings_warning": false,
+        "analyst_conflict": false
+      },
+      "fundamentals": {
+        "rating_label": "buy",
+        "rating_color": "#27ae60",
+        "analyst_count": 40,
+        "next_earnings": "26 Apr 2027",
+        "headlines": [
+          "Is a Bloom Energy Stock Crash Coming? 1 Warning Sign Investors Shouldn’t Ignore.",
+          "Bloom Energy, An AI Winner, Has Room To Run After Soaring: Analyst"
+        ],
+        "insider": "SELLING (16 sell vs 4 buy)"
+      },
+      "ai_analysis": {
+        "verdict": "NIEGRYWALNY",
+        "summary": "Za: - Potwierdzenie TAK (bar po dolku zamknął wyżej) - RSI < 40 w okolicach dołka 2 — pewien stopień wyprzedania - Wyniki daleko (kwiecień 2027) — brak ryzyka binarnego w horyzonce Przeciw: - Siła sygnału zaledwie 21/100 — algorytm sam ocenia go jako \"weak\" - Wolumen 2. dołka WYŻSZY (1.04x) — brak wyczerpania sprzedaży, paniczny dumping trwa - Cena daleko poniżej MA50 i MA100 (odpowiednio -29% i -27.3%) — potężny opór strukturalny nad głową - Insiderzy SPRZEDAJĄ (16 sell vs 4 buy) — smart money ucieka - Weekly RSI 41.4 — trend tygodniowy neutralny/słaby - Swieca 2. dołka Neutral (nie bullish hammer) - News: artykuł z \"1 Warning Sign Investors Shouldn't Ignore\" — fundamentalne czerwone światło - MACD: NIE — brak potwierdzenia Decyzja: Zbyt wiele czynników przeciw. Insiderzy sprzedają, wolumen nie potwierdza wyczerpania, cena 29% poniżej MA50. Pomijam."
+      }
+    },
+    {
+      "ticker": "ETN",
+      "group": "USA S&P500",
+      "tier_report": "HIDDEN",
+      "tier_journal": "T3",
+      "divergence": {
+        "date_prev": "2026-10-23",
+        "price_prev": 366.11,
+        "rsi_prev": 30.03,
+        "date_last": "2026-11-05",
+        "price_last": 327.02,
+        "rsi_last": 31.29,
+        "current_price": 330.57,
+        "current_rsi": 35.94,
+        "macd_divergence": false,
+        "vol_ratio": 2.9095,
+        "vol_vs_avg20": 1.019,
+        "candle_pattern": "Bearish close (zamkniecie blisko dolka sesji — slaby sygnał)",
+        "trough_low": 324.26999,
+        "confirmed": true
+      },
+      "estimate": {
+        "target_price": 354.6642,
+        "t1_target": 354.6642,
+        "t2_target": 378.7585,
+        "atr_for_trail": 16.0628,
+        "pct_upside": 7.3,
+        "pct_upside_t2": 14.6,
+        "confidence": 11,
+        "conf_label": "weak",
+        "conf_color": "#c0392b",
+        "rr_ratio": 2.22,
+        "stop_loss": 319.7239,
+        "position_sizes": {
+          "0.5%": 15.2,
+          "1%": 30.5,
+          "2%": 61.0,
+          "stop_pct": 3.3
+        },
+        "ma50": 395.04,
+        "ma100": 405.28,
+        "ma200": 397.32,
+        "weekly_rsi": 34.2,
+        "weekly_rsi_down": false,
+        "earnings_warning": false,
+        "analyst_conflict": false
+      },
+      "fundamentals": {
+        "rating_label": "buy",
+        "rating_color": "#27ae60",
+        "analyst_count": 33,
+        "next_earnings": "3 May 2027",
+        "headlines": [
+          "Why Every Honeywell Investor Is Looking At This One Number",
+          "Senate Nears a Vote on a Landmark Permitting Bill. Here’s Who Could Benefit."
+        ],
+        "insider": "MIXED (9 buy, 11 sell)"
+      },
+      "ai_analysis": {
+        "verdict": "NIEGRYWALNY",
+        "summary": "Za: - Potwierdzenie TAK (bar po dołku zamknął wyżej) - RSI w okolicach 30 na obu dołkach — głęboka wyprzedaż - Analitycy: buy (33) - Wyniki daleko (maj 2027) Przeciw: - Siła sygnału 11/100 — jeden z najsłabszych możliwych - Wolumen 2. dołka WYŻSZY (2.91x!) — to nie wyczerpanie sprzedaży, to gwałtowny panik selling; 2.91x to sygnał alarmowy - Swieca 2. dołka Bearish close (zamknięcie blisko dołka sesji) — najgorszy możliwy wzorzec - Cena -16.3% poniżej MA50, -18.4% poniżej MA100 — ogromny opór - Weekly RSI 34.2 — trend tygodniowy słaby - Insiderzy MIXED (11 sell, 9 buy) — brak przekonującego potwierdzenia - MACD: NIE Decyzja: Wolumen 2.91x na 2. dołku to dyskwalifikator. Bearish close potwierdza, że kupujący nie przejęli kontroli. Pomijam."
+      }
+    }
+  ],
+  "claude_analysis": {
+    "markdown": "# Analiza Swing Trade — 20.11.2026\n\n---\n\n## CZĘŚĆ 1: Weryfikacja sygnałów RSI Dywergencji\n\n### 1.1 Kontekst rynkowy\n\nVIX na 28.44 (podwyższony), SPY z RSI 29.8 (głęboko wyprzedany), a Market Breadth na 49% — rynek jest na neutralnym/słabym poziomie, z wyraźnym stresem geopolitycznym (Houthi, Iran, Ukraina). Rentowności 10-latki na 5.05% to dodatkowy ciężar dla wycen. **Warunki neutralne — selektywność jest kluczem; long na indeksy ogólnie przedwczesny, bo brak potwierdzenia dna.**\n\n---\n\n### 1.2 Ocena sygnałów\n\n#### [1] BE — **NIEGRYWALNY**\n\n**Za:**\n- Potwierdzenie TAK (bar po dolku zamknął wyżej)\n- RSI < 40 w okolicach dołka 2 — pewien stopień wyprzedania\n- Wyniki daleko (kwiecień 2027) — brak ryzyka binarnego w horyzonce\n\n**Przeciw:**\n- Siła sygnału zaledwie **21/100** — algorytm sam ocenia go jako \"weak\"\n- Wolumen 2. dołka **WYŻSZY (1.04x)** — brak wyczerpania sprzedaży, paniczny dumping trwa\n- Cena daleko poniżej MA50 i MA100 (odpowiednio -29% i -27.3%) — potężny opór strukturalny nad głową\n- **Insiderzy SPRZEDAJĄ** (16 sell vs 4 buy) — smart money ucieka\n- Weekly RSI 41.4 — trend tygodniowy neutralny/słaby\n- Swieca 2. dołka **Neutral** (nie bullish hammer)\n- News: artykuł z \"1 Warning Sign Investors Shouldn't Ignore\" — fundamentalne czerwone światło\n- MACD: NIE — brak potwierdzenia\n\n**Decyzja:** Zbyt wiele czynników przeciw. Insiderzy sprzedają, wolumen nie potwierdza wyczerpania, cena 29% poniżej MA50. Pomijam.\n\n---\n\n#### [2] ETN — **NIEGRYWALNY**\n\n**Za:**\n- Potwierdzenie TAK (bar po dołku zamknął wyżej)\n- RSI w okolicach 30 na obu dołkach — głęboka wyprzedaż\n- Analitycy: buy (33)\n- Wyniki daleko (maj 2027)\n\n**Przeciw:**\n- Siła sygnału **11/100** — jeden z najsłabszych możliwych\n- Wolumen 2. dołka **WYŻSZY (2.91x!)** — to nie wyczerpanie sprzedaży, to gwałtowny panik selling; 2.91x to sygnał alarmowy\n- Swieca 2. dołka **Bearish close** (zamknięcie blisko dołka sesji) — najgorszy możliwy wzorzec\n- Cena -16.3% poniżej MA50, -18.4% poniżej MA100 — ogromny opór\n- Weekly RSI 34.2 — trend tygodniowy słaby\n- Insiderzy MIXED (11 sell, 9 buy) — brak przekonującego potwierdzenia\n- MACD: NIE\n\n**Decyzja:** Wolumen 2.91x na 2. dołku to dyskwalifikator. Bearish close potwierdza, że kupujący nie przejęli kontroli. Pomijam.\n\n---\n\n**Podsumowanie sekcji 1:** Żaden z 2 sygnałów dywergencji nie nadaje się do grania — oba mają krytyczne wady (wysoki wolumen na 2. dołku, bearish close, ceny głęboko pod MA50). **0 z 2 sygnałów warto zagrac.**\n\n---\n\n## CZĘŚĆ 2: Niezależne rekomendacje swing trade\n\n### Ocena środowiska\n\nBreadth 49% = neutralne, więc gra selektywna jest możliwa. Szukam sektorów z **relative strength** (siła względna — jak dany ETF/akcja zachowuje się w porównaniu do rynku) potwierdzoną w danych.\n\n**Wyróżnione sektory:**\n- **XLV** (+4.3pp vs SPY), RSI 47.3, powyżej MA50 (+2.9%) ✅\n- **XLF** (+4.0pp vs SPY), RSI 46.4, powyżej MA50 (+0.8%) ✅\n- **XLP** (+5.7pp vs SPY), RSI 58.5, powyżej MA50 (+5.9%) — RSI bliski 60, ale jeszcze OK\n- **XLU** (+6.0pp vs SPY), RSI 57.0, powyżej MA50 (+3.9%) — defensywny, OK\n- **XLY** RSI 56.0 — zbliża się do granicy, ostrożnie\n- **GLD** RSI 30.2 — wyprzedany, złoto przy strachu geopolitycznym — interesujące\n- **SLV** RSI 25.7 — bardzo wyprzedane, ALE -17.5% w 20 dni = nóż w spadku\n\nKoncentruję się na **3 setupach** z najlepszym stosunkiem ryzyko/zysk i potwierdzeniem fundamentalnym.\n\n---\n\n### Setup 1\n\n```\nTICKER: XLV\nKIERUNEK: Long\nTEZA: Healthcare to sektor defensywny (odporny na cykl ekonomiczny), \n      który wyraźnie outperformuje rynek (+4.3pp vs SPY w 20 dni). \n      Cena powyżej MA50 (+2.9%) w środowisku, gdzie większość sektorów \n      jest pod MA50 — to sygnał rotacji kapitału w bezpieczne przystanie.\nENTRY: 181.17 (cena z raportu, entry przy otwarciu lub limit)\nSTOP LOSS: 174.00 (3.97% poniżej entry — poniżej ostatniego wsparcia \n           i strefy MA100; naruszenie = teza nieaktualna)\nTARGET 1: 192.00 (cel +5.98% od entry | R:R ~1.5x — strefa oporu \n          z poprzednich szczytów listopada)\nPOZYCJA: 1% / 3.97% = ~25% portfela (zmniejsz do 10-15% \n         przy konserwatywnym podejściu)\nHORYZONT: 7-14 dni\nRYZYKI: Pogłębienie korekty rynkowej może zabrać nawet defensywne \n        sektory; VIX >30 = sygnał redukcji pozycji; \n        problemy z lekami Sanofi/JNJ mogą uderzyć w sektor\nPEWNOSC: Średnia\n```\n\n---\n\n### Setup 2\n\n```\nTICKER: GLD\nKIERUNEK: Long\nTEZA: Złoto (3563 USD/oz) jest aktywem bezpiecznej przystani \n      w środowisku podwyższonego ryzyka geopolitycznego (Iran, Houthi, \n      Ukraina) i VIX ~28. GLD ma RSI 30.2 — głęboko wyprzedany \n      mimo utrzymującego się strachu; historycznie odbicia z RSI<30 \n      na złocie w środowisku geopolitycznym są silne. \n      Korekta -7.5% w 20 dni przy rosnącym złocie fizycznym = \n      techniczna okazja.\nENTRY: 341.19 (cena z raportu)\nSTOP LOSS: 329.00 (3.57% poniżej entry — poniżej okrągłego wsparcia \n           330 i ostatnich minimów)\nTARGET 1: 362.00 (cel +6.11% od entry | R:R ~1.7x — okolice \n          poprzedniego wsparcia, teraz opór)\nPOZYCJA: 1% / 3.57% = ~28% portfela (ogranicz do 10-15% — \n         szeroki stop może dać volatility)\nHORYZONT: 7-14 dni\nRYZYKI: Silny dolar (rentowności 10Y na 5.05%) to wróg złota — \n        jeśli rentowności wzrosną dalej, GLD może nie odbić; \n        \"sell the news\" na geopolityce po deeskalacji\nPEWNOSC: Średnia\n```\n\n---\n\n### Setup 3\n\n```\nTICKER: XLF\nKIERUNEK: Long\nTEZA: Sektor finansowy (banki, ubezpieczenia) wyraźnie outperformuje \n      (+4.0pp vs SPY), jest powyżej MA50 i ma RSI 46.4 — \n      zdrowa, niezbyt gorąca pozycja. Wysokie rentowności 10Y (5.05%) \n      korzystnie wpływają na marże odsetkowe banków (NIM). \n      Relative strength w słabym rynku sugeruje rotację kapitału.\nENTRY: 56.42 (cena z raportu)\nSTOP LOSS: 54.20 (3.93% poniżej entry — poniżej MA50 i wsparcia 54)\nTARGET 1: 59.50 (cel +5.46% od entry | R:R ~1.4x — strefa \n          oporu z początku listopada)\nPOZYCJA: 1% / 3.93% = ~25% portfela (zalecam 8-12% \n         przy zarządzaniu ryzykiem portfela)\nHORYZONT: 7-14 dni\nRYZYKI: Stress na rynku kredytowym (HYG RSI 38.5 = w wyprzedaniu) \n        może uderzyć w banki; eskalacja geopolityczna = \n        risk-off, finansowe sprzedawane; \n        problemy z płynnością przy VIX>30\nPEWNOSC: Średnia\n```\n\n---\n\n### Uwaga praktyczna\n\nTrzy rekomendacje to **pozycje defensywne/rotacyjne**, nie agresywne swing trade'y. W obecnym środowisku (VIX ~28, breadth 49%, 6 dni spadków SPY z rzędu) **rozmiar pozycji powinien być mniejszy niż normalnie** — sugeruję połowę obliczonej wielkości. Jeśli rynek przyspieszy spadki (VIX >32, breadth <40%), priorytet: **gotówka**.\n\n---\n\n## Zastrzeżenie\n\n*Powyższa analiza ma charakter wyłącznie techniczny i edukacyjny. Nie stanowi rekomendacji inwestycyjnej w rozumieniu przepisów prawa. Inwestowanie wiąże się z ryzykiem utraty kapitału. Każdą decyzję podejmuj samodzielnie, uwzględniając własną sytuację finansową i tolerancję ryzyka.*\n\n---\n\n```\nTABELA_REKOMENDACJI:\nTICKER | KIERUNEK | ENTRY | STOP | TARGET1 | RR | PEWNOSC | TEZA\nXLV | Long | 181.17 | 174.00 | 192.00 | 1.5 | Srednia | Healthcare outperformuje, powyżej MA50, defensywny\nGLD | Long | 341.19 | 329.00 | 362.00 | 1.7 | Srednia | Złoto wyprzedane RSI30, geopolityka wspiera\nXLF | Long | 56.42 | 54.20 | 59.50 | 1.4 | Srednia | Finanse silne vs rynek, 10Y 5% wspiera NIM\n---KONIEC_TABELI---\n```\n\n---\n\n## CZĘŚĆ 4: Fundamentalne okazje — komentarz long-term\n\n**INTU — OKAZJA**: Intuit ma bardzo trwały moat (przewagę konkurencyjną) oparty na sieciowym efekcie TurboTax/QuickBooks — zmiana dostawcy jest kosztowna dla klientów, co generuje wysokie retention. Główne ryzyko to AI-driven competition (darmowe narzędzia podatkowe od Google/Microsoft) oraz możliwe regulacje w USA dot. uproszczenia systemu podatkowego. Przy P/E 18.3, PEG 0.9 i marży FCF 40% — przecena 55% wygląda jak strukturalna okazja dla inwestora 7+, ale wejście warto rozłożyć na kilka transz.\n\n**NVDA — OKAZJA**: NVDA ma moat oparty na ekosystemie CUDA (platforma programistyczna do GPU) — przełączenie na konkurencję (AMD, Intel) jest dla deweloperów AI bardzo kosztowne, co tworzy lock-in. Główne ryzyko: koncentracja przychodów w datacenter AI (~80% rev) = jeden duży klient (hyperscalerzy) może renegocjować warunki lub zbudować własne chipy (Apple, Google, Amazon już to robią). Przy PEG 0.1, ROE 107% i przecenie 40% — to jedna z najlepiej wyglądających fundamentalnie spółek na tej liście, pomimo agresywnej sprzedaży insiderów (która może być zaplanowanymi planami 10b5-1).\n\n**ORCL — CZEKAJ**: Oracle ma moat w postaci baz danych korporacyjnych (ogromny switching cost — migracja z Oracle DB to wieloletni projekt), uzupełniony rosnącym cloud (OCI). Główne ryzyko to wysokie zadłużenie (D/E 2.01) w środowisku stóp 5%+ — koszty obsługi długu rosną i mogą ograniczyć FCF; dodatkowo wzrost OCI jest nadal mocno za AWS/Azure. Przy P/E 18.2 i PEG 0.4 cena wygląda atrakcyjnie, ale poczekaj na stabilizację techniczną i ewentualne obniżki stóp procentowych.\n\n**ADBE — OSTROŻNIE**: Adobe ma świetny moat (Creative Cloud to standard branżowy, switching cost ogromny — Photoshop/Illustrator są wbudowane w workflow milionów profesjonalistów), a marża brutto 89% jest wyjątkowa. Ryzyko to AI-generatywne narzędzia (Midjourney, Firefly konkuruje sam ze sobą, Canva atakuje rynek masowy) — może erodować pricing power w segmencie basic users; EPS rośnie, ale wolniej niż historycznie. Przy P/E 12.1 i PEG 1.0 wycena jest uczciwa, ale insiderzy sprzedają agresywnie (18 sell) — warto poczekać na stabilizację sentymentu lub wyraźniejszy sygnał techniczny.\n\n**GOOGL — OKAZJA**: Google ma jeden z najszerszych moatów na świecie: wyszukiwarka (90% udział), YouTube, Google Cloud, Android — zdywersyfikowany ekosystem z network effects. Główne ryzyko to regulacje antymonopolowe (DOJ prowadzi postępowania, możliwy przymusowy podział spółki) oraz erozja wyszukiwania przez AI chatboty (ChatGPT/Perplexity). Przy P/E 14.8 i PEG 0.2 — wycena sugeruje, że rynek wycenia poważne ryzyko regulacyjne; dla inwestora długoterminowego z horyzontem 7+ lat to historycznie tania wycena, ale wejście etapami jest rozsądne.",
+    "recommendations": [
+      {
+        "ticker": "XLV",
+        "direction": "Long",
+        "entry": "181.17",
+        "stop": "174.00",
+        "target": "192.00",
+        "rr": "1.5",
+        "confidence": "Srednia",
+        "teza": "Healthcare outperformuje, powyżej MA50, defensywny"
+      },
+      {
+        "ticker": "GLD",
+        "direction": "Long",
+        "entry": "341.19",
+        "stop": "329.00",
+        "target": "362.00",
+        "rr": "1.7",
+        "confidence": "Srednia",
+        "teza": "Złoto wyprzedane RSI30, geopolityka wspiera"
+      },
+      {
+        "ticker": "XLF",
+        "direction": "Long",
+        "entry": "56.42",
+        "stop": "54.20",
+        "target": "59.50",
+        "rr": "1.4",
+        "confidence": "Srednia",
+        "teza": "Finanse silne vs rynek, 10Y 5% wspiera NIM"
+      }
+    ]
+  },
+  "fundamental_picks": [
+    {
+      "score": 91,
+      "details": [
+        "Przecena 55% od szczytu (+20)",
+        "EPS 4/4 lat wzrost, CAGR +23% (+20)",
+        "ROE 23% (+10)",
+        "FCF margin 40% (sr. 33%) (+15)",
+        "Rev growth 14% (+7)",
+        "Gross margin 80% (+10)",
+        "D/E 0.40 (+4)",
+        "PEG 0.9 (+5)"
+      ],
+      "discount_pct": 54.6,
+      "metrics": {
+        "pe": 18.3331,
+        "roe": 23.419999999999998,
+        "rev_growth": 13.9,
+        "eps_growth": 20.37,
+        "gross_margin": 80.17,
+        "net_margin": null,
+        "de_ratio": 0.4038,
+        "current_ratio": 1.5065,
+        "high_52w": 682.27,
+        "low_52w": 252.84,
+        "high_52w_date": "2025-11-21",
+        "market_cap": 83709,
+        "dividend_yield": 0.63822,
+        "beta": 0.9471439,
+        "eps_series": [
+          16.4838,
+          13.6714,
+          10.4331,
+          8.424,
+          7.2746
+        ],
+        "fcf_margin_series": [
+          0.4018,
+          0.323,
+          0.2846,
+          0.3331,
+          0.2876
+        ]
+      },
+      "ticker": "INTU",
+      "current_price": 310.019989,
+      "fund": {
+        "rating_label": "hold",
+        "rating_color": "#d68910",
+        "analyst_count": 41,
+        "next_earnings": "18 May 2027",
+        "headlines": [
+          "Intuit (NASDAQ:INTU) EPS Beat Offset by Soft Revenue Guidance and Mailchimp Dive...",
+          "Bending Spoons Stock Surges. Its Latest Deal Comes as It Boosts Its Revenue Outl..."
+        ],
+        "insider": "MIXED (13 buy, 7 sell)"
+      }
+    },
+    {
+      "score": 90,
+      "details": [
+        "Przecena 40% od szczytu (+20)",
+        "EPS 3/4 lat wzrost, CAGR +89% (+10)",
+        "ROE 107% (+15)",
+        "FCF margin 45% (sr. 36%) (+15)",
+        "Rev growth 93% (+10)",
+        "Gross margin 75% (+10)",
+        "D/E 0.12 (+5)",
+        "PEG 0.1 (+5)"
+      ],
+      "discount_pct": 40.0,
+      "metrics": {
+        "pe": 16.0797,
+        "roe": 106.67,
+        "rev_growth": 93.33,
+        "eps_growth": 130.51,
+        "gross_margin": 74.92,
+        "net_margin": null,
+        "de_ratio": 0.1214,
+        "current_ratio": 4.0837,
+        "high_52w": 243.37,
+        "low_52w": 148.8,
+        "high_52w_date": "2026-10-06",
+        "market_cap": 3638136.2,
+        "dividend_yield": 0.03349,
+        "beta": 2.412675,
+        "eps_series": [
+          4.8979,
+          2.9382,
+          1.1933,
+          0.1742,
+          0.3847
+        ],
+        "fcf_margin_series": [
+          0.4477,
+          0.4663,
+          0.4435,
+          0.1412,
+          0.3021
+        ]
+      },
+      "ticker": "NVDA",
+      "current_price": 145.98,
+      "fund": {
+        "rating_label": "buy",
+        "rating_color": "#27ae60",
+        "analyst_count": 69,
+        "next_earnings": "18 May 2027",
+        "headlines": [
+          "Dow Jones Futures: Techs Slide, Anthropic Retreats After Ugly Market Reversal To...",
+          "What Elastic (ESTC) Said on Its Q2 Earnings Call"
+        ],
+        "insider": "SELLING (18 sell vs 2 buy)"
+      }
+    },
+    {
+      "score": 90,
+      "details": [
+        "Przecena 56% od szczytu (+20)",
+        "EPS 4/4 lat wzrost, CAGR +25% (+20)",
+        "ROE 43% (+15)",
+        "FCF margin 22% (sr. 23%) (+10)",
+        "Rev growth 22% (+10)",
+        "Gross margin 64% (+10)",
+        "PEG 0.4 (+5)"
+      ],
+      "discount_pct": 55.8,
+      "metrics": {
+        "pe": 18.2015,
+        "roe": 42.58,
+        "rev_growth": 21.62,
+        "eps_growth": 49.08,
+        "gross_margin": 63.96,
+        "net_margin": null,
+        "de_ratio": 2.0146,
+        "current_ratio": 1.1708,
+        "high_52w": 250.25,
+        "low_52w": 109.21,
+        "high_52w_date": "2026-06-01",
+        "market_cap": 344373.3,
+        "dividend_yield": 1.37634,
+        "beta": 1.8391424,
+        "eps_series": [
+          5.8638,
+          4.3416,
+          3.7078,
+          3.0741,
+          2.411
+        ],
+        "fcf_margin_series": [
+          0.2229,
+          0.1696,
+          0.1185,
+          0.3397,
+          0.2963
+        ]
+      },
+      "ticker": "ORCL",
+      "current_price": 110.57,
+      "fund": {
+        "rating_label": "buy",
+        "rating_color": "#27ae60",
+        "analyst_count": 47,
+        "next_earnings": "8 Jun 2027",
+        "headlines": [
+          "Is Tech in a Bear Market? 20 Tech Stocks Fall Up to 76% From Highs",
+          "Intuit (INTU) Q1 Earnings and Revenues Top Estimates"
+        ],
+        "insider": "SELLING (14 sell vs 6 buy)"
+      }
+    },
+    {
+      "score": 88,
+      "details": [
+        "Przecena 39% od szczytu (+20)",
+        "EPS 4/4 lat wzrost, CAGR +14% (+15)",
+        "ROE 63% (+15)",
+        "FCF margin 41% (sr. 40%) (+15)",
+        "Rev growth 12% (+7)",
+        "Gross margin 89% (+10)",
+        "D/E 0.54 (+3)",
+        "PEG 1.0 (+3)"
+      ],
+      "discount_pct": 38.9,
+      "metrics": {
+        "pe": 12.0864,
+        "roe": 62.88,
+        "rev_growth": 12.03,
+        "eps_growth": 11.68,
+        "gross_margin": 89.25,
+        "net_margin": null,
+        "de_ratio": 0.5409,
+        "current_ratio": 0.7704,
+        "high_52w": 362.71,
+        "low_52w": 190.12,
+        "high_52w_date": "2025-12-12",
+        "market_cap": 88037.04,
+        "dividend_yield": null,
+        "beta": 1.4674528,
+        "eps_series": [
+          16.6979,
+          12.3556,
+          11.8257,
+          10.0977,
+          10.0249
+        ],
+        "fcf_margin_series": [
+          0.4145,
+          0.3661,
+          0.3577,
+          0.4201,
+          0.436
+        ]
+      },
+      "ticker": "ADBE",
+      "current_price": 221.67999,
+      "fund": {
+        "rating_label": null,
+        "rating_color": null,
+        "analyst_count": 0,
+        "next_earnings": null,
+        "headlines": [],
+        "insider": "SELLING (18 sell vs 2 buy)"
+      }
+    },
+    {
+      "score": 85,
+      "details": [
+        "Przecena 33% od szczytu (+20)",
+        "EPS 3/4 lat wzrost, CAGR +18% (+10)",
+        "ROE 43% (+15)",
+        "FCF margin 18% (sr. 22%) (+10)",
+        "Rev growth 22% (+10)",
+        "Gross margin 61% (+10)",
+        "D/E 0.18 (+5)",
+        "PEG 0.2 (+5)"
+      ],
+      "discount_pct": 33.3,
+      "metrics": {
+        "pe": 14.7618,
+        "roe": 42.620000000000005,
+        "rev_growth": 22.21,
+        "eps_growth": 91.92,
+        "gross_margin": 60.86,
+        "net_margin": null,
+        "de_ratio": 0.1846,
+        "current_ratio": 2.7856,
+        "high_52w": 408.61,
+        "low_52w": 272.11,
+        "high_52w_date": "2026-05-18",
+        "market_cap": 3479263.5,
+        "dividend_yield": null,
+        "beta": 1.2291636,
+        "eps_series": [
+          10.807,
+          8.0435,
+          5.8428,
+          4.5575,
+          5.6099
+        ],
+        "fcf_margin_series": [
+          0.1819,
+          0.2079,
+          0.2261,
+          0.2122,
+          0.2601
+        ]
+      },
+      "ticker": "GOOGL",
+      "current_price": 272.66,
+      "fund": {
+        "rating_label": "buy",
+        "rating_color": "#27ae60",
+        "analyst_count": 68,
+        "next_earnings": "27 Apr 2027",
+        "headlines": [
+          "Is Your VOO Fund Secretly An AI Bet?",
+          "Anthropic’s Margins Will Be “Probably Better Than a Hyperscaler,” Says Its Most ..."
+        ],
+        "insider": "SELLING (17 sell vs 3 buy)"
+      }
+    }
+  ],
+  "performance": {
+    "live_summary": "T1: 11 sygnalow | WR 55% | avg +0.6% &nbsp;|&nbsp; T2: 14 sygnalow | WR 57% | avg +2.6% &nbsp;|&nbsp; Claude: 99 sygnalow | WR 55% | avg +0.4%",
+    "full_stats": {
+      "overall_resolved": 168,
+      "t1": {
+        "count": 11,
+        "wr": 54.5,
+        "avg_pnl": 0.63,
+        "pf": 1.35,
+        "targets": 5,
+        "stops": 4,
+        "timeouts": 2,
+        "best": [
+          "TMO",
+          6.72
+        ],
+        "worst": [
+          "ACN",
+          -7.0
+        ]
+      },
+      "t2": {
+        "count": 14,
+        "wr": 57.1,
+        "avg_pnl": 2.64,
+        "pf": 3.44,
+        "targets": 8,
+        "stops": 5,
+        "timeouts": 1,
+        "best": [
+          "ADA/USD",
+          13.98
+        ],
+        "worst": [
+          "INTU",
+          -6.14
+        ]
+      },
+      "t3": {
+        "count": 44,
+        "wr": 77.3,
+        "avg_pnl": 2.89,
+        "pf": 8.43,
+        "targets": 25,
+        "stops": 13,
+        "timeouts": 6,
+        "best": [
+          "ETH/USD",
+          11.58
+        ],
+        "worst": [
+          "DOT/USD",
+          -7.0
+        ]
+      },
+      "claude": {
+        "count": 99,
+        "wr": 54.5,
+        "avg_pnl": 0.38,
+        "pf": 1.29,
+        "targets": 27,
+        "stops": 31,
+        "timeouts": 41,
+        "best": [
+          "XLE",
+          10.62
+        ],
+        "worst": [
+          "BTC/USD",
+          -7.02
+        ]
+      }
+    }
+  },
+  "disclaimer": "Materiał ma charakter wyłącznie edukacyjny i analityczny. Nie stanowi rekomendacji inwestycyjnej w rozumieniu Rozporządzenia MAR ani usługi doradztwa inwestycyjnego. Każda decyzja inwestycyjna wiąże się z ryzykiem utraty kapitału."
+}
